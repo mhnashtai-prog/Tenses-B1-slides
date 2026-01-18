@@ -1165,24 +1165,38 @@
     // RENDER TEXT VIEW
     function renderTextView(content) {
       if (currentMode === 'watch') {
-        // Watch Text Mode
-        const textData = content.text;
+        // Watch Text Mode - get context-specific data
+        const contextData = content[currentContext];
+        if (!contextData || !contextData.text) {
+          contentArea.innerHTML = '<p style="color: #ef4444;">No content available for this context yet.</p>';
+          return;
+        }
+        
+        const textData = contextData.text;
         let html = '<div class="text-content">';
         html += '<div class="text-paragraph">';
         
-        // Highlight verbs in the text
+        // Highlight words in the text
         let text = textData.content;
-        textData.highlights.forEach(h => {
-          text = text.replace(h.word, `<span class="highlight">${h.word}</span>`);
-        });
+        if (textData.highlights) {
+          textData.highlights.forEach(h => {
+            const word = h.word || h;
+            text = text.replace(new RegExp(`\\b${word}\\b`, 'g'), `<span class="highlight">${word}</span>`);
+          });
+        }
         
         html += text;
         html += '</div></div>';
         contentArea.innerHTML = html;
         
       } else {
-        // Read Text Mode
-        renderReadTextView(content.text);
+        // Read Text Mode - get context-specific data
+        const contextData = content[currentContext];
+        if (!contextData || !contextData.text) {
+          contentArea.innerHTML = '<p style="color: #ef4444;">No content available for this context yet.</p>';
+          return;
+        }
+        renderReadTextView(contextData.text);
       }
     }
 
@@ -1259,7 +1273,14 @@
 
     // RENDER SLIDES VIEW
     function renderSlidesView(content) {
-      const slides = content.slides;
+      // Get context-specific data
+      const contextData = content[currentContext];
+      if (!contextData || !contextData.slides) {
+        contentArea.innerHTML = '<p style="color: #ef4444;">No slides available for this context yet.</p>';
+        return;
+      }
+      
+      const slides = contextData.slides;
       totalSlides = slides.length;
       
       // Update navigation
@@ -1280,7 +1301,7 @@
         let text = slide.text;
         if (slide.highlights) {
           slide.highlights.forEach(word => {
-            text = text.replace(word, `<span class="highlight">${word}</span>`);
+            text = text.replace(new RegExp(`\\b${word}\\b`, 'g'), `<span class="highlight">${word}</span>`);
           });
         }
         html += text;
@@ -1442,7 +1463,10 @@
       
       stopAudio();
       
-      const textData = GRAMMAR_DATA.watch.text;
+      const contextData = GRAMMAR_DATA.watch[currentContext];
+      if (!contextData || !contextData.text) return;
+      
+      const textData = contextData.text;
       isSpeaking = true;
       playBtn.style.display = 'none';
       pauseBtn.style.display = 'flex';
@@ -1477,7 +1501,13 @@
       playBtn.style.display = 'none';
       pauseBtn.style.display = 'flex';
       
-      const slides = GRAMMAR_DATA.watch.slides;
+      const contextData = GRAMMAR_DATA.watch[currentContext];
+      if (!contextData || !contextData.slides) {
+        stopAudio();
+        return;
+      }
+      
+      const slides = contextData.slides;
       
       for (let i = currentSlide; i < slides.length && isPlaying; i++) {
         currentSlide = i;
