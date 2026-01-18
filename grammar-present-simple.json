@@ -1,0 +1,317 @@
+{
+  "skillArea": "grammar",
+  "level": "B1",
+  "tense": {
+    "time": "present",
+    "aspect": "simple",
+    "context": "daily-habits"
+  },
+  "metadata": {
+    "title": "Present Simple • Daily Habits",
+    "icon": "📖",
+    "description": "Learn how to talk about your daily routines and habits"
+  },
+  "watch": {
+    "text": {
+      "audio": "audio/present-simple-daily-habits.mp3",
+      "content": "Sarah is a teacher. She works at a primary school. Every morning, she wakes up at 6:30. She drinks coffee and reads the news. Then she drives to work. She teaches English to young children. They learn new words every day. Sarah loves her job because it makes her happy.",
+      "highlights": [
+        {"word": "is", "position": 9, "type": "verb"},
+        {"word": "works", "position": 27, "type": "verb"},
+        {"word": "wakes up", "position": 65, "type": "verb"},
+        {"word": "drinks", "position": 86, "type": "verb"},
+        {"word": "reads", "position": 104, "type": "verb"},
+        {"word": "drives", "position": 129, "type": "verb"},
+        {"word": "teaches", "position": 149, "type": "verb"},
+        {"word": "learn", "position": 192, "type": "verb"},
+        {"word": "loves", "position": 221, "type": "verb"},
+        {"word": "makes", "position": 248, "type": "verb"}
+      ]
+    },
+    "slides": [
+      {
+        "id": 1,
+        "icon": "👩‍🏫",
+        "iconSize": "4rem",
+        "text": "Sarah is a teacher.",
+        "highlights": ["is"],
+        "notes": "State verb - permanent situation",
+        "audioStart": 0.0,
+        "audioEnd": 2.5
+      },
+      {
+        "id": 2,
+        "icon": "🏫",
+        "iconSize": "4rem",
+        "text": "She works at a primary school.",
+        "highlights": ["works"],
+        "notes": "Regular verb + -s for 'she'",
+        "audioStart": 2.5,
+        "audioEnd": 5.5
+      },
+      {
+        "id": 3,
+        "icon": "⏰",
+        "iconSize": "4rem",
+        "text": "Every morning, she wakes up at 6:30.",
+        "highlights": ["Every morning", "wakes up"],
+        "notes": "Time signal + phrasal verb",
+        "audioStart": 5.5,
+        "audioEnd": 9.0
+      },
+      {
+        "id": 4,
+        "icon": "☕",
+        "iconSize": "4rem",
+        "text": "She drinks coffee and reads the news.",
+        "highlights": ["drinks", "reads"],
+        "notes": "Two actions in sequence",
+        "audioStart": 9.0,
+        "audioEnd": 12.5
+      },
+      {
+        "id": 5,
+        "icon": "🚗",
+        "iconSize": "4rem",
+        "text": "Then she drives to work.",
+        "highlights": ["Then", "drives"],
+        "notes": "Sequence connector",
+        "audioStart": 12.5,
+        "audioEnd": 15.0
+      },
+      {
+        "id": 6,
+        "icon": "📚",
+        "iconSize": "4rem",
+        "text": "She teaches English to young children.",
+        "highlights": ["teaches"],
+        "notes": "Regular verb with -es ending",
+        "audioStart": 15.0,
+        "audioEnd": 18.5
+      },
+      {
+        "id": 7,
+        "icon": "✏️",
+        "iconSize": "4rem",
+        "text": "They learn new words every day.",
+        "highlights": ["learn", "every day"],
+        "notes": "Plural subject - no -s",
+        "audioStart": 18.5,
+        "audioEnd": 21.5
+      },
+      {
+        "id": 8,
+        "icon": "❤️",
+        "iconSize": "4rem",
+        "text": "Sarah loves her job because it makes her happy.",
+        "highlights": ["loves", "makes"],
+        "notes": "State verb + reason",
+        "audioStart": 21.5,
+        "audioEnd": 25.0
+      }
+    ]
+  },
+  "read": {
+    "text": {
+      "overview": {
+        "title": "Present Simple",
+        "subtitle": "Talk about daily habits and regular routines",
+        "description": "Use the Present Simple to describe things you do regularly, facts, and permanent situations."
+      },
+      "form": {
+        "title": "FORM",
+        "pattern": "Subject + base verb (+ s/es for he/she/it)",
+        "affirmative": [
+          {"subject": "I", "verb": "work"},
+          {"subject": "You", "verb": "work"},
+          {"subject": "We", "verb": "work"},
+          {"subject": "They", "verb": "work"},
+          {"subject": "He", "verb": "works"},
+          {"subject": "She", "verb": "works"},
+          {"subject": "It", "verb": "works"}
+        ],
+        "negative": "Subject + do/does + not + base verb",
+        "question": "Do/Does + subject + base verb?"
+      },
+      "uses": [
+        {
+          "icon": "🌅",
+          "label": "Habits and routines",
+          "example": "I always drink coffee in the morning."
+        },
+        {
+          "icon": "✅",
+          "label": "Facts and general truths",
+          "example": "The sun rises in the east."
+        },
+        {
+          "icon": "📅",
+          "label": "Permanent situations",
+          "example": "She works at a school."
+        },
+        {
+          "icon": "🕐",
+          "label": "Schedules and timetables",
+          "example": "The train leaves at 9am."
+        }
+      ],
+      "timeSignals": {
+        "title": "TIME SIGNALS",
+        "frequency": [
+          {"word": "always", "percentage": "100%"},
+          {"word": "usually", "percentage": "80%"},
+          {"word": "often", "percentage": "60%"},
+          {"word": "sometimes", "percentage": "40%"},
+          {"word": "rarely", "percentage": "20%"},
+          {"word": "never", "percentage": "0%"}
+        ],
+        "regular": [
+          "every day",
+          "every morning",
+          "every week",
+          "on Mondays",
+          "in the morning",
+          "at night"
+        ]
+      },
+      "commonErrors": [
+        {
+          "wrong": "She work at a school.",
+          "correct": "She works at a school.",
+          "explanation": "Don't forget to add -s/-es for he/she/it!"
+        },
+        {
+          "wrong": "I drinks coffee.",
+          "correct": "I drink coffee.",
+          "explanation": "Don't add -s for I/you/we/they."
+        },
+        {
+          "wrong": "He don't like coffee.",
+          "correct": "He doesn't like coffee.",
+          "explanation": "Use 'doesn't' (does not) for he/she/it in negatives."
+        }
+      ],
+      "examples": [
+        {
+          "sentence": "I wake up at 7am every day.",
+          "highlights": ["wake up", "every day"]
+        },
+        {
+          "sentence": "She always drinks tea for breakfast.",
+          "highlights": ["always", "drinks"]
+        },
+        {
+          "sentence": "They work from Monday to Friday.",
+          "highlights": ["work", "Monday to Friday"]
+        }
+      ]
+    },
+    "slides": [
+      {
+        "id": 1,
+        "type": "overview",
+        "icon": "🎯",
+        "iconSize": "5rem",
+        "title": "PRESENT SIMPLE",
+        "subtitle": "Talk about daily habits",
+        "description": "and regular routines",
+        "backgroundColor": "rgba(96, 165, 250, 0.1)"
+      },
+      {
+        "id": 2,
+        "type": "form",
+        "icon": "⚙️",
+        "iconSize": "4rem",
+        "title": "THE FORM",
+        "formula": "SUBJECT + VERB + (s)",
+        "examples": [
+          {"left": "I work", "right": "She works"},
+          {"left": "You work", "right": "He works"},
+          {"left": "We work", "right": "It works"},
+          {"left": "They work", "right": ""}
+        ],
+        "backgroundColor": "rgba(96, 165, 250, 0.08)"
+      },
+      {
+        "id": 3,
+        "type": "uses",
+        "icon": "🎯",
+        "iconSize": "4rem",
+        "title": "WHEN TO USE",
+        "items": [
+          {"icon": "🌅", "text": "Daily habits"},
+          {"icon": "✅", "text": "Facts & truths"},
+          {"icon": "📅", "text": "Schedules"},
+          {"icon": "🏠", "text": "Permanent situations"}
+        ],
+        "backgroundColor": "rgba(16, 185, 129, 0.08)"
+      },
+      {
+        "id": 4,
+        "type": "time-signals",
+        "icon": "🕐",
+        "iconSize": "4rem",
+        "title": "TIME SIGNALS",
+        "frequency": [
+          {"word": "always", "bar": "100%"},
+          {"word": "usually", "bar": "80%"},
+          {"word": "often", "bar": "60%"},
+          {"word": "sometimes", "bar": "40%"},
+          {"word": "never", "bar": "0%"}
+        ],
+        "regular": ["every day", "on Mondays", "in the morning"],
+        "backgroundColor": "rgba(139, 92, 246, 0.08)"
+      },
+      {
+        "id": 5,
+        "type": "examples",
+        "icon": "💡",
+        "iconSize": "4rem",
+        "title": "EXAMPLES",
+        "sentences": [
+          "I always drink coffee.",
+          "She works every day.",
+          "We usually wake up at 7am."
+        ],
+        "backgroundColor": "rgba(245, 158, 11, 0.08)"
+      },
+      {
+        "id": 6,
+        "type": "common-mistake",
+        "icon": "⚠️",
+        "iconSize": "4rem",
+        "title": "WATCH OUT",
+        "wrong": "She work",
+        "correct": "She works",
+        "tip": "Add 's' for he/she/it!",
+        "backgroundColor": "rgba(239, 68, 68, 0.08)"
+      },
+      {
+        "id": 7,
+        "type": "practice-prompt",
+        "icon": "✏️",
+        "iconSize": "4rem",
+        "title": "YOUR TURN",
+        "prompt": "Complete the sentence:",
+        "question": "She _____ coffee every morning.",
+        "hint": "(drink)",
+        "answer": "drinks",
+        "backgroundColor": "rgba(236, 72, 153, 0.08)"
+      }
+    ]
+  },
+  "practice": {
+    "exercises": [
+      {
+        "type": "fill-in-blank",
+        "questions": [
+          {
+            "sentence": "I _____ to work every day.",
+            "answer": "go",
+            "options": ["go", "goes", "going"]
+          }
+        ]
+      }
+    ]
+  }
+}
