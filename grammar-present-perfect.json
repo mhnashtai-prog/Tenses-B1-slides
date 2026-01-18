@@ -1,0 +1,474 @@
+{
+  "skillArea": "grammar",
+  "level": "B1",
+  "tense": {
+    "time": "present",
+    "aspect": "perfect"
+  },
+  "metadata": {
+    "title": "Present Perfect",
+    "icon": "📖",
+    "description": "Learn the Present Perfect tense"
+  },
+  "watch": {
+    "life-experiences": {
+      "text": {
+        "content": "I have traveled to fifteen countries. I have visited Paris, Rome, and Tokyo. I have tried many different foods. I have never been to Australia, but I want to go there. My sister has climbed Mount Kilimanjaro. She has done many amazing things. Have you ever seen the Northern Lights? I have not seen them yet, but it is on my bucket list.",
+        "highlights": [
+          {"word": "have traveled"},
+          {"word": "have visited"},
+          {"word": "have tried"},
+          {"word": "have never been"},
+          {"word": "has climbed"},
+          {"word": "has done"},
+          {"word": "Have you ever seen"},
+          {"word": "have not seen"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "✈️", "iconSize": "4rem", "text": "I have traveled to fifteen countries.", "highlights": ["have traveled"]},
+        {"id": 2, "icon": "🗼", "iconSize": "4rem", "text": "I have visited Paris, Rome, and Tokyo.", "highlights": ["have visited"]},
+        {"id": 3, "icon": "🍜", "iconSize": "4rem", "text": "I have tried many different foods.", "highlights": ["have tried"]},
+        {"id": 4, "icon": "🦘", "iconSize": "4rem", "text": "I have never been to Australia.", "highlights": ["have never been"]},
+        {"id": 5, "icon": "⛰️", "iconSize": "4rem", "text": "My sister has climbed Mount Kilimanjaro.", "highlights": ["has climbed"]},
+        {"id": 6, "icon": "🌟", "iconSize": "4rem", "text": "She has done many amazing things.", "highlights": ["has done"]},
+        {"id": 7, "icon": "🌌", "iconSize": "4rem", "text": "Have you ever seen the Northern Lights?", "highlights": ["Have you ever seen"]},
+        {"id": 8, "icon": "📝", "iconSize": "4rem", "text": "I have not seen them yet.", "highlights": ["have not seen", "yet"]}
+      ]
+    },
+    "recent-past": {
+      "text": {
+        "content": "I have just finished my homework. Sarah has just arrived at the office. The train has just left the station. I have already eaten lunch, so I am not hungry. They have already watched that movie. Have you finished your work yet? No, I have not finished it yet. The meeting has not started yet.",
+        "highlights": [
+          {"word": "have just finished"},
+          {"word": "has just arrived"},
+          {"word": "has just left"},
+          {"word": "have already eaten"},
+          {"word": "have already watched"},
+          {"word": "Have you finished"},
+          {"word": "have not finished"},
+          {"word": "has not started"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "📚", "iconSize": "4rem", "text": "I have just finished my homework.", "highlights": ["have just finished"]},
+        {"id": 2, "icon": "🏢", "iconSize": "4rem", "text": "Sarah has just arrived at the office.", "highlights": ["has just arrived"]},
+        {"id": 3, "icon": "🚂", "iconSize": "4rem", "text": "The train has just left the station.", "highlights": ["has just left"]},
+        {"id": 4, "icon": "🍽️", "iconSize": "4rem", "text": "I have already eaten lunch.", "highlights": ["have already eaten"]},
+        {"id": 5, "icon": "🎬", "iconSize": "4rem", "text": "They have already watched that movie.", "highlights": ["have already watched"]},
+        {"id": 6, "icon": "❓", "iconSize": "4rem", "text": "Have you finished your work yet?", "highlights": ["Have you finished", "yet"]},
+        {"id": 7, "icon": "❌", "iconSize": "4rem", "text": "No, I have not finished it yet.", "highlights": ["have not finished", "yet"]},
+        {"id": 8, "icon": "⏰", "iconSize": "4rem", "text": "The meeting has not started yet.", "highlights": ["has not started", "yet"]}
+      ]
+    },
+    "unfinished-time": {
+      "text": {
+        "content": "I have worked here for five years. She has lived in London since 2018. We have known each other for a long time. They have been friends since childhood. I have studied English for ten years. How long have you lived in this city? I have been here since last March. The company has existed for over 50 years.",
+        "highlights": [
+          {"word": "have worked"},
+          {"word": "for five years"},
+          {"word": "has lived"},
+          {"word": "since 2018"},
+          {"word": "have known"},
+          {"word": "have been"},
+          {"word": "have studied"},
+          {"word": "How long have you lived"},
+          {"word": "have been"},
+          {"word": "has existed"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "💼", "iconSize": "4rem", "text": "I have worked here for five years.", "highlights": ["have worked", "for five years"]},
+        {"id": 2, "icon": "🏙️", "iconSize": "4rem", "text": "She has lived in London since 2018.", "highlights": ["has lived", "since 2018"]},
+        {"id": 3, "icon": "👥", "iconSize": "4rem", "text": "We have known each other for a long time.", "highlights": ["have known", "for"]},
+        {"id": 4, "icon": "👫", "iconSize": "4rem", "text": "They have been friends since childhood.", "highlights": ["have been", "since"]},
+        {"id": 5, "icon": "📖", "iconSize": "4rem", "text": "I have studied English for ten years.", "highlights": ["have studied", "for ten years"]},
+        {"id": 6, "icon": "❓", "iconSize": "4rem", "text": "How long have you lived in this city?", "highlights": ["How long", "have you lived"]},
+        {"id": 7, "icon": "📅", "iconSize": "4rem", "text": "I have been here since last March.", "highlights": ["have been", "since"]},
+        {"id": 8, "icon": "🏢", "iconSize": "4rem", "text": "The company has existed for over 50 years.", "highlights": ["has existed", "for"]}
+      ]
+    },
+    "change-over-time": {
+      "text": {
+        "content": "My English has improved a lot this year. The city has grown significantly in the last decade. Technology has changed the way we communicate. Prices have increased by 15 percent. The weather has become more unpredictable. My confidence has grown since I started this job. The situation has gotten worse over time. Our relationship has developed into a strong friendship.",
+        "highlights": [
+          {"word": "has improved"},
+          {"word": "has grown"},
+          {"word": "has changed"},
+          {"word": "have increased"},
+          {"word": "has become"},
+          {"word": "has grown"},
+          {"word": "has gotten"},
+          {"word": "has developed"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "📈", "iconSize": "4rem", "text": "My English has improved a lot this year.", "highlights": ["has improved"]},
+        {"id": 2, "icon": "🏙️", "iconSize": "4rem", "text": "The city has grown significantly.", "highlights": ["has grown", "significantly"]},
+        {"id": 3, "icon": "💬", "iconSize": "4rem", "text": "Technology has changed the way we communicate.", "highlights": ["has changed"]},
+        {"id": 4, "icon": "💰", "iconSize": "4rem", "text": "Prices have increased by 15 percent.", "highlights": ["have increased"]},
+        {"id": 5, "icon": "🌦️", "iconSize": "4rem", "text": "The weather has become more unpredictable.", "highlights": ["has become"]},
+        {"id": 6, "icon": "💪", "iconSize": "4rem", "text": "My confidence has grown since I started this job.", "highlights": ["has grown", "since"]},
+        {"id": 7, "icon": "📉", "iconSize": "4rem", "text": "The situation has gotten worse over time.", "highlights": ["has gotten"]},
+        {"id": 8, "icon": "🤝", "iconSize": "4rem", "text": "Our relationship has developed into a friendship.", "highlights": ["has developed"]}
+      ]
+    },
+    "results": {
+      "text": {
+        "content": "Oh no! I have lost my keys. I cannot find them anywhere. Someone has broken the window. There is glass everywhere. She has forgotten her password. She cannot log in. They have missed the bus. Now they will be late. I have hurt my ankle. I cannot walk properly. The computer has crashed. I have lost all my work. He has won the lottery! He is very happy. We have run out of milk. We need to buy some more.",
+        "highlights": [
+          {"word": "have lost"},
+          {"word": "has broken"},
+          {"word": "has forgotten"},
+          {"word": "have missed"},
+          {"word": "have hurt"},
+          {"word": "has crashed"},
+          {"word": "have lost"},
+          {"word": "has won"},
+          {"word": "have run out"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "🔑", "iconSize": "4rem", "text": "Oh no! I have lost my keys.", "highlights": ["have lost"]},
+        {"id": 2, "icon": "🪟", "iconSize": "4rem", "text": "Someone has broken the window.", "highlights": ["has broken"]},
+        {"id": 3, "icon": "🔒", "iconSize": "4rem", "text": "She has forgotten her password.", "highlights": ["has forgotten"]},
+        {"id": 4, "icon": "🚌", "iconSize": "4rem", "text": "They have missed the bus.", "highlights": ["have missed"]},
+        {"id": 5, "icon": "🦶", "iconSize": "4rem", "text": "I have hurt my ankle.", "highlights": ["have hurt"]},
+        {"id": 6, "icon": "💻", "iconSize": "4rem", "text": "The computer has crashed.", "highlights": ["has crashed"]},
+        {"id": 7, "icon": "🎰", "iconSize": "4rem", "text": "He has won the lottery!", "highlights": ["has won"]},
+        {"id": 8, "icon": "🥛", "iconSize": "4rem", "text": "We have run out of milk.", "highlights": ["have run out"]}
+      ]
+    },
+    "multiple-times": {
+      "text": {
+        "content": "I have read that book three times. It is my favorite. She has visited New York many times. She loves the city. We have watched this movie several times. It never gets old. How many times have you been to the dentist this year? I have been there twice. He has called me five times today. I have told you a million times! Stop exaggerating. They have won the championship four times.",
+        "highlights": [
+          {"word": "have read"},
+          {"word": "three times"},
+          {"word": "has visited"},
+          {"word": "many times"},
+          {"word": "have watched"},
+          {"word": "several times"},
+          {"word": "How many times have you been"},
+          {"word": "have been"},
+          {"word": "twice"},
+          {"word": "has called"},
+          {"word": "five times"},
+          {"word": "have told"},
+          {"word": "have won"},
+          {"word": "four times"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "📚", "iconSize": "4rem", "text": "I have read that book three times.", "highlights": ["have read", "three times"]},
+        {"id": 2, "icon": "🗽", "iconSize": "4rem", "text": "She has visited New York many times.", "highlights": ["has visited", "many times"]},
+        {"id": 3, "icon": "🎬", "iconSize": "4rem", "text": "We have watched this movie several times.", "highlights": ["have watched", "several times"]},
+        {"id": 4, "icon": "🦷", "iconSize": "4rem", "text": "How many times have you been to the dentist?", "highlights": ["How many times"]},
+        {"id": 5, "icon": "2️⃣", "iconSize": "4rem", "text": "I have been there twice.", "highlights": ["have been", "twice"]},
+        {"id": 6, "icon": "📞", "iconSize": "4rem", "text": "He has called me five times today.", "highlights": ["has called", "five times"]},
+        {"id": 7, "icon": "🔁", "iconSize": "4rem", "text": "I have told you a million times!", "highlights": ["have told"]},
+        {"id": 8, "icon": "🏆", "iconSize": "4rem", "text": "They have won the championship four times.", "highlights": ["have won", "four times"]}
+      ]
+    },
+    "news": {
+      "text": {
+        "content": "Breaking news! A major earthquake has hit Japan. Scientists have discovered a new planet. The government has announced new tax reforms. A famous actor has died at the age of 65. Researchers have found a cure for a rare disease. The company has released its new smartphone model. The president has signed the new law. A volcano has erupted in Iceland.",
+        "highlights": [
+          {"word": "has hit"},
+          {"word": "have discovered"},
+          {"word": "has announced"},
+          {"word": "has died"},
+          {"word": "have found"},
+          {"word": "has released"},
+          {"word": "has signed"},
+          {"word": "has erupted"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "📰", "iconSize": "4rem", "text": "Breaking news!", "highlights": ["Breaking news"]},
+        {"id": 2, "icon": "🌍", "iconSize": "4rem", "text": "A major earthquake has hit Japan.", "highlights": ["has hit"]},
+        {"id": 3, "icon": "🪐", "iconSize": "4rem", "text": "Scientists have discovered a new planet.", "highlights": ["have discovered"]},
+        {"id": 4, "icon": "📋", "iconSize": "4rem", "text": "The government has announced new reforms.", "highlights": ["has announced"]},
+        {"id": 5, "icon": "🎭", "iconSize": "4rem", "text": "A famous actor has died at age 65.", "highlights": ["has died"]},
+        {"id": 6, "icon": "💊", "iconSize": "4rem", "text": "Researchers have found a cure.", "highlights": ["have found"]},
+        {"id": 7, "icon": "📱", "iconSize": "4rem", "text": "The company has released a new smartphone.", "highlights": ["has released"]},
+        {"id": 8, "icon": "🌋", "iconSize": "4rem", "text": "A volcano has erupted in Iceland.", "highlights": ["has erupted"]}
+      ]
+    }
+  },
+  "read": {
+    "life-experiences": {
+      "text": {
+        "overview": {
+          "title": "Present Perfect - Life Experiences",
+          "subtitle": "Talk about experiences in your life",
+          "description": "Use the Present Perfect to talk about experiences without saying exactly when they happened."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "Subject + have/has + past participle",
+          "affirmative": [
+            {"subject": "I/You/We/They", "verb": "have been"},
+            {"subject": "He/She/It", "verb": "has been"},
+            {"subject": "I", "verb": "have visited"},
+            {"subject": "She", "verb": "has traveled"},
+            {"subject": "They", "verb": "have tried"}
+          ]
+        },
+        "uses": [
+          {"icon": "✈️", "label": "Life experiences", "example": "I have visited Paris."},
+          {"icon": "🌟", "label": "Things you've done (no specific time)", "example": "She has tried sushi."}
+        ],
+        "timeSignals": {
+          "title": "TIME SIGNALS",
+          "frequency": [],
+          "regular": ["ever", "never", "once", "many times", "several times", "before", "in my life"]
+        },
+        "commonErrors": [
+          {"wrong": "I have visited Paris yesterday.", "correct": "I visited Paris yesterday.", "explanation": "Don't use Present Perfect with specific past times!"},
+          {"wrong": "Have you ever been to Japan? Yes, I did.", "correct": "Have you ever been to Japan? Yes, I have.", "explanation": "Answer with 'have/has', not 'did'."}
+        ],
+        "examples": [
+          {"sentence": "I have never eaten octopus.", "highlights": ["have never eaten"]},
+          {"sentence": "Have you ever been to Africa?", "highlights": ["Have you ever been"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "✈️", "iconSize": "5rem", "title": "LIFE EXPERIENCES", "subtitle": "Things you've done", "description": "No specific time needed", "backgroundColor": "rgba(96, 165, 250, 0.1)"},
+        {"id": 2, "type": "form", "icon": "⚙️", "iconSize": "4rem", "title": "THE FORM", "formula": "have/has + PAST PARTICIPLE", "examples": [{"left": "I have visited", "right": "She has visited"}, {"left": "You have been", "right": "He has been"}, {"left": "We have tried", "right": "It has tried"}], "backgroundColor": "rgba(96, 165, 250, 0.08)"},
+        {"id": 3, "type": "uses", "icon": "🎯", "iconSize": "4rem", "title": "WHEN TO USE", "items": [{"icon": "🌍", "text": "Travel experiences"}, {"icon": "🍜", "text": "Food you've tried"}, {"icon": "🎬", "text": "Movies you've seen"}], "backgroundColor": "rgba(16, 185, 129, 0.08)"},
+        {"id": 4, "type": "time-signals", "icon": "🕐", "iconSize": "4rem", "title": "KEY WORDS", "frequency": [], "regular": ["ever", "never", "before", "many times", "in my life"], "backgroundColor": "rgba(139, 92, 246, 0.08)"},
+        {"id": 5, "type": "common-mistake", "icon": "⚠️", "iconSize": "4rem", "title": "WATCH OUT", "wrong": "I have been there yesterday", "correct": "I went there yesterday", "tip": "No specific time with Present Perfect!", "backgroundColor": "rgba(239, 68, 68, 0.08)"}
+      ]
+    },
+    "recent-past": {
+      "text": {
+        "overview": {
+          "title": "Present Perfect - Recent Past",
+          "subtitle": "Actions that just happened",
+          "description": "Use the Present Perfect with 'just', 'already', and 'yet' for very recent actions."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "Subject + have/has + just/already + past participle",
+          "affirmative": [
+            {"subject": "I", "verb": "have just finished"},
+            {"subject": "She", "verb": "has already eaten"},
+            {"subject": "They", "verb": "have not arrived yet"}
+          ]
+        },
+        "uses": [
+          {"icon": "⚡", "label": "Very recent actions (just)", "example": "I have just arrived."},
+          {"icon": "✅", "label": "Completed before expected (already)", "example": "She has already left."},
+          {"icon": "❓", "label": "Expected but not completed (yet)", "example": "Have you finished yet?"}
+        ],
+        "timeSignals": {
+          "title": "KEY WORDS",
+          "frequency": [],
+          "regular": ["just (= very recently)", "already (= before now)", "yet (= until now - questions/negatives)"]
+        },
+        "commonErrors": [
+          {"wrong": "I just have finished.", "correct": "I have just finished.", "explanation": "'Just' goes between have/has and the past participle."},
+          {"wrong": "Did you finish yet?", "correct": "Have you finished yet?", "explanation": "Use Present Perfect with 'yet'."}
+        ],
+        "examples": [
+          {"sentence": "The train has just left.", "highlights": ["has just left"]},
+          {"sentence": "Have you eaten lunch yet?", "highlights": ["Have you eaten", "yet"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "⚡", "iconSize": "5rem", "title": "RECENT PAST", "subtitle": "Just happened", "description": "just · already · yet", "backgroundColor": "rgba(245, 158, 11, 0.1)"},
+        {"id": 2, "type": "form", "icon": "⚙️", "iconSize": "4rem", "title": "WORD ORDER", "formula": "have/has + just/already + VERB", "examples": [{"left": "I have just finished", "right": ""}, {"left": "She has already gone", "right": ""}, {"left": "Have you done it yet?", "right": ""}], "backgroundColor": "rgba(245, 158, 11, 0.08)"},
+        {"id": 3, "type": "uses", "icon": "🎯", "iconSize": "4rem", "title": "THREE MEANINGS", "items": [{"icon": "⚡", "text": "JUST = very recently"}, {"icon": "✅", "text": "ALREADY = before now"}, {"icon": "❓", "text": "YET = until now"}], "backgroundColor": "rgba(245, 158, 11, 0.08)"},
+        {"id": 4, "type": "common-mistake", "icon": "⚠️", "iconSize": "4rem", "title": "WATCH OUT", "wrong": "I just have finished", "correct": "I have just finished", "tip": "Word order matters!", "backgroundColor": "rgba(239, 68, 68, 0.08)"}
+      ]
+    },
+    "unfinished-time": {
+      "text": {
+        "overview": {
+          "title": "Present Perfect - Duration",
+          "subtitle": "How long? (for/since)",
+          "description": "Use the Present Perfect with 'for' and 'since' to talk about how long something has continued."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "Subject + have/has + past participle + for/since",
+          "affirmative": [
+            {"subject": "I", "verb": "have lived here for 5 years"},
+            {"subject": "She", "verb": "has worked there since 2020"},
+            {"subject": "We", "verb": "have known them for ages"}
+          ]
+        },
+        "uses": [
+          {"icon": "📅", "label": "Duration with FOR (period)", "example": "I have worked here for 3 years."},
+          {"icon": "⏰", "label": "Duration with SINCE (starting point)", "example": "I have lived here since 2018."}
+        ],
+        "timeSignals": {
+          "title": "FOR vs SINCE",
+          "frequency": [],
+          "regular": ["FOR: period (5 years, 3 months, a long time)", "SINCE: point in time (2020, Monday, I was born)"]
+        },
+        "commonErrors": [
+          {"wrong": "I live here for 5 years.", "correct": "I have lived here for 5 years.", "explanation": "Use Present Perfect for duration, not Simple."},
+          {"wrong": "I have been here since 3 years.", "correct": "I have been here for 3 years.", "explanation": "Use FOR with periods, SINCE with points."}
+        ],
+        "examples": [
+          {"sentence": "How long have you studied English?", "highlights": ["How long", "have you studied"]},
+          {"sentence": "They have been married for 20 years.", "highlights": ["have been", "for 20 years"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "⏱️", "iconSize": "5rem", "title": "DURATION", "subtitle": "How long?", "description": "for · since", "backgroundColor": "rgba(139, 92, 246, 0.1)"},
+        {"id": 2, "type": "form", "icon": "⚙️", "iconSize": "4rem", "title": "THE FORM", "formula": "have/has + VERB + for/since", "examples": [{"left": "for 5 years", "right": "since 2020"}, {"left": "for a long time", "right": "since Monday"}, {"left": "for ages", "right": "since I was born"}], "backgroundColor": "rgba(139, 92, 246, 0.08)"},
+        {"id": 3, "type": "uses", "icon": "🎯", "iconSize": "4rem", "title": "FOR vs SINCE", "items": [{"icon": "📏", "text": "FOR = period of time"}, {"icon": "📍", "text": "SINCE = starting point"}, {"icon": "❓", "text": "How long...?"}], "backgroundColor": "rgba(139, 92, 246, 0.08)"},
+        {"id": 4, "type": "common-mistake", "icon": "⚠️", "iconSize": "4rem", "title": "WATCH OUT", "wrong": "I am here for 5 years", "correct": "I have been here for 5 years", "tip": "Use Present Perfect for duration!", "backgroundColor": "rgba(239, 68, 68, 0.08)"}
+      ]
+    },
+    "change-over-time": {
+      "text": {
+        "overview": {
+          "title": "Present Perfect - Change",
+          "subtitle": "How things have changed",
+          "description": "Use the Present Perfect to show how situations have changed or developed over time."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "Subject + have/has + past participle",
+          "affirmative": [
+            {"subject": "Prices", "verb": "have increased"},
+            {"subject": "Technology", "verb": "has improved"},
+            {"subject": "The situation", "verb": "has changed"}
+          ]
+        },
+        "uses": [
+          {"icon": "📈", "label": "Changes over time", "example": "My English has improved."},
+          {"icon": "🔄", "label": "Development", "example": "The city has grown."}
+        ],
+        "timeSignals": {
+          "title": "CHANGE VERBS",
+          "frequency": [],
+          "regular": ["improve", "grow", "increase", "decrease", "change", "develop", "become", "get better/worse"]
+        },
+        "commonErrors": [],
+        "examples": [
+          {"sentence": "The climate has become warmer.", "highlights": ["has become"]},
+          {"sentence": "My confidence has grown since I started.", "highlights": ["has grown", "since"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "📈", "iconSize": "5rem", "title": "CHANGE", "subtitle": "Development over time", "description": "How things have evolved", "backgroundColor": "rgba(16, 185, 129, 0.1)"},
+        {"id": 2, "type": "uses", "icon": "🎯", "iconSize": "4rem", "title": "COMMON CHANGES", "items": [{"icon": "📈", "text": "increase / improve"}, {"icon": "📉", "text": "decrease / worsen"}, {"icon": "🔄", "text": "change / develop"}], "backgroundColor": "rgba(16, 185, 129, 0.08)"}
+      ]
+    },
+    "results": {
+      "text": {
+        "overview": {
+          "title": "Present Perfect - Results",
+          "subtitle": "Past action, present result",
+          "description": "Use the Present Perfect when a past action has a result or effect NOW."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "Subject + have/has + past participle",
+          "affirmative": [
+            {"subject": "I", "verb": "have lost my keys (I don't have them now)"},
+            {"subject": "She", "verb": "has broken her phone (it's broken now)"},
+            {"subject": "They", "verb": "have missed the bus (they're late now)"}
+          ]
+        },
+        "uses": [
+          {"icon": "🔑", "label": "Past action → present result", "example": "I have lost my keys. (I can't find them NOW)"},
+          {"icon": "💥", "label": "Something happened → effect now", "example": "He has won the lottery! (He's rich NOW)"}
+        ],
+        "timeSignals": {
+          "title": "RESULT SITUATIONS",
+          "frequency": [],
+          "regular": ["The result is visible/important NOW", "Focus is on the present situation", "Past time is not important"]
+        },
+        "commonErrors": [
+          {"wrong": "I lost my keys. (when? where?)", "correct": "I have lost my keys. (result: can't get in)", "explanation": "Use Present Perfect when the result matters now."}
+        ],
+        "examples": [
+          {"sentence": "Oh no! I've forgotten my password.", "highlights": ["I've forgotten"]},
+          {"sentence": "Someone has eaten all the cake!", "highlights": ["has eaten"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "🎯", "iconSize": "5rem", "title": "RESULTS", "subtitle": "Present consequences", "description": "Past action → NOW effect", "backgroundColor": "rgba(236, 72, 153, 0.1)"},
+        {"id": 2, "type": "uses", "icon": "💡", "iconSize": "4rem", "title": "FOCUS ON NOW", "items": [{"icon": "🔑", "text": "Lost keys → can't get in"}, {"icon": "🪟", "text": "Broken window → cold inside"}, {"icon": "🎰", "text": "Won lottery → rich now"}], "backgroundColor": "rgba(236, 72, 153, 0.08)"}
+      ]
+    },
+    "multiple-times": {
+      "text": {
+        "overview": {
+          "title": "Present Perfect - Repetition",
+          "subtitle": "How many times?",
+          "description": "Use the Present Perfect to say how many times something has happened."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "Subject + have/has + past participle + number of times",
+          "affirmative": [
+            {"subject": "I", "verb": "have read it three times"},
+            {"subject": "She", "verb": "has been there many times"},
+            {"subject": "We", "verb": "have seen it several times"}
+          ]
+        },
+        "uses": [
+          {"icon": "🔢", "label": "Count repetitions", "example": "I have watched it five times."},
+          {"icon": "❓", "label": "Ask about frequency", "example": "How many times have you been there?"}
+        ],
+        "timeSignals": {
+          "title": "FREQUENCY EXPRESSIONS",
+          "frequency": [],
+          "regular": ["once", "twice", "three times", "many times", "several times", "a few times", "How many times...?"]
+        },
+        "commonErrors": [],
+        "examples": [
+          {"sentence": "I have told you a million times!", "highlights": ["have told", "a million times"]},
+          {"sentence": "How many times have you been to London?", "highlights": ["How many times"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "🔢", "iconSize": "5rem", "title": "REPETITION", "subtitle": "How many times?", "description": "Count the occurrences", "backgroundColor": "rgba(245, 158, 11, 0.1)"},
+        {"id": 2, "type": "time-signals", "icon": "🕐", "iconSize": "4rem", "title": "NUMBER WORDS", "frequency": [], "regular": ["once", "twice", "three times", "many times", "several times"], "backgroundColor": "rgba(245, 158, 11, 0.08)"}
+      ]
+    },
+    "news": {
+      "text": {
+        "overview": {
+          "title": "Present Perfect - News",
+          "subtitle": "Announce recent events",
+          "description": "Use the Present Perfect to announce news and recent events (common in headlines)."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "Subject + have/has + past participle",
+          "affirmative": [
+            {"subject": "The president", "verb": "has announced"},
+            {"subject": "Scientists", "verb": "have discovered"},
+            {"subject": "The company", "verb": "has released"}
+          ]
+        },
+        "uses": [
+          {"icon": "📰", "label": "Breaking news", "example": "A volcano has erupted in Iceland."},
+          {"icon": "📢", "label": "Announcements", "example": "The company has launched a new product."}
+        ],
+        "timeSignals": {
+          "title": "NEWS CONTEXTS",
+          "frequency": [],
+          "regular": ["Headlines", "Breaking news", "Recent announcements", "Official statements"]
+        },
+        "commonErrors": [],
+        "examples": [
+          {"sentence": "Scientists have found a cure for the disease.", "highlights": ["have found"]},
+          {"sentence": "The government has announced new measures.", "highlights": ["has announced"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "📰", "iconSize": "5rem", "title": "NEWS", "subtitle": "Recent announcements", "description": "Breaking news format", "backgroundColor": "rgba(239, 68, 68, 0.1)"},
+        {"id": 2, "type": "uses", "icon": "🎯", "iconSize": "4rem", "title": "COMMON IN", "items": [{"icon": "📰", "text": "Headlines"}, {"icon": "📺", "text": "Breaking news"}, {"icon": "📢", "text": "Announcements"}], "backgroundColor": "rgba(239, 68, 68, 0.08)"}
+      ]
+    }
+  }
+}
