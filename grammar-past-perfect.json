@@ -1,0 +1,426 @@
+{
+  "skillArea": "grammar",
+  "level": "B1",
+  "tense": {
+    "time": "past",
+    "aspect": "perfect"
+  },
+  "metadata": {
+    "title": "Past Perfect",
+    "icon": "📖",
+    "description": "Learn the Past Perfect tense"
+  },
+  "watch": {
+    "earlier-past": {
+      "text": {
+        "content": "When I arrived at the party, everyone had already left. Sarah had gone home early because she felt tired. The band had finished playing an hour before. They had eaten all the food by 9 PM. I felt disappointed because I had missed everything. My friend told me that the party had been amazing. She said they had danced for three hours. I wished I had come earlier.",
+        "highlights": [
+          {"word": "had already left"},
+          {"word": "had gone"},
+          {"word": "had finished"},
+          {"word": "had eaten"},
+          {"word": "had missed"},
+          {"word": "had been"},
+          {"word": "had danced"},
+          {"word": "had come"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "🎉", "iconSize": "4rem", "text": "When I arrived at the party, everyone had already left.", "highlights": ["When I arrived", "had already left"]},
+        {"id": 2, "icon": "🏠", "iconSize": "4rem", "text": "Sarah had gone home early.", "highlights": ["had gone"]},
+        {"id": 3, "icon": "🎸", "iconSize": "4rem", "text": "The band had finished playing an hour before.", "highlights": ["had finished"]},
+        {"id": 4, "icon": "🍕", "iconSize": "4rem", "text": "They had eaten all the food by 9 PM.", "highlights": ["had eaten", "by 9 PM"]},
+        {"id": 5, "icon": "😞", "iconSize": "4rem", "text": "I felt disappointed because I had missed everything.", "highlights": ["had missed"]},
+        {"id": 6, "icon": "💬", "iconSize": "4rem", "text": "She said the party had been amazing.", "highlights": ["said", "had been"]},
+        {"id": 7, "icon": "💃", "iconSize": "4rem", "text": "They had danced for three hours.", "highlights": ["had danced"]},
+        {"id": 8, "icon": "⏰", "iconSize": "4rem", "text": "I wished I had come earlier.", "highlights": ["wished", "had come"]}
+      ]
+    },
+    "reported-speech": {
+      "text": {
+        "content": "Maria told me she had visited Paris last summer. She said she had loved the Eiffel Tower. She explained that she had stayed in a small hotel near the Louvre. She mentioned that she had tried many French restaurants. She said the food had been delicious. She told me she had taken hundreds of photos. She admitted she had spent too much money on souvenirs. She said she had never had such a wonderful vacation before.",
+        "highlights": [
+          {"word": "had visited"},
+          {"word": "had loved"},
+          {"word": "had stayed"},
+          {"word": "had tried"},
+          {"word": "had been"},
+          {"word": "had taken"},
+          {"word": "had spent"},
+          {"word": "had never had"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "💬", "iconSize": "4rem", "text": "Maria told me she had visited Paris.", "highlights": ["told me", "had visited"]},
+        {"id": 2, "icon": "🗼", "iconSize": "4rem", "text": "She said she had loved the Eiffel Tower.", "highlights": ["said", "had loved"]},
+        {"id": 3, "icon": "🏨", "iconSize": "4rem", "text": "She explained she had stayed in a small hotel.", "highlights": ["explained", "had stayed"]},
+        {"id": 4, "icon": "🍽️", "iconSize": "4rem", "text": "She mentioned she had tried many restaurants.", "highlights": ["mentioned", "had tried"]},
+        {"id": 5, "icon": "😋", "iconSize": "4rem", "text": "She said the food had been delicious.", "highlights": ["had been"]},
+        {"id": 6, "icon": "📸", "iconSize": "4rem", "text": "She told me she had taken hundreds of photos.", "highlights": ["had taken"]},
+        {"id": 7, "icon": "💰", "iconSize": "4rem", "text": "She admitted she had spent too much money.", "highlights": ["admitted", "had spent"]},
+        {"id": 8, "icon": "🌟", "iconSize": "4rem", "text": "She said she had never had such a wonderful vacation.", "highlights": ["had never had"]}
+      ]
+    },
+    "regrets": {
+      "text": {
+        "content": "I wish I had studied harder for the exam. If only I had listened to my teacher's advice. I regret that I hadn't prepared better. I should have started studying earlier. I wish I had asked for help when I needed it. If I had known the exam would be so difficult, I would have studied more. I hadn't realized how important it was. Now I wish I had taken it more seriously.",
+        "highlights": [
+          {"word": "wish I had studied"},
+          {"word": "If only I had listened"},
+          {"word": "hadn't prepared"},
+          {"word": "should have started"},
+          {"word": "wish I had asked"},
+          {"word": "If I had known"},
+          {"word": "would have studied"},
+          {"word": "hadn't realized"},
+          {"word": "wish I had taken"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "😔", "iconSize": "4rem", "text": "I wish I had studied harder for the exam.", "highlights": ["I wish", "had studied"]},
+        {"id": 2, "icon": "👂", "iconSize": "4rem", "text": "If only I had listened to my teacher's advice.", "highlights": ["If only", "had listened"]},
+        {"id": 3, "icon": "📚", "iconSize": "4rem", "text": "I regret that I hadn't prepared better.", "highlights": ["hadn't prepared"]},
+        {"id": 4, "icon": "⏰", "iconSize": "4rem", "text": "I should have started studying earlier.", "highlights": ["should have started"]},
+        {"id": 5, "icon": "🆘", "iconSize": "4rem", "text": "I wish I had asked for help.", "highlights": ["wish I had asked"]},
+        {"id": 6, "icon": "💭", "iconSize": "4rem", "text": "If I had known, I would have studied more.", "highlights": ["If I had known", "would have studied"]},
+        {"id": 7, "icon": "❓", "iconSize": "4rem", "text": "I hadn't realized how important it was.", "highlights": ["hadn't realized"]},
+        {"id": 8, "icon": "😞", "iconSize": "4rem", "text": "I wish I had taken it more seriously.", "highlights": ["wish I had taken"]}
+      ]
+    },
+    "completed-before": {
+      "text": {
+        "content": "By the time I arrived at the station, the train had already departed. I had finished my homework before dinner time. She had completed the project before the deadline. By 8 PM, they had already closed the shop. I had never seen such a beautiful sunset before that day. By the time the doctor arrived, the patient had already recovered. We had visited five countries before we turned 25. The movie had already started when we got to the cinema.",
+        "highlights": [
+          {"word": "By the time I arrived"},
+          {"word": "had already departed"},
+          {"word": "had finished"},
+          {"word": "before dinner"},
+          {"word": "had completed"},
+          {"word": "before the deadline"},
+          {"word": "By 8 PM"},
+          {"word": "had already closed"},
+          {"word": "had never seen"},
+          {"word": "before that day"},
+          {"word": "had already recovered"},
+          {"word": "had visited"},
+          {"word": "before we turned"},
+          {"word": "had already started"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "🚂", "iconSize": "4rem", "text": "By the time I arrived, the train had departed.", "highlights": ["By the time", "had departed"]},
+        {"id": 2, "icon": "📚", "iconSize": "4rem", "text": "I had finished my homework before dinner.", "highlights": ["had finished", "before"]},
+        {"id": 3, "icon": "✅", "iconSize": "4rem", "text": "She had completed the project before the deadline.", "highlights": ["had completed", "before the deadline"]},
+        {"id": 4, "icon": "🏪", "iconSize": "4rem", "text": "By 8 PM, they had already closed the shop.", "highlights": ["By 8 PM", "had closed"]},
+        {"id": 5, "icon": "🌅", "iconSize": "4rem", "text": "I had never seen such a sunset before that day.", "highlights": ["had never seen", "before"]},
+        {"id": 6, "icon": "👨‍⚕️", "iconSize": "4rem", "text": "By the time the doctor arrived, the patient had recovered.", "highlights": ["By the time", "had recovered"]},
+        {"id": 7, "icon": "✈️", "iconSize": "4rem", "text": "We had visited five countries before we turned 25.", "highlights": ["had visited", "before we turned"]},
+        {"id": 8, "icon": "🎬", "iconSize": "4rem", "text": "The movie had started when we got to the cinema.", "highlights": ["had started", "when"]}
+      ]
+    },
+    "reasons": {
+      "text": {
+        "content": "I was tired because I had worked all night. She was happy because she had passed her driving test. They were excited because they had won the lottery. He was angry because someone had stolen his bike. I was hungry because I hadn't eaten breakfast. She was confused because she had never used that software before. We were late because we had missed our connection. He was nervous because he had never given a presentation before.",
+        "highlights": [
+          {"word": "was tired because"},
+          {"word": "had worked"},
+          {"word": "was happy because"},
+          {"word": "had passed"},
+          {"word": "were excited because"},
+          {"word": "had won"},
+          {"word": "was angry because"},
+          {"word": "had stolen"},
+          {"word": "was hungry because"},
+          {"word": "hadn't eaten"},
+          {"word": "was confused because"},
+          {"word": "had never used"},
+          {"word": "were late because"},
+          {"word": "had missed"},
+          {"word": "was nervous because"},
+          {"word": "had never given"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "😴", "iconSize": "4rem", "text": "I was tired because I had worked all night.", "highlights": ["was tired because", "had worked"]},
+        {"id": 2, "icon": "😊", "iconSize": "4rem", "text": "She was happy because she had passed her test.", "highlights": ["was happy because", "had passed"]},
+        {"id": 3, "icon": "🎉", "iconSize": "4rem", "text": "They were excited because they had won the lottery.", "highlights": ["were excited because", "had won"]},
+        {"id": 4, "icon": "😠", "iconSize": "4rem", "text": "He was angry because someone had stolen his bike.", "highlights": ["was angry because", "had stolen"]},
+        {"id": 5, "icon": "🍽️", "iconSize": "4rem", "text": "I was hungry because I hadn't eaten breakfast.", "highlights": ["was hungry because", "hadn't eaten"]},
+        {"id": 6, "icon": "🤔", "iconSize": "4rem", "text": "She was confused because she had never used it.", "highlights": ["was confused", "had never used"]},
+        {"id": 7, "icon": "⏰", "iconSize": "4rem", "text": "We were late because we had missed our connection.", "highlights": ["were late", "had missed"]},
+        {"id": 8, "icon": "😰", "iconSize": "4rem", "text": "He was nervous because he had never presented before.", "highlights": ["was nervous", "had never given"]}
+      ]
+    },
+    "third-conditional": {
+      "text": {
+        "content": "If I had known about the party, I would have come. If she had studied harder, she would have passed the exam. If we had left earlier, we wouldn't have missed the train. If he had brought an umbrella, he wouldn't have gotten wet. If they had saved more money, they could have bought the house. If I had listened to your advice, I wouldn't have made that mistake. If she had checked the recipe, the cake would have been perfect. If we had booked earlier, we would have gotten better seats.",
+        "highlights": [
+          {"word": "If I had known"},
+          {"word": "would have come"},
+          {"word": "If she had studied"},
+          {"word": "would have passed"},
+          {"word": "If we had left"},
+          {"word": "wouldn't have missed"},
+          {"word": "If he had brought"},
+          {"word": "wouldn't have gotten"},
+          {"word": "If they had saved"},
+          {"word": "could have bought"},
+          {"word": "If I had listened"},
+          {"word": "wouldn't have made"},
+          {"word": "If she had checked"},
+          {"word": "would have been"},
+          {"word": "If we had booked"},
+          {"word": "would have gotten"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "🎉", "iconSize": "4rem", "text": "If I had known about the party, I would have come.", "highlights": ["If I had known", "would have come"]},
+        {"id": 2, "icon": "📚", "iconSize": "4rem", "text": "If she had studied harder, she would have passed.", "highlights": ["If she had studied", "would have passed"]},
+        {"id": 3, "icon": "🚂", "iconSize": "4rem", "text": "If we had left earlier, we wouldn't have missed the train.", "highlights": ["If we had left", "wouldn't have missed"]},
+        {"id": 4, "icon": "☂️", "iconSize": "4rem", "text": "If he had brought an umbrella, he wouldn't have gotten wet.", "highlights": ["If he had brought", "wouldn't have gotten"]},
+        {"id": 5, "icon": "🏠", "iconSize": "4rem", "text": "If they had saved more money, they could have bought it.", "highlights": ["If they had saved", "could have bought"]},
+        {"id": 6, "icon": "💡", "iconSize": "4rem", "text": "If I had listened, I wouldn't have made that mistake.", "highlights": ["If I had listened", "wouldn't have made"]},
+        {"id": 7, "icon": "🎂", "iconSize": "4rem", "text": "If she had checked the recipe, the cake would have been perfect.", "highlights": ["If she had checked", "would have been"]},
+        {"id": 8, "icon": "🎫", "iconSize": "4rem", "text": "If we had booked earlier, we would have gotten better seats.", "highlights": ["If we had booked", "would have gotten"]}
+      ]
+    }
+  },
+  "read": {
+    "earlier-past": {
+      "text": {
+        "overview": {
+          "title": "Past Perfect - Earlier Past",
+          "subtitle": "Actions before other past actions",
+          "description": "Use the Past Perfect to show that one past action happened before another past action."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "Subject + had + past participle",
+          "affirmative": [
+            {"subject": "I/You/We/They", "verb": "had finished"},
+            {"subject": "He/She/It", "verb": "had finished"},
+            {"subject": "Negative", "verb": "had not (hadn't) eaten"},
+            {"subject": "Question", "verb": "Had you seen it?"}
+          ]
+        },
+        "uses": [
+          {"icon": "⏮️", "label": "Earlier past action", "example": "When I arrived, they had already left."},
+          {"icon": "📅", "label": "First action happened first", "example": "I was tired because I had worked all night."}
+        ],
+        "timeSignals": {
+          "title": "TIME MARKERS",
+          "frequency": [],
+          "regular": ["when", "after", "before", "by the time", "already", "just", "never... before"]
+        },
+        "commonErrors": [
+          {"wrong": "When I arrived, they already left.", "correct": "When I arrived, they had already left.", "explanation": "Use Past Perfect for the earlier action."},
+          {"wrong": "I had gone to the shop yesterday.", "correct": "I went to the shop yesterday.", "explanation": "Don't use Past Perfect alone - need two past actions."}
+        ],
+        "examples": [
+          {"sentence": "When we arrived at the cinema, the film had already started.", "highlights": ["When we arrived", "had already started"]},
+          {"sentence": "She told me she had never been to Japan before.", "highlights": ["told", "had never been"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "⏮️", "iconSize": "5rem", "title": "EARLIER PAST", "subtitle": "Before another past action", "description": "First this → then that", "backgroundColor": "rgba(96, 165, 250, 0.1)"},
+        {"id": 2, "type": "form", "icon": "⚙️", "iconSize": "4rem", "title": "THE FORM", "formula": "had + PAST PARTICIPLE", "examples": [{"left": "I had finished", "right": "She had finished"}, {"left": "You had gone", "right": "We had gone"}, {"left": "They had eaten", "right": ""}], "backgroundColor": "rgba(96, 165, 250, 0.08)"},
+        {"id": 3, "type": "uses", "icon": "🎯", "iconSize": "4rem", "title": "TWO PAST ACTIONS", "items": [{"icon": "1️⃣", "text": "Action 1 (had done)"}, {"icon": "2️⃣", "text": "Action 2 (did)"}, {"icon": "⏮️", "text": "Action 1 happened first"}], "backgroundColor": "rgba(16, 185, 129, 0.08)"},
+        {"id": 4, "type": "time-signals", "icon": "🕐", "iconSize": "4rem", "title": "KEY WORDS", "frequency": [], "regular": ["when", "before", "after", "by the time", "already"], "backgroundColor": "rgba(139, 92, 246, 0.08)"},
+        {"id": 5, "type": "common-mistake", "icon": "⚠️", "iconSize": "4rem", "title": "WATCH OUT", "wrong": "When I arrived, they left", "correct": "When I arrived, they had left", "tip": "Earlier action = Past Perfect!", "backgroundColor": "rgba(239, 68, 68, 0.08)"}
+      ]
+    },
+    "reported-speech": {
+      "text": {
+        "overview": {
+          "title": "Past Perfect - Reported Speech",
+          "subtitle": "Report what someone said",
+          "description": "Use the Past Perfect in reported speech when the original statement was in Past Simple or Present Perfect."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "She said (that) + subject + had + past participle",
+          "affirmative": [
+            {"subject": "Direct", "verb": "I visited Paris"},
+            {"subject": "Reported", "verb": "She said she had visited Paris"},
+            {"subject": "Direct", "verb": "I have seen it"},
+            {"subject": "Reported", "verb": "He said he had seen it"}
+          ]
+        },
+        "uses": [
+          {"icon": "💬", "label": "Report past statements", "example": "He said he had finished the work."},
+          {"icon": "🔄", "label": "Past Simple → Past Perfect", "example": "\"I went\" → She said she had gone"}
+        ],
+        "timeSignals": {
+          "title": "REPORTING VERBS",
+          "frequency": [],
+          "regular": ["said", "told me", "explained", "mentioned", "admitted", "claimed"]
+        },
+        "commonErrors": [
+          {"wrong": "She said she went to Paris.", "correct": "She said she had gone to Paris.", "explanation": "Shift tense back in reported speech."}
+        ],
+        "examples": [
+          {"sentence": "He told me he had never eaten sushi before.", "highlights": ["told me", "had never eaten"]},
+          {"sentence": "She said she had lost her keys.", "highlights": ["said", "had lost"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "💬", "iconSize": "5rem", "title": "REPORTED SPEECH", "subtitle": "Report what was said", "description": "Shift the tense back", "backgroundColor": "rgba(245, 158, 11, 0.1)"},
+        {"id": 2, "type": "form", "icon": "⚙️", "iconSize": "4rem", "title": "TENSE SHIFT", "formula": "said/told + had + VERB", "examples": [{"left": "\"I visited Paris\"", "right": "→ had visited"}, {"left": "\"I saw it\"", "right": "→ had seen"}, {"left": "\"I have done it\"", "right": "→ had done"}], "backgroundColor": "rgba(245, 158, 11, 0.08)"},
+        {"id": 3, "type": "uses", "icon": "🔄", "iconSize": "4rem", "title": "TRANSFORMATION", "items": [{"icon": "💬", "text": "Direct: I went"}, {"icon": "➡️", "text": "becomes"}, {"icon": "📝", "text": "Reported: had gone"}], "backgroundColor": "rgba(245, 158, 11, 0.08)"}
+      ]
+    },
+    "regrets": {
+      "text": {
+        "overview": {
+          "title": "Past Perfect - Regrets & Wishes",
+          "subtitle": "Express regret about the past",
+          "description": "Use Past Perfect with 'wish', 'if only', and 'should have' to express regret about past actions."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "I wish/If only + subject + had + past participle",
+          "affirmative": [
+            {"subject": "Wish", "verb": "I wish I had studied harder"},
+            {"subject": "If only", "verb": "If only I had listened"},
+            {"subject": "Should have", "verb": "I should have called"},
+            {"subject": "Regret", "verb": "I regret that I hadn't prepared"}
+          ]
+        },
+        "uses": [
+          {"icon": "😔", "label": "Express regret", "example": "I wish I had studied harder."},
+          {"icon": "🔙", "label": "Talk about past mistakes", "example": "I should have listened to you."}
+        ],
+        "timeSignals": {
+          "title": "REGRET EXPRESSIONS",
+          "frequency": [],
+          "regular": ["I wish I had...", "If only I had...", "I should have...", "I regret that I hadn't..."]
+        },
+        "commonErrors": [
+          {"wrong": "I wish I studied harder.", "correct": "I wish I had studied harder.", "explanation": "Use Past Perfect for past regrets."}
+        ],
+        "examples": [
+          {"sentence": "I wish I had taken that job offer.", "highlights": ["I wish", "had taken"]},
+          {"sentence": "If only I had known the truth earlier.", "highlights": ["If only", "had known"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "😔", "iconSize": "5rem", "title": "REGRETS", "subtitle": "Past mistakes", "description": "I wish I had...", "backgroundColor": "rgba(239, 68, 68, 0.1)"},
+        {"id": 2, "type": "form", "icon": "⚙️", "iconSize": "4rem", "title": "REGRET PATTERNS", "formula": "wish/if only + had + VERB", "examples": [{"left": "I wish I had studied", "right": ""}, {"left": "If only I had listened", "right": ""}, {"left": "I should have tried", "right": ""}], "backgroundColor": "rgba(239, 68, 68, 0.08)"},
+        {"id": 3, "type": "uses", "icon": "😞", "iconSize": "4rem", "title": "EXPRESS", "items": [{"icon": "😔", "text": "Regret"}, {"icon": "🔙", "text": "Past mistakes"}, {"icon": "💭", "text": "What you didn't do"}], "backgroundColor": "rgba(239, 68, 68, 0.08)"}
+      ]
+    },
+    "completed-before": {
+      "text": {
+        "overview": {
+          "title": "Past Perfect - Completed Before",
+          "subtitle": "By the time / Before",
+          "description": "Use Past Perfect to show an action was completed before a specific past time or event."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "By the time/Before + past action, had + past participle",
+          "affirmative": [
+            {"subject": "By the time", "verb": "By the time I arrived, they had left"},
+            {"subject": "Before", "verb": "I had finished before dinner"},
+            {"subject": "By + time", "verb": "By 9 PM, we had already eaten"}
+          ]
+        },
+        "uses": [
+          {"icon": "⏰", "label": "Completed by a time", "example": "By 6 PM, I had finished everything."},
+          {"icon": "✅", "label": "Done before another event", "example": "I had eaten before you arrived."}
+        ],
+        "timeSignals": {
+          "title": "TIME EXPRESSIONS",
+          "frequency": [],
+          "regular": ["by the time", "before", "by + time (by 9am)", "already", "just"]
+        },
+        "commonErrors": [],
+        "examples": [
+          {"sentence": "By the time we arrived, the movie had already started.", "highlights": ["By the time", "had started"]},
+          {"sentence": "I had never traveled abroad before that trip.", "highlights": ["had never traveled", "before"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "⏰", "iconSize": "5rem", "title": "COMPLETED BEFORE", "subtitle": "By the time...", "description": "Finished before X", "backgroundColor": "rgba(16, 185, 129, 0.1)"},
+        {"id": 2, "type": "time-signals", "icon": "🕐", "iconSize": "4rem", "title": "TIME MARKERS", "frequency": [], "regular": ["by the time", "before", "by 9am/6pm", "already"], "backgroundColor": "rgba(16, 185, 129, 0.08)"}
+      ]
+    },
+    "reasons": {
+      "text": {
+        "overview": {
+          "title": "Past Perfect - Reasons/Results",
+          "subtitle": "Explain why (because)",
+          "description": "Use Past Perfect with 'because' to explain the reason for a past situation or feeling."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "Past Simple + because + had + past participle",
+          "affirmative": [
+            {"subject": "Pattern", "verb": "I was tired because I had worked"},
+            {"subject": "Example 1", "verb": "She was happy because she had passed"},
+            {"subject": "Example 2", "verb": "He was angry because they had lied"}
+          ]
+        },
+        "uses": [
+          {"icon": "💡", "label": "Explain reasons", "example": "I was tired because I had worked all night."},
+          {"icon": "🔗", "label": "Show cause and effect", "example": "She failed because she hadn't studied."}
+        ],
+        "timeSignals": {
+          "title": "CONNECTOR",
+          "frequency": [],
+          "regular": ["because", "The reason was that...", "That's why..."]
+        },
+        "commonErrors": [],
+        "examples": [
+          {"sentence": "I was confused because I hadn't read the instructions.", "highlights": ["was confused because", "hadn't read"]},
+          {"sentence": "They were late because they had missed the bus.", "highlights": ["were late because", "had missed"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "💡", "iconSize": "5rem", "title": "REASONS", "subtitle": "Explain why", "description": "because + had done", "backgroundColor": "rgba(139, 92, 246, 0.1)"},
+        {"id": 2, "type": "form", "icon": "⚙️", "iconSize": "4rem", "title": "THE PATTERN", "formula": "was/were + BECAUSE + had + VERB", "examples": [{"left": "I was tired", "right": "because I had worked"}, {"left": "She was happy", "right": "because she had passed"}], "backgroundColor": "rgba(139, 92, 246, 0.08)"},
+        {"id": 3, "type": "uses", "icon": "🔗", "iconSize": "4rem", "title": "CAUSE & EFFECT", "items": [{"icon": "1️⃣", "text": "Earlier action (cause)"}, {"icon": "➡️", "text": "led to"}, {"icon": "2️⃣", "text": "Later result (effect)"}], "backgroundColor": "rgba(139, 92, 246, 0.08)"}
+      ]
+    },
+    "third-conditional": {
+      "text": {
+        "overview": {
+          "title": "Past Perfect - Third Conditional",
+          "subtitle": "Impossible past situations",
+          "description": "Use Past Perfect in the 'if' clause to talk about unreal or impossible past situations and their imaginary results."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "If + had + past participle, would/could have + past participle",
+          "affirmative": [
+            {"subject": "Pattern", "verb": "If I had known, I would have come"},
+            {"subject": "Example 1", "verb": "If she had studied, she would have passed"},
+            {"subject": "Example 2", "verb": "If we had left earlier, we wouldn't have been late"}
+          ]
+        },
+        "uses": [
+          {"icon": "🔮", "label": "Unreal past", "example": "If I had known, I would have helped."},
+          {"icon": "💭", "label": "Imaginary results", "example": "If she had tried, she could have won."}
+        ],
+        "timeSignals": {
+          "title": "STRUCTURE",
+          "frequency": [],
+          "regular": ["If + had + past participle", "would/could/might + have + past participle", "Both parts refer to past"]
+        },
+        "commonErrors": [
+          {"wrong": "If I would have known, I would have come.", "correct": "If I had known, I would have come.", "explanation": "Use Past Perfect in the 'if' clause, not 'would have'."}
+        ],
+        "examples": [
+          {"sentence": "If I had brought my umbrella, I wouldn't have gotten wet.", "highlights": ["If I had brought", "wouldn't have gotten"]},
+          {"sentence": "If they had saved more money, they could have bought the house.", "highlights": ["If they had saved", "could have bought"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "🔮", "iconSize": "5rem", "title": "THIRD CONDITIONAL", "subtitle": "Impossible past", "description": "If I had... I would have...", "backgroundColor": "rgba(236, 72, 153, 0.1)"},
+        {"id": 2, "type": "form", "icon": "⚙️", "iconSize": "4rem", "title": "THE PATTERN", "formula": "IF + had + VERB, would have + VERB", "examples": [{"left": "If I had known", "right": "I would have come"}, {"left": "If she had studied", "right": "she would have passed"}], "backgroundColor": "rgba(236, 72, 153, 0.08)"},
+        {"id": 3, "type": "uses", "icon": "💭", "iconSize": "4rem", "title": "IMAGINARY PAST", "items": [{"icon": "❌", "text": "Didn't happen"}, {"icon": "💭", "text": "Imagining if it had"}, {"icon": "🔮", "text": "Impossible now"}], "backgroundColor": "rgba(236, 72, 153, 0.08)"},
+        {"id": 4, "type": "common-mistake", "icon": "⚠️", "iconSize": "4rem", "title": "WATCH OUT", "wrong": "If I would have known", "correct": "If I had known", "tip": "Never 'would have' in IF clause!", "backgroundColor": "rgba(239, 68, 68, 0.08)"}
+      ]
+    }
+  }
+}
