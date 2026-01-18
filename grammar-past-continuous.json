@@ -1,0 +1,350 @@
+{
+  "skillArea": "grammar",
+  "level": "B1",
+  "tense": {
+    "time": "past",
+    "aspect": "continuous"
+  },
+  "metadata": {
+    "title": "Past Continuous",
+    "icon": "📖",
+    "description": "Learn the Past Continuous tense"
+  },
+  "watch": {
+    "background-action": {
+      "text": {
+        "content": "Yesterday evening was very peaceful. I was sitting in my favorite chair. I was reading a mystery novel. The sun was setting outside my window. Birds were singing in the trees. My cat was sleeping on the sofa. Suddenly, the doorbell rang. I was not expecting anyone. I got up and opened the door. It was my friend Sarah. She was carrying a big box of pizza!",
+        "highlights": [
+          {"word": "was sitting"},
+          {"word": "was reading"},
+          {"word": "was setting"},
+          {"word": "were singing"},
+          {"word": "was sleeping"},
+          {"word": "was not expecting"},
+          {"word": "was carrying"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "🪑", "iconSize": "4rem", "text": "I was sitting in my favorite chair.", "highlights": ["was sitting"]},
+        {"id": 2, "icon": "📖", "iconSize": "4rem", "text": "I was reading a mystery novel.", "highlights": ["was reading"]},
+        {"id": 3, "icon": "🌅", "iconSize": "4rem", "text": "The sun was setting outside.", "highlights": ["was setting"]},
+        {"id": 4, "icon": "🐦", "iconSize": "4rem", "text": "Birds were singing in the trees.", "highlights": ["were singing"]},
+        {"id": 5, "icon": "😺", "iconSize": "4rem", "text": "My cat was sleeping on the sofa.", "highlights": ["was sleeping"]},
+        {"id": 6, "icon": "🔔", "iconSize": "4rem", "text": "Suddenly, the doorbell rang.", "highlights": ["Suddenly", "rang"]},
+        {"id": 7, "icon": "❓", "iconSize": "4rem", "text": "I was not expecting anyone.", "highlights": ["was not expecting"]},
+        {"id": 8, "icon": "🍕", "iconSize": "4rem", "text": "She was carrying a big box of pizza!", "highlights": ["was carrying"]}
+      ]
+    },
+    "interrupted-action": {
+      "text": {
+        "content": "I was cooking dinner when the phone rang. I was chopping vegetables when I cut my finger. She was driving to work when she saw the accident. We were watching TV when the power went out. They were playing football when it started to rain. He was taking a shower when someone knocked on the door. I was sleeping when the alarm went off. The children were doing their homework when their parents came home.",
+        "highlights": [
+          {"word": "was cooking"},
+          {"word": "rang"},
+          {"word": "was chopping"},
+          {"word": "cut"},
+          {"word": "was driving"},
+          {"word": "saw"},
+          {"word": "were watching"},
+          {"word": "went out"},
+          {"word": "were playing"},
+          {"word": "started"},
+          {"word": "was taking"},
+          {"word": "knocked"},
+          {"word": "was sleeping"},
+          {"word": "went off"},
+          {"word": "were doing"},
+          {"word": "came"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "🍳", "iconSize": "4rem", "text": "I was cooking dinner when the phone rang.", "highlights": ["was cooking", "when", "rang"]},
+        {"id": 2, "icon": "🔪", "iconSize": "4rem", "text": "I was chopping vegetables when I cut my finger.", "highlights": ["was chopping", "cut"]},
+        {"id": 3, "icon": "🚗", "iconSize": "4rem", "text": "She was driving when she saw the accident.", "highlights": ["was driving", "saw"]},
+        {"id": 4, "icon": "📺", "iconSize": "4rem", "text": "We were watching TV when the power went out.", "highlights": ["were watching", "went out"]},
+        {"id": 5, "icon": "⚽", "iconSize": "4rem", "text": "They were playing football when it started to rain.", "highlights": ["were playing", "started"]},
+        {"id": 6, "icon": "🚿", "iconSize": "4rem", "text": "He was taking a shower when someone knocked.", "highlights": ["was taking", "knocked"]},
+        {"id": 7, "icon": "😴", "iconSize": "4rem", "text": "I was sleeping when the alarm went off.", "highlights": ["was sleeping", "went off"]},
+        {"id": 8, "icon": "📚", "iconSize": "4rem", "text": "The children were doing homework when parents came home.", "highlights": ["were doing", "came"]}
+      ]
+    },
+    "parallel-actions": {
+      "text": {
+        "content": "While I was cooking, my husband was cleaning the house. I was reading a book while the children were playing in the garden. She was talking on the phone while he was watching the news. We were studying while our friends were having fun at the party. My mother was preparing dinner while my father was fixing the car. The teacher was explaining the lesson while the students were taking notes. I was listening to music while I was working on my laptop.",
+        "highlights": [
+          {"word": "was cooking"},
+          {"word": "was cleaning"},
+          {"word": "was reading"},
+          {"word": "were playing"},
+          {"word": "was talking"},
+          {"word": "was watching"},
+          {"word": "were studying"},
+          {"word": "were having"},
+          {"word": "was preparing"},
+          {"word": "was fixing"},
+          {"word": "was explaining"},
+          {"word": "were taking"},
+          {"word": "was listening"},
+          {"word": "was working"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "🍳", "iconSize": "4rem", "text": "While I was cooking, he was cleaning the house.", "highlights": ["While", "was cooking", "was cleaning"]},
+        {"id": 2, "icon": "📖", "iconSize": "4rem", "text": "I was reading while the children were playing.", "highlights": ["was reading", "were playing"]},
+        {"id": 3, "icon": "📞", "iconSize": "4rem", "text": "She was talking while he was watching the news.", "highlights": ["was talking", "was watching"]},
+        {"id": 4, "icon": "📚", "iconSize": "4rem", "text": "We were studying while friends were having fun.", "highlights": ["were studying", "were having"]},
+        {"id": 5, "icon": "🍲", "iconSize": "4rem", "text": "Mom was preparing dinner while Dad was fixing the car.", "highlights": ["was preparing", "was fixing"]},
+        {"id": 6, "icon": "👨‍🏫", "iconSize": "4rem", "text": "The teacher was explaining while students were taking notes.", "highlights": ["was explaining", "were taking"]},
+        {"id": 7, "icon": "🎵", "iconSize": "4rem", "text": "I was listening to music while working on my laptop.", "highlights": ["was listening", "was working"]}
+      ]
+    },
+    "descriptions": {
+      "text": {
+        "content": "The scene was beautiful. The sun was shining brightly in the sky. White clouds were floating peacefully. Children were laughing and playing in the park. Their parents were sitting on benches and talking. Some people were walking their dogs. An old man was feeding the pigeons. A young couple was having a picnic on the grass. Everyone was enjoying the lovely summer day. It was a perfect moment.",
+        "highlights": [
+          {"word": "was shining"},
+          {"word": "were floating"},
+          {"word": "were laughing"},
+          {"word": "were playing"},
+          {"word": "were sitting"},
+          {"word": "were walking"},
+          {"word": "was feeding"},
+          {"word": "was having"},
+          {"word": "was enjoying"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "☀️", "iconSize": "4rem", "text": "The sun was shining brightly in the sky.", "highlights": ["was shining", "brightly"]},
+        {"id": 2, "icon": "☁️", "iconSize": "4rem", "text": "White clouds were floating peacefully.", "highlights": ["were floating"]},
+        {"id": 3, "icon": "👧", "iconSize": "4rem", "text": "Children were laughing and playing in the park.", "highlights": ["were laughing", "playing"]},
+        {"id": 4, "icon": "🪑", "iconSize": "4rem", "text": "Parents were sitting on benches and talking.", "highlights": ["were sitting", "talking"]},
+        {"id": 5, "icon": "🐕", "iconSize": "4rem", "text": "Some people were walking their dogs.", "highlights": ["were walking"]},
+        {"id": 6, "icon": "🐦", "iconSize": "4rem", "text": "An old man was feeding the pigeons.", "highlights": ["was feeding"]},
+        {"id": 7, "icon": "🧺", "iconSize": "4rem", "text": "A young couple was having a picnic.", "highlights": ["was having"]},
+        {"id": 8, "icon": "😊", "iconSize": "4rem", "text": "Everyone was enjoying the lovely summer day.", "highlights": ["was enjoying"]}
+      ]
+    },
+    "polite-questions": {
+      "text": {
+        "content": "Excuse me, I was wondering if you could help me. I was hoping you might have a few minutes to talk. We were thinking about going to the cinema tonight. Would you like to join us? I was planning to call you later. I was just wondering what time the meeting starts. She was asking if you would be available tomorrow. They were hoping to get some advice from you. I was meaning to ask you about that project.",
+        "highlights": [
+          {"word": "was wondering"},
+          {"word": "was hoping"},
+          {"word": "were thinking"},
+          {"word": "was planning"},
+          {"word": "was wondering"},
+          {"word": "was asking"},
+          {"word": "were hoping"},
+          {"word": "was meaning"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "🤔", "iconSize": "4rem", "text": "I was wondering if you could help me.", "highlights": ["was wondering"]},
+        {"id": 2, "icon": "🙏", "iconSize": "4rem", "text": "I was hoping you might have a few minutes.", "highlights": ["was hoping"]},
+        {"id": 3, "icon": "🎬", "iconSize": "4rem", "text": "We were thinking about going to the cinema.", "highlights": ["were thinking"]},
+        {"id": 4, "icon": "📞", "iconSize": "4rem", "text": "I was planning to call you later.", "highlights": ["was planning"]},
+        {"id": 5, "icon": "❓", "iconSize": "4rem", "text": "I was just wondering what time it starts.", "highlights": ["was wondering"]},
+        {"id": 6, "icon": "🗓️", "iconSize": "4rem", "text": "She was asking if you would be available.", "highlights": ["was asking"]},
+        {"id": 7, "icon": "💡", "iconSize": "4rem", "text": "They were hoping to get some advice.", "highlights": ["were hoping"]},
+        {"id": 8, "icon": "💬", "iconSize": "4rem", "text": "I was meaning to ask you about that.", "highlights": ["was meaning"]}
+      ]
+    }
+  },
+  "read": {
+    "background-action": {
+      "text": {
+        "overview": {
+          "title": "Past Continuous - Background",
+          "subtitle": "Set the scene in stories",
+          "description": "Use the Past Continuous to describe background actions or atmosphere in past stories."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "Subject + was/were + verb-ing",
+          "affirmative": [
+            {"subject": "I/He/She/It", "verb": "was reading"},
+            {"subject": "You/We/They", "verb": "were reading"},
+            {"subject": "Negative", "verb": "was not (wasn't) working"},
+            {"subject": "Question", "verb": "Were you sleeping?"}
+          ]
+        },
+        "uses": [
+          {"icon": "🎬", "label": "Set the scene", "example": "The sun was shining. Birds were singing."},
+          {"icon": "📖", "label": "Background in stories", "example": "I was sitting at home when..."}
+        ],
+        "timeSignals": {
+          "title": "STORY CONTEXT",
+          "frequency": [],
+          "regular": ["Background for Past Simple actions", "Describes atmosphere/setting", "What was happening before the main event"]
+        },
+        "commonErrors": [
+          {"wrong": "I was sit at home.", "correct": "I was sitting at home.", "explanation": "Don't forget -ing!"},
+          {"wrong": "They was sleeping.", "correct": "They were sleeping.", "explanation": "Use 'were' with they/we/you."}
+        ],
+        "examples": [
+          {"sentence": "The sun was setting when we arrived.", "highlights": ["was setting", "when"]},
+          {"sentence": "Birds were singing in the trees.", "highlights": ["were singing"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "🎬", "iconSize": "5rem", "title": "BACKGROUND", "subtitle": "Set the scene", "description": "Describe the atmosphere", "backgroundColor": "rgba(96, 165, 250, 0.1)"},
+        {"id": 2, "type": "form", "icon": "⚙️", "iconSize": "4rem", "title": "THE FORM", "formula": "was/were + VERB-ing", "examples": [{"left": "I was reading", "right": "She was reading"}, {"left": "You were reading", "right": "We were reading"}, {"left": "They were reading", "right": ""}], "backgroundColor": "rgba(96, 165, 250, 0.08)"},
+        {"id": 3, "type": "uses", "icon": "🎯", "iconSize": "4rem", "title": "CREATE ATMOSPHERE", "items": [{"icon": "🌅", "text": "Weather"}, {"icon": "🎵", "text": "Sounds"}, {"icon": "👥", "text": "What people were doing"}], "backgroundColor": "rgba(16, 185, 129, 0.08)"},
+        {"id": 4, "type": "common-mistake", "icon": "⚠️", "iconSize": "4rem", "title": "WATCH OUT", "wrong": "They was sleeping", "correct": "They were sleeping", "tip": "were with they/we/you!", "backgroundColor": "rgba(239, 68, 68, 0.08)"}
+      ]
+    },
+    "interrupted-action": {
+      "text": {
+        "overview": {
+          "title": "Past Continuous - Interrupted Actions",
+          "subtitle": "Actions interrupted by something",
+          "description": "Use Past Continuous for a longer action that was interrupted by a shorter Past Simple action."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "was/were + verb-ing + when + Past Simple",
+          "affirmative": [
+            {"subject": "Pattern", "verb": "I was doing X when Y happened"},
+            {"subject": "Example 1", "verb": "I was cooking when the phone rang"},
+            {"subject": "Example 2", "verb": "She was driving when she saw the accident"}
+          ]
+        },
+        "uses": [
+          {"icon": "⚡", "label": "Longer action interrupted", "example": "I was reading when you called."},
+          {"icon": "🔔", "label": "Two actions: one interrupts", "example": "I was sleeping when the alarm rang."}
+        ],
+        "timeSignals": {
+          "title": "KEY CONNECTOR",
+          "frequency": [],
+          "regular": ["when (most common)", "while (sometimes)", "as (formal)"]
+        },
+        "commonErrors": [
+          {"wrong": "I read when the phone rang.", "correct": "I was reading when the phone rang.", "explanation": "Use continuous for the longer/background action."},
+          {"wrong": "I was reading when the phone was ringing.", "correct": "I was reading when the phone rang.", "explanation": "The interrupting action is Past Simple."}
+        ],
+        "examples": [
+          {"sentence": "I was taking a shower when someone knocked.", "highlights": ["was taking", "when", "knocked"]},
+          {"sentence": "They were playing when it started to rain.", "highlights": ["were playing", "started"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "⚡", "iconSize": "5rem", "title": "INTERRUPTED", "subtitle": "Something stopped the action", "description": "was doing → when → happened", "backgroundColor": "rgba(245, 158, 11, 0.1)"},
+        {"id": 2, "type": "form", "icon": "⚙️", "iconSize": "4rem", "title": "THE PATTERN", "formula": "was/were -ing + WHEN + past", "examples": [{"left": "I was cooking", "right": "when phone rang"}, {"left": "She was driving", "right": "when she saw it"}, {"left": "We were sleeping", "right": "when alarm rang"}], "backgroundColor": "rgba(245, 158, 11, 0.08)"},
+        {"id": 3, "type": "uses", "icon": "🎯", "iconSize": "4rem", "title": "TWO ACTIONS", "items": [{"icon": "⏳", "text": "LONG action (continuous)"}, {"icon": "⚡", "text": "SHORT action (simple)"}, {"icon": "🔗", "text": "Connected by WHEN"}], "backgroundColor": "rgba(245, 158, 11, 0.08)"},
+        {"id": 4, "type": "common-mistake", "icon": "⚠️", "iconSize": "4rem", "title": "WATCH OUT", "wrong": "I read when phone rang", "correct": "I was reading when phone rang", "tip": "Longer action = continuous!", "backgroundColor": "rgba(239, 68, 68, 0.08)"}
+      ]
+    },
+    "parallel-actions": {
+      "text": {
+        "overview": {
+          "title": "Past Continuous - Parallel Actions",
+          "subtitle": "Two actions happening at the same time",
+          "description": "Use Past Continuous for two or more actions that were happening at the same time in the past."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "was/were -ing + while + was/were -ing",
+          "affirmative": [
+            {"subject": "Pattern", "verb": "I was doing X while Y was happening"},
+            {"subject": "Example 1", "verb": "I was cooking while he was cleaning"},
+            {"subject": "Example 2", "verb": "She was studying while they were watching TV"}
+          ]
+        },
+        "uses": [
+          {"icon": "⏸️", "label": "Simultaneous actions", "example": "I was reading while she was cooking."},
+          {"icon": "👥", "label": "Different people, same time", "example": "He was working while I was sleeping."}
+        ],
+        "timeSignals": {
+          "title": "KEY CONNECTOR",
+          "frequency": [],
+          "regular": ["while (most common)", "as (formal)", "Both actions = Past Continuous"]
+        },
+        "commonErrors": [
+          {"wrong": "I was cooking while he cleaned.", "correct": "I was cooking while he was cleaning.", "explanation": "Both actions should be continuous."}
+        ],
+        "examples": [
+          {"sentence": "I was studying while my roommate was watching TV.", "highlights": ["was studying", "while", "was watching"]},
+          {"sentence": "The children were playing while the parents were talking.", "highlights": ["were playing", "were talking"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "⏸️", "iconSize": "5rem", "title": "PARALLEL ACTIONS", "subtitle": "Same time", "description": "Two things at once", "backgroundColor": "rgba(139, 92, 246, 0.1)"},
+        {"id": 2, "type": "form", "icon": "⚙️", "iconSize": "4rem", "title": "THE PATTERN", "formula": "was/were -ing + WHILE + was/were -ing", "examples": [{"left": "I was cooking", "right": "while he was cleaning"}, {"left": "She was reading", "right": "while they were playing"}], "backgroundColor": "rgba(139, 92, 246, 0.08)"},
+        {"id": 3, "type": "uses", "icon": "🎯", "iconSize": "4rem", "title": "KEY POINT", "items": [{"icon": "⏸️", "text": "Both actions ongoing"}, {"icon": "🕐", "text": "Same time period"}, {"icon": "👥", "text": "Often different people"}], "backgroundColor": "rgba(139, 92, 246, 0.08)"}
+      ]
+    },
+    "descriptions": {
+      "text": {
+        "overview": {
+          "title": "Past Continuous - Descriptions",
+          "subtitle": "Describe a past scene",
+          "description": "Use Past Continuous to paint a picture of what was happening in a scene or moment."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "Multiple was/were + verb-ing (describing different elements)",
+          "affirmative": [
+            {"subject": "Weather", "verb": "The sun was shining"},
+            {"subject": "People", "verb": "Children were playing"},
+            {"subject": "Sounds", "verb": "Birds were singing"}
+          ]
+        },
+        "uses": [
+          {"icon": "🖼️", "label": "Paint a picture", "example": "The sun was shining. Birds were singing."},
+          {"icon": "📸", "label": "Describe a moment", "example": "Everyone was smiling and laughing."}
+        ],
+        "timeSignals": {
+          "title": "DESCRIPTIVE CONTEXT",
+          "frequency": [],
+          "regular": ["Often multiple continuous verbs together", "Creates vivid imagery", "Common in creative writing"]
+        },
+        "commonErrors": [],
+        "examples": [
+          {"sentence": "The sun was setting and birds were flying home.", "highlights": ["was setting", "were flying"]},
+          {"sentence": "People were walking, talking, and enjoying the day.", "highlights": ["were walking", "talking", "enjoying"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "🖼️", "iconSize": "5rem", "title": "DESCRIPTIONS", "subtitle": "Paint a picture", "description": "Describe the scene", "backgroundColor": "rgba(16, 185, 129, 0.1)"},
+        {"id": 2, "type": "uses", "icon": "🎯", "iconSize": "4rem", "title": "CREATE IMAGERY", "items": [{"icon": "☀️", "text": "Weather & nature"}, {"icon": "👥", "text": "What people were doing"}, {"icon": "🎵", "text": "Sounds & atmosphere"}], "backgroundColor": "rgba(16, 185, 129, 0.08)"}
+      ]
+    },
+    "polite-questions": {
+      "text": {
+        "overview": {
+          "title": "Past Continuous - Polite Requests",
+          "subtitle": "Sound more polite",
+          "description": "Use Past Continuous with verbs like 'wonder', 'hope', 'think' to make requests more polite."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "I was wondering/hoping/thinking...",
+          "affirmative": [
+            {"subject": "Wonder", "verb": "I was wondering if you could help"},
+            {"subject": "Hope", "verb": "I was hoping you might have time"},
+            {"subject": "Think", "verb": "We were thinking about going out"}
+          ]
+        },
+        "uses": [
+          {"icon": "🙏", "label": "Polite requests", "example": "I was wondering if you could help me."},
+          {"icon": "💬", "label": "Softer suggestions", "example": "We were thinking about meeting later."}
+        ],
+        "timeSignals": {
+          "title": "POLITE VERBS",
+          "frequency": [],
+          "regular": ["was/were wondering", "was/were hoping", "was/were thinking", "was/were meaning to"]
+        },
+        "commonErrors": [],
+        "examples": [
+          {"sentence": "I was wondering if you'd like to join us.", "highlights": ["was wondering"]},
+          {"sentence": "We were hoping you could come to the party.", "highlights": ["were hoping"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "🙏", "iconSize": "5rem", "title": "POLITE REQUESTS", "subtitle": "Sound softer", "description": "More polite than simple", "backgroundColor": "rgba(236, 72, 153, 0.1)"},
+        {"id": 2, "type": "form", "icon": "⚙️", "iconSize": "4rem", "title": "POLITE VERBS", "formula": "was/were + wondering/hoping/thinking", "examples": [{"left": "I was wondering", "right": "(more polite)"}, {"left": "I wonder", "right": "(direct)"}, {"left": "I was hoping", "right": "(softer)"}], "backgroundColor": "rgba(236, 72, 153, 0.08)"},
+        {"id": 3, "type": "uses", "icon": "🎯", "iconSize": "4rem", "title": "MAKES YOU SOUND", "items": [{"icon": "🙏", "text": "More polite"}, {"icon": "😊", "text": "Less direct"}, {"icon": "💼", "text": "More professional"}], "backgroundColor": "rgba(236, 72, 153, 0.08)"}
+      ]
+    }
+  }
+}
