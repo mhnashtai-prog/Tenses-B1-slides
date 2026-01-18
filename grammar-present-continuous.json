@@ -1,0 +1,404 @@
+{
+  "skillArea": "grammar",
+  "level": "B1",
+  "tense": {
+    "time": "present",
+    "aspect": "continuous"
+  },
+  "metadata": {
+    "title": "Present Continuous",
+    "icon": "📖",
+    "description": "Learn the Present Continuous tense"
+  },
+  "watch": {
+    "right-now": {
+      "text": {
+        "content": "Look! Sarah is teaching her class right now. The children are sitting at their desks. They are listening carefully to the story. One boy is raising his hand. He is asking a question. Sarah is smiling and answering him. The other children are watching quietly. Everyone is learning something new today.",
+        "highlights": [
+          {"word": "is teaching"},
+          {"word": "are sitting"},
+          {"word": "are listening"},
+          {"word": "is raising"},
+          {"word": "is asking"},
+          {"word": "is smiling"},
+          {"word": "are watching"},
+          {"word": "is learning"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "👩‍🏫", "iconSize": "4rem", "text": "Look! Sarah is teaching her class right now.", "highlights": ["Look", "is teaching", "right now"]},
+        {"id": 2, "icon": "🪑", "iconSize": "4rem", "text": "The children are sitting at their desks.", "highlights": ["are sitting"]},
+        {"id": 3, "icon": "👂", "iconSize": "4rem", "text": "They are listening carefully to the story.", "highlights": ["are listening", "carefully"]},
+        {"id": 4, "icon": "✋", "iconSize": "4rem", "text": "One boy is raising his hand.", "highlights": ["is raising"]},
+        {"id": 5, "icon": "❓", "iconSize": "4rem", "text": "He is asking a question.", "highlights": ["is asking"]},
+        {"id": 6, "icon": "😊", "iconSize": "4rem", "text": "Sarah is smiling and answering him.", "highlights": ["is smiling"]},
+        {"id": 7, "icon": "👀", "iconSize": "4rem", "text": "The other children are watching quietly.", "highlights": ["are watching", "quietly"]},
+        {"id": 8, "icon": "💡", "iconSize": "4rem", "text": "Everyone is learning something new today.", "highlights": ["is learning", "today"]}
+      ]
+    },
+    "temporary": {
+      "text": {
+        "content": "This month, I am living with my parents. I am saving money for a new apartment. My brother is studying abroad this year. He is staying with a host family in Spain. My sister is working at a summer camp. She is teaching swimming to children. We are all doing different things, but we are planning a reunion in December.",
+        "highlights": [
+          {"word": "am living"},
+          {"word": "am saving"},
+          {"word": "is studying"},
+          {"word": "is staying"},
+          {"word": "is working"},
+          {"word": "is teaching"},
+          {"word": "are doing"},
+          {"word": "are planning"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "🏠", "iconSize": "4rem", "text": "This month, I am living with my parents.", "highlights": ["This month", "am living"]},
+        {"id": 2, "icon": "💰", "iconSize": "4rem", "text": "I am saving money for a new apartment.", "highlights": ["am saving"]},
+        {"id": 3, "icon": "✈️", "iconSize": "4rem", "text": "My brother is studying abroad this year.", "highlights": ["is studying", "this year"]},
+        {"id": 4, "icon": "🇪🇸", "iconSize": "4rem", "text": "He is staying with a host family in Spain.", "highlights": ["is staying"]},
+        {"id": 5, "icon": "🏊", "iconSize": "4rem", "text": "My sister is working at a summer camp.", "highlights": ["is working"]},
+        {"id": 6, "icon": "👧", "iconSize": "4rem", "text": "She is teaching swimming to children.", "highlights": ["is teaching"]},
+        {"id": 7, "icon": "🔄", "iconSize": "4rem", "text": "We are all doing different things.", "highlights": ["are doing"]},
+        {"id": 8, "icon": "📅", "iconSize": "4rem", "text": "We are planning a reunion in December.", "highlights": ["are planning"]}
+      ]
+    },
+    "future-plans": {
+      "text": {
+        "content": "I am meeting Sarah for coffee tomorrow at 3 PM. We are going to that new café downtown. My parents are flying to London next week. They are visiting my aunt and uncle. On Saturday, I am having dinner with some friends. We are celebrating Maria's birthday. Next month, I am starting a new course. I am taking Spanish lessons at the community center.",
+        "highlights": [
+          {"word": "am meeting"},
+          {"word": "are going"},
+          {"word": "are flying"},
+          {"word": "are visiting"},
+          {"word": "am having"},
+          {"word": "are celebrating"},
+          {"word": "am starting"},
+          {"word": "am taking"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "☕", "iconSize": "4rem", "text": "I am meeting Sarah for coffee tomorrow at 3 PM.", "highlights": ["am meeting", "tomorrow"]},
+        {"id": 2, "icon": "🏪", "iconSize": "4rem", "text": "We are going to that new café downtown.", "highlights": ["are going"]},
+        {"id": 3, "icon": "✈️", "iconSize": "4rem", "text": "My parents are flying to London next week.", "highlights": ["are flying", "next week"]},
+        {"id": 4, "icon": "👨‍👩‍👧", "iconSize": "4rem", "text": "They are visiting my aunt and uncle.", "highlights": ["are visiting"]},
+        {"id": 5, "icon": "🍽️", "iconSize": "4rem", "text": "On Saturday, I am having dinner with friends.", "highlights": ["On Saturday", "am having"]},
+        {"id": 6, "icon": "🎂", "iconSize": "4rem", "text": "We are celebrating Maria's birthday.", "highlights": ["are celebrating"]},
+        {"id": 7, "icon": "📚", "iconSize": "4rem", "text": "Next month, I am starting a new course.", "highlights": ["Next month", "am starting"]},
+        {"id": 8, "icon": "🇪🇸", "iconSize": "4rem", "text": "I am taking Spanish lessons.", "highlights": ["am taking"]}
+      ]
+    },
+    "trends": {
+      "text": {
+        "content": "The climate is changing rapidly. Temperatures are rising every year. More people are working from home these days. Companies are adapting to remote work. Online shopping is growing faster than ever. Traditional stores are struggling to compete. Young people are spending more time on social media. The world is becoming more connected.",
+        "highlights": [
+          {"word": "is changing"},
+          {"word": "are rising"},
+          {"word": "are working"},
+          {"word": "are adapting"},
+          {"word": "is growing"},
+          {"word": "are struggling"},
+          {"word": "are spending"},
+          {"word": "is becoming"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "🌍", "iconSize": "4rem", "text": "The climate is changing rapidly.", "highlights": ["is changing", "rapidly"]},
+        {"id": 2, "icon": "🌡️", "iconSize": "4rem", "text": "Temperatures are rising every year.", "highlights": ["are rising"]},
+        {"id": 3, "icon": "💻", "iconSize": "4rem", "text": "More people are working from home these days.", "highlights": ["are working", "these days"]},
+        {"id": 4, "icon": "🏢", "iconSize": "4rem", "text": "Companies are adapting to remote work.", "highlights": ["are adapting"]},
+        {"id": 5, "icon": "🛒", "iconSize": "4rem", "text": "Online shopping is growing faster than ever.", "highlights": ["is growing"]},
+        {"id": 6, "icon": "🏪", "iconSize": "4rem", "text": "Traditional stores are struggling to compete.", "highlights": ["are struggling"]},
+        {"id": 7, "icon": "📱", "iconSize": "4rem", "text": "Young people are spending more time on social media.", "highlights": ["are spending"]},
+        {"id": 8, "icon": "🌐", "iconSize": "4rem", "text": "The world is becoming more connected.", "highlights": ["is becoming"]}
+      ]
+    },
+    "complaints": {
+      "text": {
+        "content": "My neighbor is always making noise at night. He is constantly playing loud music. His dog is always barking in the garden. The people upstairs are forever dropping things on the floor. My roommate is always leaving dirty dishes in the sink. She is constantly forgetting to turn off the lights. The delivery drivers are always blocking our driveway. Everyone is always complaining, but nobody is doing anything about it!",
+        "highlights": [
+          {"word": "is always making"},
+          {"word": "is constantly playing"},
+          {"word": "is always barking"},
+          {"word": "are forever dropping"},
+          {"word": "is always leaving"},
+          {"word": "is constantly forgetting"},
+          {"word": "are always blocking"},
+          {"word": "is always complaining"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "🔊", "iconSize": "4rem", "text": "My neighbor is always making noise at night.", "highlights": ["is always making"]},
+        {"id": 2, "icon": "🎵", "iconSize": "4rem", "text": "He is constantly playing loud music.", "highlights": ["is constantly playing"]},
+        {"id": 3, "icon": "🐕", "iconSize": "4rem", "text": "His dog is always barking in the garden.", "highlights": ["is always barking"]},
+        {"id": 4, "icon": "⬆️", "iconSize": "4rem", "text": "The people upstairs are forever dropping things.", "highlights": ["are forever dropping"]},
+        {"id": 5, "icon": "🍽️", "iconSize": "4rem", "text": "My roommate is always leaving dirty dishes.", "highlights": ["is always leaving"]},
+        {"id": 6, "icon": "💡", "iconSize": "4rem", "text": "She is constantly forgetting to turn off lights.", "highlights": ["is constantly forgetting"]},
+        {"id": 7, "icon": "🚚", "iconSize": "4rem", "text": "Delivery drivers are always blocking our driveway.", "highlights": ["are always blocking"]},
+        {"id": 8, "icon": "😤", "iconSize": "4rem", "text": "Everyone is always complaining!", "highlights": ["is always complaining"]}
+      ]
+    },
+    "background": {
+      "text": {
+        "content": "Yesterday, I was reading a book when the phone rang. I was sitting in my favorite chair. The sun was shining through the window. Birds were singing outside. Suddenly, someone knocked on the door. I was expecting a package, so I got up quickly. While I was walking to the door, the phone rang again. My cat was sleeping on the sofa the whole time.",
+        "highlights": [
+          {"word": "was reading"},
+          {"word": "was sitting"},
+          {"word": "was shining"},
+          {"word": "were singing"},
+          {"word": "was expecting"},
+          {"word": "was walking"},
+          {"word": "was sleeping"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "📖", "iconSize": "4rem", "text": "I was reading a book when the phone rang.", "highlights": ["was reading", "when"]},
+        {"id": 2, "icon": "🪑", "iconSize": "4rem", "text": "I was sitting in my favorite chair.", "highlights": ["was sitting"]},
+        {"id": 3, "icon": "☀️", "iconSize": "4rem", "text": "The sun was shining through the window.", "highlights": ["was shining"]},
+        {"id": 4, "icon": "🐦", "iconSize": "4rem", "text": "Birds were singing outside.", "highlights": ["were singing"]},
+        {"id": 5, "icon": "🚪", "iconSize": "4rem", "text": "Suddenly, someone knocked on the door.", "highlights": ["Suddenly"]},
+        {"id": 6, "icon": "📦", "iconSize": "4rem", "text": "I was expecting a package.", "highlights": ["was expecting"]},
+        {"id": 7, "icon": "🚶", "iconSize": "4rem", "text": "While I was walking to the door, the phone rang.", "highlights": ["While", "was walking"]},
+        {"id": 8, "icon": "😺", "iconSize": "4rem", "text": "My cat was sleeping on the sofa the whole time.", "highlights": ["was sleeping", "the whole time"]}
+      ]
+    }
+  },
+  "read": {
+    "right-now": {
+      "text": {
+        "overview": {
+          "title": "Present Continuous - Right Now",
+          "subtitle": "Actions happening at this moment",
+          "description": "Use the Present Continuous for actions happening right now, at this exact moment."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "Subject + am/is/are + verb-ing",
+          "affirmative": [
+            {"subject": "I", "verb": "am working"},
+            {"subject": "You", "verb": "are working"},
+            {"subject": "He/She/It", "verb": "is working"},
+            {"subject": "We", "verb": "are working"},
+            {"subject": "They", "verb": "are working"}
+          ]
+        },
+        "uses": [
+          {"icon": "⏰", "label": "Actions at the moment of speaking", "example": "I am typing right now."},
+          {"icon": "👀", "label": "Things we can see happening", "example": "Look! It's raining!"}
+        ],
+        "timeSignals": {
+          "title": "TIME SIGNALS",
+          "frequency": [],
+          "regular": ["now", "right now", "at the moment", "currently", "Look!", "Listen!"]
+        },
+        "commonErrors": [
+          {"wrong": "I am work right now.", "correct": "I am working right now.", "explanation": "Don't forget -ing!"},
+          {"wrong": "She working now.", "correct": "She is working now.", "explanation": "Don't forget am/is/are!"}
+        ],
+        "examples": [
+          {"sentence": "Listen! Someone is knocking on the door.", "highlights": ["Listen", "is knocking"]},
+          {"sentence": "The children are playing in the garden now.", "highlights": ["are playing", "now"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "⏰", "iconSize": "5rem", "title": "RIGHT NOW", "subtitle": "This exact moment", "description": "Actions happening NOW", "backgroundColor": "rgba(96, 165, 250, 0.1)"},
+        {"id": 2, "type": "form", "icon": "⚙️", "iconSize": "4rem", "title": "THE FORM", "formula": "am/is/are + VERB-ing", "examples": [{"left": "I am working", "right": "She is working"}, {"left": "You are working", "right": "We are working"}, {"left": "They are working", "right": ""}], "backgroundColor": "rgba(96, 165, 250, 0.08)"},
+        {"id": 3, "type": "uses", "icon": "🎯", "iconSize": "4rem", "title": "WHEN TO USE", "items": [{"icon": "⏰", "text": "Right now"}, {"icon": "👀", "text": "Visible actions"}, {"icon": "📍", "text": "This moment"}], "backgroundColor": "rgba(16, 185, 129, 0.08)"},
+        {"id": 4, "type": "time-signals", "icon": "🕐", "iconSize": "4rem", "title": "KEY WORDS", "frequency": [], "regular": ["now", "right now", "at the moment", "Look!", "Listen!"], "backgroundColor": "rgba(139, 92, 246, 0.08)"},
+        {"id": 5, "type": "common-mistake", "icon": "⚠️", "iconSize": "4rem", "title": "WATCH OUT", "wrong": "I am work", "correct": "I am working", "tip": "Don't forget -ing!", "backgroundColor": "rgba(239, 68, 68, 0.08)"}
+      ]
+    },
+    "temporary": {
+      "text": {
+        "overview": {
+          "title": "Present Continuous - Temporary",
+          "subtitle": "Temporary situations",
+          "description": "Use the Present Continuous for situations that are temporary, not permanent."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "Subject + am/is/are + verb-ing",
+          "affirmative": [
+            {"subject": "I", "verb": "am living (temporarily)"},
+            {"subject": "She", "verb": "is studying (this semester)"},
+            {"subject": "They", "verb": "are working (this month)"}
+          ]
+        },
+        "uses": [
+          {"icon": "📅", "label": "Temporary situations", "example": "I'm living with my parents this month."},
+          {"icon": "🔄", "label": "Not permanent", "example": "She's working at a café while she looks for a better job."}
+        ],
+        "timeSignals": {
+          "title": "TIME SIGNALS",
+          "frequency": [],
+          "regular": ["this week", "this month", "this year", "these days", "currently", "temporarily", "for now"]
+        },
+        "commonErrors": [
+          {"wrong": "I live with my parents this month.", "correct": "I am living with my parents this month.", "explanation": "Use continuous for temporary situations."}
+        ],
+        "examples": [
+          {"sentence": "I'm staying at a hotel while my house is being renovated.", "highlights": ["I'm staying", "while"]},
+          {"sentence": "She's working part-time this semester.", "highlights": ["She's working", "this semester"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "🔄", "iconSize": "5rem", "title": "TEMPORARY", "subtitle": "Not permanent", "description": "Situations that will change", "backgroundColor": "rgba(245, 158, 11, 0.1)"},
+        {"id": 2, "type": "uses", "icon": "🎯", "iconSize": "4rem", "title": "WHEN TO USE", "items": [{"icon": "📅", "text": "This week/month/year"}, {"icon": "🏠", "text": "Temporary living"}, {"icon": "💼", "text": "Short-term work"}], "backgroundColor": "rgba(245, 158, 11, 0.08)"},
+        {"id": 3, "type": "time-signals", "icon": "🕐", "iconSize": "4rem", "title": "KEY WORDS", "frequency": [], "regular": ["this week", "this month", "these days", "currently", "for now"], "backgroundColor": "rgba(139, 92, 246, 0.08)"}
+      ]
+    },
+    "future-plans": {
+      "text": {
+        "overview": {
+          "title": "Present Continuous - Future Plans",
+          "subtitle": "Arranged future events",
+          "description": "Use the Present Continuous for future plans that are already arranged and confirmed."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "Subject + am/is/are + verb-ing + future time",
+          "affirmative": [
+            {"subject": "I", "verb": "am meeting (tomorrow)"},
+            {"subject": "We", "verb": "are flying (next week)"},
+            {"subject": "She", "verb": "is starting (on Monday)"}
+          ]
+        },
+        "uses": [
+          {"icon": "📅", "label": "Arranged future plans", "example": "I'm meeting John at 5pm tomorrow."},
+          {"icon": "✅", "label": "Confirmed appointments", "example": "We're having dinner with Sarah on Friday."}
+        ],
+        "timeSignals": {
+          "title": "TIME SIGNALS",
+          "frequency": [],
+          "regular": ["tomorrow", "tonight", "next week", "next month", "on Monday", "this weekend", "later"]
+        },
+        "commonErrors": [
+          {"wrong": "I meet John tomorrow.", "correct": "I am meeting John tomorrow.", "explanation": "Use continuous for arranged future plans."}
+        ],
+        "examples": [
+          {"sentence": "We're flying to Paris next Thursday.", "highlights": ["We're flying", "next Thursday"]},
+          {"sentence": "I'm having lunch with my boss tomorrow.", "highlights": ["I'm having", "tomorrow"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "📅", "iconSize": "5rem", "title": "FUTURE PLANS", "subtitle": "Arranged events", "description": "Plans already confirmed", "backgroundColor": "rgba(16, 185, 129, 0.1)"},
+        {"id": 2, "type": "uses", "icon": "🎯", "iconSize": "4rem", "title": "WHEN TO USE", "items": [{"icon": "✅", "text": "Confirmed plans"}, {"icon": "📆", "text": "Appointments"}, {"icon": "🎫", "text": "Booked events"}], "backgroundColor": "rgba(16, 185, 129, 0.08)"},
+        {"id": 3, "type": "time-signals", "icon": "🕐", "iconSize": "4rem", "title": "KEY WORDS", "frequency": [], "regular": ["tomorrow", "tonight", "next week", "on Monday", "this weekend"], "backgroundColor": "rgba(139, 92, 246, 0.08)"},
+        {"id": 4, "type": "common-mistake", "icon": "⚠️", "iconSize": "4rem", "title": "IMPORTANT", "wrong": "I meet John tomorrow", "correct": "I am meeting John tomorrow", "tip": "Plans need continuous form!", "backgroundColor": "rgba(239, 68, 68, 0.08)"}
+      ]
+    },
+    "trends": {
+      "text": {
+        "overview": {
+          "title": "Present Continuous - Trends",
+          "subtitle": "Changing situations and trends",
+          "description": "Use the Present Continuous for situations that are changing or developing over time."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "Subject + am/is/are + verb-ing",
+          "affirmative": [
+            {"subject": "Prices", "verb": "are rising"},
+            {"subject": "Technology", "verb": "is improving"},
+            {"subject": "People", "verb": "are changing"}
+          ]
+        },
+        "uses": [
+          {"icon": "📈", "label": "Trends and changes", "example": "The climate is getting warmer."},
+          {"icon": "🔄", "label": "Developing situations", "example": "More people are working from home."}
+        ],
+        "timeSignals": {
+          "title": "TIME SIGNALS",
+          "frequency": [],
+          "regular": ["these days", "nowadays", "increasingly", "more and more", "gradually", "slowly"]
+        },
+        "commonErrors": [],
+        "examples": [
+          {"sentence": "Technology is changing the way we work.", "highlights": ["is changing"]},
+          {"sentence": "More people are choosing to study online.", "highlights": ["are choosing"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "📈", "iconSize": "5rem", "title": "TRENDS", "subtitle": "Changes over time", "description": "Developing situations", "backgroundColor": "rgba(139, 92, 246, 0.1)"},
+        {"id": 2, "type": "uses", "icon": "🎯", "iconSize": "4rem", "title": "WHEN TO USE", "items": [{"icon": "📈", "text": "Rising/falling trends"}, {"icon": "🌍", "text": "Social changes"}, {"icon": "🔄", "text": "Developing situations"}], "backgroundColor": "rgba(139, 92, 246, 0.08)"},
+        {"id": 3, "type": "time-signals", "icon": "🕐", "iconSize": "4rem", "title": "KEY WORDS", "frequency": [], "regular": ["these days", "nowadays", "more and more", "increasingly"], "backgroundColor": "rgba(139, 92, 246, 0.08)"}
+      ]
+    },
+    "complaints": {
+      "text": {
+        "overview": {
+          "title": "Present Continuous - Complaints",
+          "subtitle": "Express annoyance (always/constantly)",
+          "description": "Use 'always' or 'constantly' + Present Continuous to express irritation about repeated actions."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "Subject + am/is/are + always/constantly + verb-ing",
+          "affirmative": [
+            {"subject": "He", "verb": "is always complaining"},
+            {"subject": "She", "verb": "is constantly talking"},
+            {"subject": "They", "verb": "are forever arguing"}
+          ]
+        },
+        "uses": [
+          {"icon": "😤", "label": "Express annoyance", "example": "He's always interrupting me!"},
+          {"icon": "🔁", "label": "Repeated irritating actions", "example": "She's constantly forgetting her keys."}
+        ],
+        "timeSignals": {
+          "title": "KEY WORDS",
+          "frequency": [],
+          "regular": ["always (with continuous)", "constantly", "forever", "continually"]
+        },
+        "commonErrors": [
+          {"wrong": "He always forgets.", "correct": "He's always forgetting.", "explanation": "Use continuous with 'always' for complaints."}
+        ],
+        "examples": [
+          {"sentence": "My neighbor is always making noise at night.", "highlights": ["is always making"]},
+          {"sentence": "You're constantly leaving your stuff everywhere!", "highlights": ["constantly leaving"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "😤", "iconSize": "5rem", "title": "COMPLAINTS", "subtitle": "Always + -ing", "description": "Express annoyance", "backgroundColor": "rgba(239, 68, 68, 0.1)"},
+        {"id": 2, "type": "form", "icon": "⚙️", "iconSize": "4rem", "title": "THE FORM", "formula": "always/constantly + VERB-ing", "examples": [{"left": "He's always complaining", "right": ""}, {"left": "She's constantly talking", "right": ""}, {"left": "They're forever arguing", "right": ""}], "backgroundColor": "rgba(239, 68, 68, 0.08)"},
+        {"id": 3, "type": "uses", "icon": "😠", "iconSize": "4rem", "title": "SHOWS IRRITATION", "items": [{"icon": "😤", "text": "Annoying habits"}, {"icon": "🔁", "text": "Repeated actions"}, {"icon": "😡", "text": "Frustration"}], "backgroundColor": "rgba(239, 68, 68, 0.08)"},
+        {"id": 4, "type": "common-mistake", "icon": "⚠️", "iconSize": "4rem", "title": "WATCH OUT", "wrong": "He always forgets", "correct": "He's always forgetting", "tip": "Use continuous for complaints!", "backgroundColor": "rgba(239, 68, 68, 0.08)"}
+      ]
+    },
+    "background": {
+      "text": {
+        "overview": {
+          "title": "Past Continuous - Background",
+          "subtitle": "Background actions in stories",
+          "description": "Use Past Continuous (was/were + -ing) for background actions that were in progress when something else happened."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "Subject + was/were + verb-ing",
+          "affirmative": [
+            {"subject": "I/He/She/It", "verb": "was reading"},
+            {"subject": "You/We/They", "verb": "were reading"}
+          ]
+        },
+        "uses": [
+          {"icon": "📖", "label": "Background in stories", "example": "I was reading when the phone rang."},
+          {"icon": "🔄", "label": "Actions in progress", "example": "While I was cooking, she was studying."}
+        ],
+        "timeSignals": {
+          "title": "TIME SIGNALS",
+          "frequency": [],
+          "regular": ["when", "while", "as", "at that moment", "at that time"]
+        },
+        "commonErrors": [
+          {"wrong": "I read when the phone rang.", "correct": "I was reading when the phone rang.", "explanation": "Use past continuous for background action."}
+        ],
+        "examples": [
+          {"sentence": "The sun was shining when we left the house.", "highlights": ["was shining", "when"]},
+          {"sentence": "While they were sleeping, someone broke in.", "highlights": ["While", "were sleeping"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "📖", "iconSize": "5rem", "title": "BACKGROUND", "subtitle": "Past Continuous", "description": "was/were + -ing", "backgroundColor": "rgba(245, 158, 11, 0.1)"},
+        {"id": 2, "type": "form", "icon": "⚙️", "iconSize": "4rem", "title": "THE FORM", "formula": "was/were + VERB-ing", "examples": [{"left": "I was reading", "right": "She was reading"}, {"left": "You were reading", "right": "We were reading"}, {"left": "They were reading", "right": ""}], "backgroundColor": "rgba(245, 158, 11, 0.08)"},
+        {"id": 3, "type": "uses", "icon": "🎯", "iconSize": "4rem", "title": "WHEN TO USE", "items": [{"icon": "📖", "text": "Background in stories"}, {"icon": "⏰", "text": "Action in progress"}, {"icon": "🔄", "text": "Interrupted actions"}], "backgroundColor": "rgba(245, 158, 11, 0.08)"}
+      ]
+    }
+  }
+}
