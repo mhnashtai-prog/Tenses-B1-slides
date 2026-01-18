@@ -1,0 +1,1397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INTUITY - Grammar: Present Simple</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body {
+      font-family: 'DM Sans', 'Inter', -apple-system, sans-serif;
+      background: #0d0d0d;
+      background-image: radial-gradient(circle at 20% 50%, rgba(201, 169, 97, 0.04) 0%, transparent 50%),
+                        radial-gradient(circle at 80% 80%, rgba(201, 169, 97, 0.03) 0%, transparent 50%);
+      color: #e5e5e5;
+      min-height: 100vh;
+      padding: 1rem;
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    /* HEADER */
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 0;
+      margin-bottom: 1.5rem;
+    }
+
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    .home-link {
+      color: #8e8e93;
+      text-decoration: none;
+      font-size: 0.875rem;
+      font-weight: 500;
+      transition: color 0.3s ease;
+      display: flex;
+      align-items: center;
+      gap: 0.375rem;
+    }
+
+    .home-link:hover {
+      color: #C9A961;
+    }
+
+    .brand-section {
+      text-align: left;
+    }
+
+    .brand {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #C9A961 0%, rgba(201, 169, 97, 0.8) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-transform: uppercase;
+      letter-spacing: -0.04em;
+    }
+
+    .subtitle {
+      font-size: 0.75rem;
+      color: #8e8e93;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .header-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid rgba(84, 84, 88, 0.3);
+      color: #8e8e93;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-size: 0.875rem;
+    }
+
+    .header-icon:hover {
+      background: rgba(0, 0, 0, 0.5);
+      border-color: rgba(201, 169, 97, 0.4);
+      color: #C9A961;
+    }
+
+    .streak {
+      display: flex;
+      align-items: center;
+      gap: 0.375rem;
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #C9A961;
+    }
+
+    /* TIER 1: TIME FRAME */
+    .tier-1 {
+      display: flex;
+      justify-content: center;
+      gap: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .tier-1-btn {
+      padding: 0.75rem 1.5rem;
+      background: transparent;
+      border: none;
+      color: #636366;
+      font-size: 0.875rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    .tier-1-btn::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: transparent;
+      transition: all 0.3s ease;
+    }
+
+    .tier-1-btn:hover {
+      color: #C9A961;
+    }
+
+    .tier-1-btn.active {
+      color: #C9A961;
+      font-weight: 700;
+    }
+
+    .tier-1-btn.active::after {
+      background: #C9A961;
+      box-shadow: 0 0 12px rgba(201, 169, 97, 0.6);
+    }
+
+    /* TIER 2: ASPECT */
+    .tier-2 {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .tier-2-btn {
+      padding: 0.625rem 1.25rem;
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid transparent;
+      color: #636366;
+      font-size: 0.75rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .tier-2-btn:hover {
+      color: #C9A961;
+      border-bottom-color: rgba(201, 169, 97, 0.3);
+    }
+
+    .tier-2-btn.active {
+      color: #C9A961;
+      border-bottom-color: #C9A961;
+      font-weight: 600;
+    }
+
+    /* TIER 3: CONTEXT */
+    .tier-3 {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .tier-3-btn {
+      padding: 0.5rem 1rem;
+      background: rgba(28, 28, 30, 0.4);
+      border: 1px solid rgba(84, 84, 88, 0.3);
+      border-radius: 999px;
+      color: #636366;
+      font-size: 0.6875rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .tier-3-btn:hover {
+      background: rgba(201, 169, 97, 0.1);
+      border-color: rgba(201, 169, 97, 0.3);
+      color: #C9A961;
+    }
+
+    .tier-3-btn.active {
+      background: rgba(201, 169, 97, 0.15);
+      border-color: rgba(201, 169, 97, 0.5);
+      color: #C9A961;
+      font-weight: 600;
+    }
+
+    /* MAIN CONTAINER */
+    .main-container {
+      background: rgba(28, 28, 30, 0.6);
+      backdrop-filter: blur(40px);
+      border-radius: 1.5rem;
+      border: 1px solid rgba(201, 169, 97, 0.25);
+      overflow: hidden;
+      margin-bottom: 2rem;
+    }
+
+    /* CONTROLS HEADER */
+    .controls-header {
+      padding: 1.5rem 2rem;
+      background: rgba(0, 0, 0, 0.15);
+      border-bottom: 1px solid rgba(84, 84, 88, 0.2);
+    }
+
+    .context-label {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+    }
+
+    .context-icon {
+      font-size: 1.5rem;
+    }
+
+    .context-title {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #e5e5e7;
+    }
+
+    /* TOGGLE BARS */
+    .toggle-bars {
+      display: flex;
+      gap: 2rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .toggle-group {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .toggle-label-text {
+      font-size: 0.6875rem;
+      color: #8e8e93;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .toggle-switch {
+      position: relative;
+      width: 52px;
+      height: 28px;
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid rgba(84, 84, 88, 0.3);
+      border-radius: 999px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .toggle-switch:hover {
+      border-color: rgba(201, 169, 97, 0.4);
+    }
+
+    .toggle-slider {
+      position: absolute;
+      top: 3px;
+      left: 3px;
+      width: 20px;
+      height: 20px;
+      background: #C9A961;
+      border-radius: 50%;
+      transition: all 0.3s ease;
+      box-shadow: 0 2px 8px rgba(201, 169, 97, 0.4);
+    }
+
+    .toggle-switch.active .toggle-slider {
+      transform: translateX(24px);
+    }
+
+    .toggle-option {
+      font-size: 0.75rem;
+      color: #636366;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    .toggle-option.active {
+      color: #C9A961;
+      font-weight: 600;
+    }
+
+    /* FORMAT SELECTOR */
+    .format-selector {
+      display: flex;
+      gap: 0.75rem;
+    }
+
+    .format-btn {
+      padding: 0.5rem 1rem;
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid rgba(84, 84, 88, 0.3);
+      border-radius: 0.5rem;
+      color: #636366;
+      font-size: 0.75rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .format-btn:hover {
+      background: rgba(201, 169, 97, 0.1);
+      border-color: rgba(201, 169, 97, 0.3);
+      color: #C9A961;
+    }
+
+    .format-btn.active {
+      background: rgba(201, 169, 97, 0.15);
+      border-color: rgba(201, 169, 97, 0.5);
+      color: #C9A961;
+      font-weight: 600;
+    }
+
+    /* PLAYBACK CONTROLS */
+    .playback-controls {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .control-btn {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid rgba(84, 84, 88, 0.3);
+      color: #8e8e93;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .control-btn:hover {
+      background: rgba(0, 0, 0, 0.5);
+      border-color: rgba(201, 169, 97, 0.4);
+      color: #C9A961;
+    }
+
+    .control-btn.play {
+      width: 56px;
+      height: 56px;
+      background: rgba(201, 169, 97, 0.15);
+      border-color: rgba(201, 169, 97, 0.4);
+      color: #C9A961;
+      font-size: 1.25rem;
+    }
+
+    .control-btn.play:hover {
+      background: rgba(201, 169, 97, 0.25);
+      border-color: rgba(201, 169, 97, 0.6);
+    }
+
+    .slide-nav {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.75rem;
+      color: #8e8e93;
+      font-weight: 500;
+    }
+
+    .slide-nav-btn {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid rgba(84, 84, 88, 0.3);
+      color: #8e8e93;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+    }
+
+    .slide-nav-btn:hover:not(:disabled) {
+      background: rgba(201, 169, 97, 0.15);
+      border-color: rgba(201, 169, 97, 0.4);
+      color: #C9A961;
+    }
+
+    .slide-nav-btn:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+    }
+
+    /* CONTENT AREA */
+    .content-area {
+      padding: 3rem 2rem;
+      min-height: 500px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* TEXT VIEW */
+    .text-content {
+      max-width: 800px;
+      width: 100%;
+    }
+
+    .text-paragraph {
+      font-size: 1.25rem;
+      line-height: 1.9;
+      color: #e5e5e7;
+    }
+
+    .text-paragraph .highlight {
+      color: #60a5fa;
+      font-weight: 600;
+      background: rgba(96, 165, 250, 0.1);
+      padding: 0.125rem 0.25rem;
+      border-radius: 0.25rem;
+    }
+
+    /* SLIDES VIEW */
+    .slide-container {
+      width: 100%;
+      max-width: 900px;
+      min-height: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+      opacity: 0;
+      animation: slideIn 0.5s ease forwards;
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .slide-icon {
+      font-size: 5rem;
+      margin-bottom: 2rem;
+      animation: iconPop 0.6s ease;
+    }
+
+    @keyframes iconPop {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+    }
+
+    .slide-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+      color: #C9A961;
+      margin-bottom: 1rem;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+
+    .slide-subtitle {
+      font-size: 1.5rem;
+      color: #e5e5e7;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      line-height: 1.4;
+    }
+
+    .slide-text {
+      font-size: 2rem;
+      line-height: 1.6;
+      color: #e5e5e7;
+      font-weight: 600;
+      max-width: 700px;
+    }
+
+    .slide-text .highlight {
+      color: #60a5fa;
+      font-weight: 700;
+      position: relative;
+    }
+
+    .slide-text .highlight::after {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: #60a5fa;
+      border-radius: 2px;
+    }
+
+    /* SLIDE PROGRESS */
+    .slide-progress {
+      margin-top: 3rem;
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .progress-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: rgba(84, 84, 88, 0.4);
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .progress-dot:hover {
+      background: rgba(201, 169, 97, 0.4);
+      transform: scale(1.2);
+    }
+
+    .progress-dot.active {
+      background: #C9A961;
+      width: 32px;
+      border-radius: 5px;
+      box-shadow: 0 0 12px rgba(201, 169, 97, 0.6);
+    }
+
+    /* READ MODE SLIDES */
+    .formula-box {
+      background: rgba(96, 165, 250, 0.1);
+      border: 2px solid rgba(96, 165, 250, 0.3);
+      border-radius: 1rem;
+      padding: 1.5rem 2.5rem;
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: #60a5fa;
+      margin: 2rem 0;
+      letter-spacing: 0.05em;
+    }
+
+    .examples-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-top: 2rem;
+      width: 100%;
+      max-width: 600px;
+    }
+
+    .example-item {
+      background: rgba(0, 0, 0, 0.2);
+      padding: 1rem 1.5rem;
+      border-radius: 0.75rem;
+      font-size: 1.25rem;
+      color: #e5e5e7;
+      font-weight: 600;
+    }
+
+    .uses-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      margin-top: 2rem;
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .use-item {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      font-size: 1.5rem;
+      color: #e5e5e7;
+      font-weight: 600;
+    }
+
+    .use-icon {
+      font-size: 2rem;
+    }
+
+    .frequency-bars {
+      width: 100%;
+      max-width: 500px;
+      margin-top: 2rem;
+    }
+
+    .frequency-item {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .frequency-word {
+      width: 120px;
+      font-size: 1.125rem;
+      font-weight: 600;
+      color: #e5e5e7;
+      text-align: right;
+    }
+
+    .frequency-bar {
+      flex: 1;
+      height: 32px;
+      background: rgba(139, 92, 246, 0.2);
+      border-radius: 999px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .frequency-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #8b5cf6, rgba(139, 92, 246, 0.6));
+      border-radius: 999px;
+      transition: width 0.8s ease;
+    }
+
+    .frequency-percentage {
+      position: absolute;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: #e5e5e7;
+    }
+
+    .time-words {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      justify-content: center;
+      margin-top: 2rem;
+      max-width: 600px;
+    }
+
+    .time-word-chip {
+      background: rgba(139, 92, 246, 0.15);
+      border: 1px solid rgba(139, 92, 246, 0.3);
+      padding: 0.75rem 1.25rem;
+      border-radius: 999px;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #a78bfa;
+    }
+
+    .mistake-comparison {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .mistake-wrong {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #ef4444;
+      text-decoration: line-through;
+      opacity: 0.7;
+    }
+
+    .mistake-arrow {
+      font-size: 2.5rem;
+      color: #C9A961;
+    }
+
+    .mistake-correct {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #10b981;
+    }
+
+    .mistake-tip {
+      font-size: 1.125rem;
+      color: #e5e5e7;
+      margin-top: 1rem;
+      font-style: italic;
+    }
+
+    .sentences-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      margin-top: 2rem;
+      width: 100%;
+      max-width: 700px;
+    }
+
+    .sentence-item {
+      background: rgba(245, 158, 11, 0.1);
+      border-left: 4px solid #f59e0b;
+      padding: 1.25rem 1.75rem;
+      border-radius: 0.5rem;
+      font-size: 1.5rem;
+      color: #e5e5e7;
+      font-weight: 600;
+      line-height: 1.6;
+    }
+
+    .practice-question {
+      background: rgba(236, 72, 153, 0.1);
+      border: 2px solid rgba(236, 72, 153, 0.3);
+      border-radius: 1rem;
+      padding: 2rem;
+      margin-top: 2rem;
+      max-width: 600px;
+      width: 100%;
+    }
+
+    .practice-prompt {
+      font-size: 1rem;
+      color: #8e8e93;
+      margin-bottom: 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 600;
+    }
+
+    .practice-sentence {
+      font-size: 1.75rem;
+      font-weight: 600;
+      color: #e5e5e7;
+      margin-bottom: 1rem;
+      line-height: 1.6;
+    }
+
+    .practice-hint {
+      font-size: 1rem;
+      color: #8e8e93;
+      font-style: italic;
+    }
+
+    /* READ TEXT VIEW */
+    .read-text-container {
+      max-width: 900px;
+      width: 100%;
+    }
+
+    .read-section {
+      background: rgba(48, 48, 51, 0.3);
+      border-radius: 1rem;
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .read-section-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 0.875rem;
+      font-weight: 700;
+      color: #C9A961;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .read-section-icon {
+      font-size: 1.25rem;
+    }
+
+    .read-content {
+      font-size: 1rem;
+      line-height: 1.8;
+      color: #e5e5e7;
+    }
+
+    .read-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .read-item {
+      background: rgba(0, 0, 0, 0.2);
+      padding: 1rem;
+      border-radius: 0.5rem;
+      font-size: 0.9375rem;
+      color: #e5e5e7;
+    }
+
+    .read-use-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 0.5rem;
+    }
+
+    .read-use-icon {
+      font-size: 1.5rem;
+      flex-shrink: 0;
+    }
+
+    .read-use-text {
+      flex: 1;
+    }
+
+    .read-use-label {
+      font-weight: 600;
+      color: #e5e5e7;
+      margin-bottom: 0.25rem;
+    }
+
+    .read-use-example {
+      font-size: 0.875rem;
+      color: #8e8e93;
+      font-style: italic;
+    }
+
+    /* MOBILE */
+    @media (max-width: 768px) {
+      body { padding: 0.75rem; }
+      .brand { font-size: 1.25rem; }
+      .tier-1 { gap: 1.5rem; }
+      .tier-1-btn { font-size: 0.75rem; padding: 0.5rem 1rem; }
+      .tier-2 { gap: 1rem; }
+      .tier-3 { gap: 0.5rem; }
+      .controls-header { padding: 1rem 1.5rem; }
+      .content-area { padding: 2rem 1.5rem; }
+      .slide-text { font-size: 1.5rem; }
+      .slide-title { font-size: 1.5rem; }
+      .examples-grid { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 480px) {
+      .tier-1 { flex-direction: column; gap: 0.5rem; align-items: center; }
+      .slide-text { font-size: 1.25rem; }
+      .slide-icon { font-size: 3.5rem; }
+      .formula-box { font-size: 1.25rem; padding: 1rem 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    
+    <!-- HEADER -->
+    <div class="header">
+      <div class="header-left">
+        <a href="#" class="home-link">← HOME</a>
+        <div class="brand-section">
+          <div class="brand">INTUITY</div>
+          <div class="subtitle">Grammar · B1</div>
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="header-icon">🔊</div>
+        <div class="header-icon">⚙️</div>
+        <div class="streak">🔥 3</div>
+      </div>
+    </div>
+
+    <!-- TIER 1: TIME FRAME -->
+    <div class="tier-1">
+      <button class="tier-1-btn active" data-time="present">PRESENT</button>
+      <button class="tier-1-btn" data-time="past">PAST</button>
+      <button class="tier-1-btn" data-time="future">FUTURE</button>
+    </div>
+
+    <!-- TIER 2: ASPECT -->
+    <div class="tier-2">
+      <button class="tier-2-btn active" data-aspect="simple">Simple</button>
+      <button class="tier-2-btn" data-aspect="continuous">Continuous</button>
+      <button class="tier-2-btn" data-aspect="perfect">Perfect</button>
+    </div>
+
+    <!-- TIER 3: CONTEXT -->
+    <div class="tier-3">
+      <button class="tier-3-btn active" data-context="daily-habits">Daily Habits</button>
+      <button class="tier-3-btn" data-context="frequency">Frequency</button>
+      <button class="tier-3-btn" data-context="facts">Facts</button>
+      <button class="tier-3-btn" data-context="schedules">Schedules</button>
+      <button class="tier-3-btn" data-context="more">+1 more</button>
+    </div>
+
+    <!-- MAIN CONTAINER -->
+    <div class="main-container">
+      
+      <!-- CONTROLS HEADER -->
+      <div class="controls-header">
+        
+        <!-- Context Label -->
+        <div class="context-label">
+          <span class="context-icon" id="contextIcon">📖</span>
+          <span class="context-title" id="contextTitle">Present Simple • Daily Habits</span>
+        </div>
+
+        <!-- Toggle Bars -->
+        <div class="toggle-bars">
+          
+          <!-- Watch/Read Toggle -->
+          <div class="toggle-group">
+            <span class="toggle-option active" id="watchLabel">👁️ Watch</span>
+            <div class="toggle-switch" id="modeToggle">
+              <div class="toggle-slider"></div>
+            </div>
+            <span class="toggle-option" id="readLabel">📄 Read</span>
+          </div>
+
+          <!-- Text/Slides Format -->
+          <div class="format-selector">
+            <button class="format-btn" id="textBtn">📝 Text</button>
+            <button class="format-btn active" id="slidesBtn">📊 Slides</button>
+          </div>
+
+        </div>
+
+        <!-- Playback Controls -->
+        <div class="playback-controls">
+          <div class="slide-nav" id="slideNavigation" style="display: flex;">
+            <button class="slide-nav-btn" id="prevSlide">←</button>
+            <span id="slideCounter">1/8</span>
+            <button class="slide-nav-btn" id="nextSlide">→</button>
+          </div>
+          
+          <button class="control-btn play" id="playBtn">▶</button>
+          <button class="control-btn" id="pauseBtn" style="display: none;">⏸</button>
+          <button class="control-btn" id="replayBtn">🔁</button>
+          <button class="control-btn" id="soundBtn">🔊</button>
+        </div>
+
+      </div>
+
+      <!-- CONTENT AREA -->
+      <div class="content-area" id="contentArea">
+        <!-- Content loaded dynamically -->
+      </div>
+
+    </div>
+
+  </div>
+
+  <script>
+    // Load JSON data
+    let GRAMMAR_DATA = null;
+    
+    async function loadData() {
+      try {
+        const response = await fetch('grammar-present-simple.json');
+        GRAMMAR_DATA = await response.json();
+        console.log('✓ Data loaded:', GRAMMAR_DATA);
+        renderContent();
+      } catch (error) {
+        console.error('Error loading data:', error);
+        document.getElementById('contentArea').innerHTML = '<p style="color: #ef4444;">Error: Could not load grammar-present-simple.json</p>';
+      }
+    }
+
+    // STATE
+    let currentMode = 'watch'; // 'watch' or 'read'
+    let currentFormat = 'slides'; // 'text' or 'slides'
+    let currentSlide = 0;
+    let totalSlides = 0;
+    let isPlaying = false;
+
+    // ELEMENTS
+    const modeToggle = document.getElementById('modeToggle');
+    const watchLabel = document.getElementById('watchLabel');
+    const readLabel = document.getElementById('readLabel');
+    const textBtn = document.getElementById('textBtn');
+    const slidesBtn = document.getElementById('slidesBtn');
+    const contentArea = document.getElementById('contentArea');
+    const slideNavigation = document.getElementById('slideNavigation');
+    const slideCounter = document.getElementById('slideCounter');
+    const prevSlide = document.getElementById('prevSlide');
+    const nextSlide = document.getElementById('nextSlide');
+    const playBtn = document.getElementById('playBtn');
+    const pauseBtn = document.getElementById('pauseBtn');
+
+    // TOGGLE MODE (Watch/Read)
+    modeToggle.addEventListener('click', function() {
+      currentMode = currentMode === 'watch' ? 'read' : 'watch';
+      updateModeUI();
+      currentSlide = 0;
+      renderContent();
+    });
+
+    function updateModeUI() {
+      const isRead = currentMode === 'read';
+      modeToggle.classList.toggle('active', isRead);
+      watchLabel.classList.toggle('active', !isRead);
+      readLabel.classList.toggle('active', isRead);
+    }
+
+    // TOGGLE FORMAT (Text/Slides)
+    textBtn.addEventListener('click', function() {
+      currentFormat = 'text';
+      updateFormatUI();
+      renderContent();
+    });
+
+    slidesBtn.addEventListener('click', function() {
+      currentFormat = 'slides';
+      updateFormatUI();
+      currentSlide = 0;
+      renderContent();
+    });
+
+    function updateFormatUI() {
+      const isSlides = currentFormat === 'slides';
+      textBtn.classList.toggle('active', !isSlides);
+      slidesBtn.classList.toggle('active', isSlides);
+      slideNavigation.style.display = isSlides ? 'flex' : 'none';
+    }
+
+    // SLIDE NAVIGATION
+    prevSlide.addEventListener('click', () => {
+      if (currentSlide > 0) {
+        currentSlide--;
+        renderContent();
+      }
+    });
+
+    nextSlide.addEventListener('click', () => {
+      if (currentSlide < totalSlides - 1) {
+        currentSlide++;
+        renderContent();
+      }
+    });
+
+    // KEYBOARD NAVIGATION
+    document.addEventListener('keydown', (e) => {
+      if (currentFormat === 'slides') {
+        if (e.key === 'ArrowLeft') prevSlide.click();
+        if (e.key === 'ArrowRight') nextSlide.click();
+        if (e.key === ' ') {
+          e.preventDefault();
+          playBtn.click();
+        }
+      }
+    });
+
+    // RENDER CONTENT
+    function renderContent() {
+      if (!GRAMMAR_DATA) return;
+
+      const content = GRAMMAR_DATA[currentMode];
+      
+      if (currentFormat === 'text') {
+        renderTextView(content);
+      } else {
+        renderSlidesView(content);
+      }
+    }
+
+    // RENDER TEXT VIEW
+    function renderTextView(content) {
+      if (currentMode === 'watch') {
+        // Watch Text Mode
+        const textData = content.text;
+        let html = '<div class="text-content">';
+        html += '<div class="text-paragraph">';
+        
+        // Highlight verbs in the text
+        let text = textData.content;
+        textData.highlights.forEach(h => {
+          text = text.replace(h.word, `<span class="highlight">${h.word}</span>`);
+        });
+        
+        html += text;
+        html += '</div></div>';
+        contentArea.innerHTML = html;
+        
+      } else {
+        // Read Text Mode
+        renderReadTextView(content.text);
+      }
+    }
+
+    // RENDER READ TEXT VIEW
+    function renderReadTextView(data) {
+      let html = '<div class="read-text-container">';
+      
+      // Overview
+      html += '<div class="read-section">';
+      html += '<div class="read-section-title"><span class="read-section-icon">🎯</span>Overview</div>';
+      html += `<div class="read-content">`;
+      html += `<h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">${data.overview.title}</h3>`;
+      html += `<p style="font-size: 1.125rem; color: #8e8e93; margin-bottom: 1rem;">${data.overview.subtitle}</p>`;
+      html += `<p>${data.overview.description}</p>`;
+      html += `</div></div>`;
+      
+      // Form
+      html += '<div class="read-section">';
+      html += '<div class="read-section-title"><span class="read-section-icon">⚙️</span>Form</div>';
+      html += `<div class="read-content">`;
+      html += `<p style="margin-bottom: 1rem;"><strong>${data.form.pattern}</strong></p>`;
+      html += '<div class="read-grid">';
+      data.form.affirmative.forEach(item => {
+        html += `<div class="read-item">${item.subject} ${item.verb}</div>`;
+      });
+      html += '</div></div></div>';
+      
+      // Uses
+      html += '<div class="read-section">';
+      html += '<div class="read-section-title"><span class="read-section-icon">🎯</span>When to Use</div>';
+      data.uses.forEach(use => {
+        html += '<div class="read-use-item">';
+        html += `<span class="read-use-icon">${use.icon}</span>`;
+        html += '<div class="read-use-text">';
+        html += `<div class="read-use-label">${use.label}</div>`;
+        html += `<div class="read-use-example">${use.example}</div>`;
+        html += '</div></div>';
+      });
+      html += '</div>';
+      
+      // Time Signals
+      html += '<div class="read-section">';
+      html += '<div class="read-section-title"><span class="read-section-icon">🕐</span>Time Signals</div>';
+      html += '<div class="read-content">';
+      html += '<p style="margin-bottom: 1rem;"><strong>Frequency words:</strong></p>';
+      html += '<div class="read-grid">';
+      data.timeSignals.frequency.forEach(item => {
+        html += `<div class="read-item">${item.word} (${item.percentage})</div>`;
+      });
+      html += '</div>';
+      html += '<p style="margin: 1.5rem 0 1rem;"><strong>Regular time expressions:</strong></p>';
+      html += '<div class="read-grid">';
+      data.timeSignals.regular.forEach(word => {
+        html += `<div class="read-item">${word}</div>`;
+      });
+      html += '</div></div></div>';
+      
+      // Common Errors
+      html += '<div class="read-section">';
+      html += '<div class="read-section-title"><span class="read-section-icon">⚠️</span>Common Mistakes</div>';
+      data.commonErrors.forEach(error => {
+        html += '<div class="read-use-item">';
+        html += '<div class="read-use-text">';
+        html += `<div style="color: #ef4444; margin-bottom: 0.5rem;">❌ ${error.wrong}</div>`;
+        html += `<div style="color: #10b981; margin-bottom: 0.5rem;">✅ ${error.correct}</div>`;
+        html += `<div class="read-use-example">${error.explanation}</div>`;
+        html += '</div></div>';
+      });
+      html += '</div>';
+      
+      html += '</div>';
+      contentArea.innerHTML = html;
+    }
+
+    // RENDER SLIDES VIEW
+    function renderSlidesView(content) {
+      const slides = content.slides;
+      totalSlides = slides.length;
+      
+      // Update navigation
+      slideCounter.textContent = `${currentSlide + 1}/${totalSlides}`;
+      prevSlide.disabled = currentSlide === 0;
+      nextSlide.disabled = currentSlide === totalSlides - 1;
+      
+      // Render current slide
+      const slide = slides[currentSlide];
+      let html = '<div class="slide-container">';
+      
+      if (currentMode === 'watch') {
+        // Watch slides - story sentences
+        html += `<div class="slide-icon" style="font-size: ${slide.iconSize}">${slide.icon}</div>`;
+        html += `<div class="slide-text">`;
+        
+        // Highlight words if specified
+        let text = slide.text;
+        if (slide.highlights) {
+          slide.highlights.forEach(word => {
+            text = text.replace(word, `<span class="highlight">${word}</span>`);
+          });
+        }
+        html += text;
+        html += `</div>`;
+        
+      } else {
+        // Read slides - grammar explanations
+        renderReadSlide(slide, html);
+        html = renderReadSlide(slide);
+      }
+      
+      // Progress dots
+      html += '<div class="slide-progress">';
+      for (let i = 0; i < totalSlides; i++) {
+        html += `<div class="progress-dot ${i === currentSlide ? 'active' : ''}" data-slide="${i}"></div>`;
+      }
+      html += '</div>';
+      
+      html += '</div>';
+      contentArea.innerHTML = html;
+      
+      // Add click handlers to progress dots
+      document.querySelectorAll('.progress-dot').forEach(dot => {
+        dot.addEventListener('click', function() {
+          currentSlide = parseInt(this.dataset.slide);
+          renderContent();
+        });
+      });
+    }
+
+    // RENDER READ SLIDE
+    function renderReadSlide(slide) {
+      let html = '<div class="slide-container"';
+      if (slide.backgroundColor) {
+        html += ` style="background: ${slide.backgroundColor}; border-radius: 1.5rem; padding: 3rem 2rem;"`;
+      }
+      html += '>';
+      
+      html += `<div class="slide-icon" style="font-size: ${slide.iconSize}">${slide.icon}</div>`;
+      
+      switch(slide.type) {
+        case 'overview':
+          html += `<div class="slide-title">${slide.title}</div>`;
+          html += `<div class="slide-subtitle">${slide.subtitle}</div>`;
+          html += `<div class="slide-subtitle" style="font-size: 1.25rem; font-weight: 500;">${slide.description}</div>`;
+          break;
+          
+        case 'form':
+          html += `<div class="slide-title">${slide.title}</div>`;
+          html += `<div class="formula-box">${slide.formula}</div>`;
+          html += '<div class="examples-grid">';
+          slide.examples.forEach(ex => {
+            if (ex.left) html += `<div class="example-item">${ex.left}</div>`;
+            if (ex.right) html += `<div class="example-item">${ex.right}</div>`;
+          });
+          html += '</div>';
+          break;
+          
+        case 'uses':
+          html += `<div class="slide-title">${slide.title}</div>`;
+          html += '<div class="uses-list">';
+          slide.items.forEach(item => {
+            html += `<div class="use-item">`;
+            html += `<span class="use-icon">${item.icon}</span>`;
+            html += `<span>${item.text}</span>`;
+            html += `</div>`;
+          });
+          html += '</div>';
+          break;
+          
+        case 'time-signals':
+          html += `<div class="slide-title">${slide.title}</div>`;
+          html += '<div class="frequency-bars">';
+          slide.frequency.forEach(item => {
+            html += '<div class="frequency-item">';
+            html += `<div class="frequency-word">${item.word}</div>`;
+            html += '<div class="frequency-bar">';
+            html += `<div class="frequency-fill" style="width: ${item.bar}"></div>`;
+            html += `<div class="frequency-percentage">${item.bar}</div>`;
+            html += '</div></div>';
+          });
+          html += '</div>';
+          
+          if (slide.regular) {
+            html += '<div class="time-words">';
+            slide.regular.forEach(word => {
+              html += `<div class="time-word-chip">${word}</div>`;
+            });
+            html += '</div>';
+          }
+          break;
+          
+        case 'examples':
+          html += `<div class="slide-title">${slide.title}</div>`;
+          html += '<div class="sentences-list">';
+          slide.sentences.forEach(sentence => {
+            html += `<div class="sentence-item">${sentence}</div>`;
+          });
+          html += '</div>';
+          break;
+          
+        case 'common-mistake':
+          html += `<div class="slide-title">${slide.title}</div>`;
+          html += '<div class="mistake-comparison">';
+          html += `<div class="mistake-wrong">${slide.wrong} ❌</div>`;
+          html += '<div class="mistake-arrow">↓</div>';
+          html += `<div class="mistake-correct">${slide.correct} ✅</div>`;
+          html += `<div class="mistake-tip">${slide.tip}</div>`;
+          html += '</div>';
+          break;
+          
+        case 'practice-prompt':
+          html += `<div class="slide-title">${slide.title}</div>`;
+          html += '<div class="practice-question">';
+          html += `<div class="practice-prompt">${slide.prompt}</div>`;
+          html += `<div class="practice-sentence">${slide.question}</div>`;
+          html += `<div class="practice-hint">${slide.hint}</div>`;
+          html += '</div>';
+          break;
+      }
+      
+      html += '</div>';
+      return html;
+    }
+
+    // AUDIO PLAYBACK (Text-to-Speech simulation)
+    playBtn.addEventListener('click', () => {
+      if (currentFormat === 'slides' && currentMode === 'watch') {
+        playSlideshow();
+      }
+    });
+
+    pauseBtn.addEventListener('click', () => {
+      isPlaying = false;
+      playBtn.style.display = 'flex';
+      pauseBtn.style.display = 'none';
+    });
+
+    document.getElementById('replayBtn').addEventListener('click', () => {
+      currentSlide = 0;
+      renderContent();
+      playSlideshow();
+    });
+
+    async function playSlideshow() {
+      isPlaying = true;
+      playBtn.style.display = 'none';
+      pauseBtn.style.display = 'flex';
+      
+      const slides = GRAMMAR_DATA.watch.slides;
+      
+      for (let i = currentSlide; i < slides.length && isPlaying; i++) {
+        currentSlide = i;
+        renderContent();
+        
+        // Simulate audio delay (in real app, sync with actual audio)
+        const slide = slides[i];
+        const duration = (slide.audioEnd - slide.audioStart) * 1000;
+        await new Promise(resolve => setTimeout(resolve, duration));
+      }
+      
+      isPlaying = false;
+      playBtn.style.display = 'flex';
+      pauseBtn.style.display = 'none';
+    }
+
+    // INITIALIZE
+    loadData();
+  </script>
+</body>
+</html>
