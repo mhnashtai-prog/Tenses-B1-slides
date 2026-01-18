@@ -1009,11 +1009,16 @@
     }
 
     // STATE
+    let currentTime = 'present';
+    let currentAspect = 'simple';
+    let currentContext = 'daily-habits';
     let currentMode = 'watch'; // 'watch' or 'read'
     let currentFormat = 'slides'; // 'text' or 'slides'
     let currentSlide = 0;
     let totalSlides = 0;
     let isPlaying = false;
+    let currentUtterance = null;
+    let isSpeaking = false;
 
     // ELEMENTS
     const modeToggle = document.getElementById('modeToggle');
@@ -1028,6 +1033,44 @@
     const nextSlide = document.getElementById('nextSlide');
     const playBtn = document.getElementById('playBtn');
     const pauseBtn = document.getElementById('pauseBtn');
+
+    // TIER NAVIGATION
+    document.querySelectorAll('.tier-1-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        currentTime = this.dataset.time;
+        document.querySelectorAll('.tier-1-btn').forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        currentSlide = 0;
+        stopAudio();
+        renderContent();
+      });
+    });
+
+    document.querySelectorAll('.tier-2-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        currentAspect = this.dataset.aspect;
+        document.querySelectorAll('.tier-2-btn').forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        currentSlide = 0;
+        stopAudio();
+        renderContent();
+      });
+    });
+
+    document.querySelectorAll('.tier-3-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        if (this.dataset.context === 'more') {
+          alert('More contexts coming soon!');
+          return;
+        }
+        currentContext = this.dataset.context;
+        document.querySelectorAll('.tier-3-btn').forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        currentSlide = 0;
+        stopAudio();
+        renderContent();
+      });
+    });
 
     // TOGGLE MODE (Watch/Read)
     modeToggle.addEventListener('click', function() {
@@ -1095,6 +1138,20 @@
     // RENDER CONTENT
     function renderContent() {
       if (!GRAMMAR_DATA) return;
+
+      // Update context title
+      const contextTitles = {
+        'daily-habits': 'Daily Habits',
+        'frequency': 'Frequency',
+        'facts': 'Facts & General Truths',
+        'schedules': 'Schedules & Timetables'
+      };
+      
+      const tenseName = currentTime.charAt(0).toUpperCase() + currentTime.slice(1);
+      const aspectName = currentAspect.charAt(0).toUpperCase() + currentAspect.slice(1);
+      const contextName = contextTitles[currentContext] || 'Daily Habits';
+      
+      document.getElementById('contextTitle').textContent = `${tenseName} ${aspectName} • ${contextName}`;
 
       const content = GRAMMAR_DATA[currentMode];
       
@@ -1349,26 +1406,73 @@
       return html;
     }
 
-    // AUDIO PLAYBACK (Text-to-Speech simulation)
+    // AUDIO PLAYBACK (Text-to-Speech)
     playBtn.addEventListener('click', () => {
       if (currentFormat === 'slides' && currentMode === 'watch') {
         playSlideshow();
+      } else if (currentFormat === 'text' && currentMode === 'watch') {
+        speakText();
       }
     });
 
     pauseBtn.addEventListener('click', () => {
-      isPlaying = false;
-      playBtn.style.display = 'flex';
-      pauseBtn.style.display = 'none';
+      stopAudio();
     });
 
     document.getElementById('replayBtn').addEventListener('click', () => {
       currentSlide = 0;
       renderContent();
-      playSlideshow();
+      if (currentFormat === 'slides') {
+        playSlideshow();
+      } else {
+        speakText();
+      }
     });
 
+    function stopAudio() {
+      isPlaying = false;
+      isSpeaking = false;
+      speechSynthesis.cancel();
+      playBtn.style.display = 'flex';
+      pauseBtn.style.display = 'none';
+    }
+
+    function speakText() {
+      if (!GRAMMAR_DATA) return;
+      
+      stopAudio();
+      
+      const textData = GRAMMAR_DATA.watch.text;
+      isSpeaking = true;
+      playBtn.style.display = 'none';
+      pauseBtn.style.display = 'flex';
+      
+      currentUtterance = new SpeechSynthesisUtterance(textData.content);
+      currentUtterance.lang = 'en-GB';
+      currentUtterance.rate = 0.85;
+      currentUtterance.pitch = 1.0;
+      
+      const voices = speechSynthesis.getVoices();
+      const selectedVoice = voices.find(v => v.lang.includes('en-GB')) || voices.find(v => v.lang.includes('en-'));
+      if (selectedVoice) {
+        currentUtterance.voice = selectedVoice;
+      }
+      
+      currentUtterance.onend = () => {
+        stopAudio();
+      };
+      
+      currentUtterance.onerror = () => {
+        stopAudio();
+      };
+      
+      speechSynthesis.speak(currentUtterance);
+    }
+
     async function playSlideshow() {
+      if (!GRAMMAR_DATA) return;
+      
+      stopAudio();
       isPlaying = true;
       playBtn.style.display = 'none';
       pauseBtn.style.display = 'flex';
@@ -1379,15 +1483,50 @@
         currentSlide = i;
         renderContent();
         
-        // Simulate audio delay (in real app, sync with actual audio)
         const slide = slides[i];
-        const duration = (slide.audioEnd - slide.audioStart) * 1000;
-        await new Promise(resolve => setTimeout(resolve, duration));
+        
+        // Speak the slide text
+        await speakSlide(slide.text);
+        
+        // Small pause between slides
+        if (isPlaying) {
+          await new Promise(resolve => setTimeout(resolve, 800));
+        }
       }
       
-      isPlaying = false;
-      playBtn.style.display = 'flex';
-      pauseBtn.style.display = 'none';
+      stopAudio();
+    }
+
+    function speakSlide(text) {
+      return new Promise((resolve) => {
+        if (!isPlaying) {
+          resolve();
+          return;
+        }
+        
+        currentUtterance = new SpeechSynthesisUtterance(text);
+        currentUtterance.lang = 'en-GB';
+        currentUtterance.rate = 0.85;
+        currentUtterance.pitch = 1.0;
+        
+        const voices = speechSynthesis.getVoices();
+        const selectedVoice = voices.find(v => v.lang.includes('en-GB')) || voices.find(v => v.lang.includes('en-'));
+        if (selectedVoice) {
+          currentUtterance.voice = selectedVoice;
+        }
+        
+        currentUtterance.onend = () => resolve();
+        currentUtterance.onerror = () => resolve();
+        
+        speechSynthesis.speak(currentUtterance);
+      });
+    }
+
+    // Load voices
+    if (speechSynthesis.onvoiceschanged !== undefined) {
+      speechSynthesis.onvoiceschanged = () => {
+        console.log('🔊 Voices loaded:', speechSynthesis.getVoices().length);
+      };
     }
 
     // INITIALIZE
