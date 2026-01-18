@@ -1,0 +1,433 @@
+{
+  "skillArea": "grammar",
+  "level": "B1",
+  "tense": {
+    "time": "past",
+    "aspect": "simple"
+  },
+  "metadata": {
+    "title": "Past Simple",
+    "icon": "📖",
+    "description": "Learn the Past Simple tense"
+  },
+  "watch": {
+    "finished-actions": {
+      "text": {
+        "content": "Yesterday, I woke up at 7 AM. I had breakfast and drank some coffee. Then I went to work by bus. I arrived at the office at 9 o'clock. I worked on an important project all morning. At lunchtime, I ate a sandwich in the park. In the afternoon, I attended two meetings. I left work at 6 PM and came home. I cooked dinner, watched TV, and went to bed at 11 PM.",
+        "highlights": [
+          {"word": "woke up"},
+          {"word": "had"},
+          {"word": "drank"},
+          {"word": "went"},
+          {"word": "arrived"},
+          {"word": "worked"},
+          {"word": "ate"},
+          {"word": "attended"},
+          {"word": "left"},
+          {"word": "came"},
+          {"word": "cooked"},
+          {"word": "watched"},
+          {"word": "went to bed"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "⏰", "iconSize": "4rem", "text": "Yesterday, I woke up at 7 AM.", "highlights": ["Yesterday", "woke up"]},
+        {"id": 2, "icon": "🍳", "iconSize": "4rem", "text": "I had breakfast and drank some coffee.", "highlights": ["had", "drank"]},
+        {"id": 3, "icon": "🚌", "iconSize": "4rem", "text": "Then I went to work by bus.", "highlights": ["Then", "went"]},
+        {"id": 4, "icon": "🏢", "iconSize": "4rem", "text": "I arrived at the office at 9 o'clock.", "highlights": ["arrived", "at 9 o'clock"]},
+        {"id": 5, "icon": "💼", "iconSize": "4rem", "text": "I worked on a project all morning.", "highlights": ["worked", "all morning"]},
+        {"id": 6, "icon": "🥪", "iconSize": "4rem", "text": "At lunchtime, I ate a sandwich in the park.", "highlights": ["At lunchtime", "ate"]},
+        {"id": 7, "icon": "👔", "iconSize": "4rem", "text": "I attended two meetings in the afternoon.", "highlights": ["attended"]},
+        {"id": 8, "icon": "🏠", "iconSize": "4rem", "text": "I left work at 6 PM and came home.", "highlights": ["left", "came"]},
+        {"id": 9, "icon": "🍲", "iconSize": "4rem", "text": "I cooked dinner and watched TV.", "highlights": ["cooked", "watched"]},
+        {"id": 10, "icon": "😴", "iconSize": "4rem", "text": "I went to bed at 11 PM.", "highlights": ["went to bed", "at 11 PM"]}
+      ]
+    },
+    "stories": {
+      "text": {
+        "content": "Once upon a time, there was a young girl called Red Riding Hood. She lived in a small village near the forest. One day, her mother asked her to visit her grandmother. Red Riding Hood put on her red cloak and walked into the forest. She picked some flowers along the way. Suddenly, a big wolf appeared. The wolf ran to grandmother's house and knocked on the door. Red Riding Hood arrived later and noticed something was wrong. The story ended happily when a woodcutter saved them.",
+        "highlights": [
+          {"word": "was"},
+          {"word": "lived"},
+          {"word": "asked"},
+          {"word": "put on"},
+          {"word": "walked"},
+          {"word": "picked"},
+          {"word": "appeared"},
+          {"word": "ran"},
+          {"word": "knocked"},
+          {"word": "arrived"},
+          {"word": "noticed"},
+          {"word": "ended"},
+          {"word": "saved"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "📖", "iconSize": "4rem", "text": "Once upon a time, there was a young girl.", "highlights": ["Once upon a time", "was"]},
+        {"id": 2, "icon": "👧", "iconSize": "4rem", "text": "She lived in a small village near the forest.", "highlights": ["lived"]},
+        {"id": 3, "icon": "👵", "iconSize": "4rem", "text": "One day, her mother asked her to visit grandmother.", "highlights": ["One day", "asked"]},
+        {"id": 4, "icon": "🧥", "iconSize": "4rem", "text": "Red Riding Hood put on her red cloak.", "highlights": ["put on"]},
+        {"id": 5, "icon": "🌲", "iconSize": "4rem", "text": "She walked into the forest.", "highlights": ["walked"]},
+        {"id": 6, "icon": "🌸", "iconSize": "4rem", "text": "She picked some flowers along the way.", "highlights": ["picked"]},
+        {"id": 7, "icon": "🐺", "iconSize": "4rem", "text": "Suddenly, a big wolf appeared.", "highlights": ["Suddenly", "appeared"]},
+        {"id": 8, "icon": "🏃", "iconSize": "4rem", "text": "The wolf ran to grandmother's house.", "highlights": ["ran"]},
+        {"id": 9, "icon": "🚪", "iconSize": "4rem", "text": "Red Riding Hood arrived later and noticed something was wrong.", "highlights": ["arrived", "noticed", "was"]},
+        {"id": 10, "icon": "🪓", "iconSize": "4rem", "text": "A woodcutter saved them.", "highlights": ["saved"]}
+      ]
+    },
+    "biography": {
+      "text": {
+        "content": "Albert Einstein was born in Germany in 1879. He was a curious child who loved mathematics and physics. He studied at the Swiss Federal Polytechnic School. In 1905, he published his famous theory of relativity. He won the Nobel Prize in Physics in 1921. During World War II, he moved to the United States. He worked at Princeton University for many years. He became an American citizen in 1940. Einstein died in 1955 at the age of 76. He changed our understanding of the universe forever.",
+        "highlights": [
+          {"word": "was born"},
+          {"word": "was"},
+          {"word": "loved"},
+          {"word": "studied"},
+          {"word": "published"},
+          {"word": "won"},
+          {"word": "moved"},
+          {"word": "worked"},
+          {"word": "became"},
+          {"word": "died"},
+          {"word": "changed"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "👶", "iconSize": "4rem", "text": "Albert Einstein was born in Germany in 1879.", "highlights": ["was born", "in 1879"]},
+        {"id": 2, "icon": "🧒", "iconSize": "4rem", "text": "He was a curious child who loved mathematics.", "highlights": ["was", "loved"]},
+        {"id": 3, "icon": "🎓", "iconSize": "4rem", "text": "He studied at the Swiss Federal Polytechnic School.", "highlights": ["studied"]},
+        {"id": 4, "icon": "📄", "iconSize": "4rem", "text": "In 1905, he published his theory of relativity.", "highlights": ["In 1905", "published"]},
+        {"id": 5, "icon": "🏆", "iconSize": "4rem", "text": "He won the Nobel Prize in Physics in 1921.", "highlights": ["won", "in 1921"]},
+        {"id": 6, "icon": "🇺🇸", "iconSize": "4rem", "text": "He moved to the United States.", "highlights": ["moved"]},
+        {"id": 7, "icon": "🏛️", "iconSize": "4rem", "text": "He worked at Princeton University for many years.", "highlights": ["worked", "for many years"]},
+        {"id": 8, "icon": "🗽", "iconSize": "4rem", "text": "He became an American citizen in 1940.", "highlights": ["became", "in 1940"]},
+        {"id": 9, "icon": "💫", "iconSize": "4rem", "text": "Einstein died in 1955 at the age of 76.", "highlights": ["died", "in 1955"]},
+        {"id": 10, "icon": "🌌", "iconSize": "4rem", "text": "He changed our understanding of the universe.", "highlights": ["changed"]}
+      ]
+    },
+    "historical-events": {
+      "text": {
+        "content": "World War II started in 1939 when Germany invaded Poland. Many countries joined the conflict. The war lasted for six years. In 1941, the United States entered the war after the attack on Pearl Harbor. Millions of soldiers fought in battles across Europe, Asia, and Africa. The war caused terrible destruction and loss of life. In 1945, Germany surrendered in May, and Japan surrendered in August. The United Nations was founded after the war to promote peace. The world changed dramatically after this global conflict.",
+        "highlights": [
+          {"word": "started"},
+          {"word": "invaded"},
+          {"word": "joined"},
+          {"word": "lasted"},
+          {"word": "entered"},
+          {"word": "fought"},
+          {"word": "caused"},
+          {"word": "surrendered"},
+          {"word": "was founded"},
+          {"word": "changed"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "⚔️", "iconSize": "4rem", "text": "World War II started in 1939.", "highlights": ["started", "in 1939"]},
+        {"id": 2, "icon": "🌍", "iconSize": "4rem", "text": "Germany invaded Poland.", "highlights": ["invaded"]},
+        {"id": 3, "icon": "🤝", "iconSize": "4rem", "text": "Many countries joined the conflict.", "highlights": ["joined"]},
+        {"id": 4, "icon": "📅", "iconSize": "4rem", "text": "The war lasted for six years.", "highlights": ["lasted", "for six years"]},
+        {"id": 5, "icon": "🇺🇸", "iconSize": "4rem", "text": "The United States entered the war in 1941.", "highlights": ["entered", "in 1941"]},
+        {"id": 6, "icon": "⚔️", "iconSize": "4rem", "text": "Millions of soldiers fought in battles.", "highlights": ["fought"]},
+        {"id": 7, "icon": "💥", "iconSize": "4rem", "text": "The war caused terrible destruction.", "highlights": ["caused"]},
+        {"id": 8, "icon": "🏳️", "iconSize": "4rem", "text": "Germany and Japan surrendered in 1945.", "highlights": ["surrendered", "in 1945"]},
+        {"id": 9, "icon": "🕊️", "iconSize": "4rem", "text": "The United Nations was founded after the war.", "highlights": ["was founded"]},
+        {"id": 10, "icon": "🌐", "iconSize": "4rem", "text": "The world changed dramatically.", "highlights": ["changed"]}
+      ]
+    },
+    "sequences": {
+      "text": {
+        "content": "This morning was very busy. First, I woke up late because my alarm didn't ring. Then I quickly jumped out of bed and rushed to the bathroom. After that, I had a quick shower and got dressed in five minutes. Next, I made some toast and grabbed my bag. Finally, I ran to the bus stop. Unfortunately, I missed the bus, so I called a taxi. The taxi arrived immediately and took me to work. Luckily, I arrived just in time for the meeting.",
+        "highlights": [
+          {"word": "woke up"},
+          {"word": "didn't ring"},
+          {"word": "jumped"},
+          {"word": "rushed"},
+          {"word": "had"},
+          {"word": "got dressed"},
+          {"word": "made"},
+          {"word": "grabbed"},
+          {"word": "ran"},
+          {"word": "missed"},
+          {"word": "called"},
+          {"word": "arrived"},
+          {"word": "took"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "⏰", "iconSize": "4rem", "text": "First, I woke up late because my alarm didn't ring.", "highlights": ["First", "woke up", "didn't ring"]},
+        {"id": 2, "icon": "🛏️", "iconSize": "4rem", "text": "Then I quickly jumped out of bed.", "highlights": ["Then", "jumped"]},
+        {"id": 3, "icon": "🚿", "iconSize": "4rem", "text": "After that, I had a quick shower.", "highlights": ["After that", "had"]},
+        {"id": 4, "icon": "👔", "iconSize": "4rem", "text": "I got dressed in five minutes.", "highlights": ["got dressed"]},
+        {"id": 5, "icon": "🍞", "iconSize": "4rem", "text": "Next, I made some toast.", "highlights": ["Next", "made"]},
+        {"id": 6, "icon": "💼", "iconSize": "4rem", "text": "I grabbed my bag.", "highlights": ["grabbed"]},
+        {"id": 7, "icon": "🏃", "iconSize": "4rem", "text": "Finally, I ran to the bus stop.", "highlights": ["Finally", "ran"]},
+        {"id": 8, "icon": "🚌", "iconSize": "4rem", "text": "Unfortunately, I missed the bus.", "highlights": ["Unfortunately", "missed"]},
+        {"id": 9, "icon": "🚕", "iconSize": "4rem", "text": "So I called a taxi.", "highlights": ["So", "called"]},
+        {"id": 10, "icon": "⏱️", "iconSize": "4rem", "text": "Luckily, I arrived just in time.", "highlights": ["Luckily", "arrived"]}
+      ]
+    },
+    "used-to": {
+      "text": {
+        "content": "When I was a child, I used to live in the countryside. I used to play outside every day with my friends. We used to climb trees and swim in the river. My grandmother used to tell us amazing stories every evening. I used to love her stories about the old days. My father used to work on a farm. He used to wake up very early every morning. We didn't use to have a TV or computer. Life used to be simpler back then.",
+        "highlights": [
+          {"word": "used to live"},
+          {"word": "used to play"},
+          {"word": "used to climb"},
+          {"word": "used to tell"},
+          {"word": "used to love"},
+          {"word": "used to work"},
+          {"word": "used to wake up"},
+          {"word": "didn't use to have"},
+          {"word": "used to be"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "👶", "iconSize": "4rem", "text": "When I was a child, I used to live in the countryside.", "highlights": ["When I was a child", "used to live"]},
+        {"id": 2, "icon": "⚽", "iconSize": "4rem", "text": "I used to play outside every day.", "highlights": ["used to play", "every day"]},
+        {"id": 3, "icon": "🌳", "iconSize": "4rem", "text": "We used to climb trees and swim in the river.", "highlights": ["used to climb"]},
+        {"id": 4, "icon": "👵", "iconSize": "4rem", "text": "My grandmother used to tell us amazing stories.", "highlights": ["used to tell"]},
+        {"id": 5, "icon": "📖", "iconSize": "4rem", "text": "I used to love her stories about the old days.", "highlights": ["used to love"]},
+        {"id": 6, "icon": "🚜", "iconSize": "4rem", "text": "My father used to work on a farm.", "highlights": ["used to work"]},
+        {"id": 7, "icon": "🌅", "iconSize": "4rem", "text": "He used to wake up very early every morning.", "highlights": ["used to wake up"]},
+        {"id": 8, "icon": "📺", "iconSize": "4rem", "text": "We didn't use to have a TV or computer.", "highlights": ["didn't use to have"]},
+        {"id": 9, "icon": "🕰️", "iconSize": "4rem", "text": "Life used to be simpler back then.", "highlights": ["used to be", "back then"]}
+      ]
+    }
+  },
+  "read": {
+    "finished-actions": {
+      "text": {
+        "overview": {
+          "title": "Past Simple - Finished Actions",
+          "subtitle": "Completed actions in the past",
+          "description": "Use the Past Simple for actions that started and finished at a specific time in the past."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "Subject + verb-ed (regular) OR irregular form",
+          "affirmative": [
+            {"subject": "I/You/We/They", "verb": "worked / went"},
+            {"subject": "He/She/It", "verb": "worked / went"},
+            {"subject": "Regular", "verb": "walk → walked"},
+            {"subject": "Irregular", "verb": "go → went, eat → ate"}
+          ]
+        },
+        "uses": [
+          {"icon": "✅", "label": "Finished actions", "example": "I ate breakfast at 8am."},
+          {"icon": "⏰", "label": "Specific past time", "example": "She arrived yesterday."}
+        ],
+        "timeSignals": {
+          "title": "TIME SIGNALS",
+          "frequency": [],
+          "regular": ["yesterday", "last week/month/year", "ago (2 days ago)", "in 2020", "when I was young", "at 9 o'clock"]
+        },
+        "commonErrors": [
+          {"wrong": "I go to Paris last year.", "correct": "I went to Paris last year.", "explanation": "Use past form with past time!"},
+          {"wrong": "She didn't went home.", "correct": "She didn't go home.", "explanation": "After didn't, use base form (not past)."}
+        ],
+        "examples": [
+          {"sentence": "I visited my grandmother last weekend.", "highlights": ["visited", "last weekend"]},
+          {"sentence": "They moved to London in 2019.", "highlights": ["moved", "in 2019"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "✅", "iconSize": "5rem", "title": "FINISHED ACTIONS", "subtitle": "Completed in the past", "description": "Specific time in the past", "backgroundColor": "rgba(96, 165, 250, 0.1)"},
+        {"id": 2, "type": "form", "icon": "⚙️", "iconSize": "4rem", "title": "THE FORM", "formula": "VERB + -ed (or irregular)", "examples": [{"left": "work → worked", "right": "play → played"}, {"left": "go → went", "right": "eat → ate"}, {"left": "have → had", "right": "see → saw"}], "backgroundColor": "rgba(96, 165, 250, 0.08)"},
+        {"id": 3, "type": "uses", "icon": "🎯", "iconSize": "4rem", "title": "WHEN TO USE", "items": [{"icon": "✅", "text": "Action finished"}, {"icon": "⏰", "text": "Specific past time"}, {"icon": "📍", "text": "Clear when it happened"}], "backgroundColor": "rgba(16, 185, 129, 0.08)"},
+        {"id": 4, "type": "time-signals", "icon": "🕐", "iconSize": "4rem", "title": "KEY WORDS", "frequency": [], "regular": ["yesterday", "last week", "ago", "in 2020", "when I was..."], "backgroundColor": "rgba(139, 92, 246, 0.08)"},
+        {"id": 5, "type": "common-mistake", "icon": "⚠️", "iconSize": "4rem", "title": "WATCH OUT", "wrong": "She didn't went", "correct": "She didn't go", "tip": "After didn't → base form!", "backgroundColor": "rgba(239, 68, 68, 0.08)"}
+      ]
+    },
+    "stories": {
+      "text": {
+        "overview": {
+          "title": "Past Simple - Stories & Narratives",
+          "subtitle": "Tell stories about the past",
+          "description": "Use the Past Simple as the main tense for telling stories and narratives."
+        },
+        "form": {
+          "title": "STORY STRUCTURE",
+          "pattern": "Action 1 → Action 2 → Action 3 (sequence)",
+          "affirmative": [
+            {"subject": "Beginning", "verb": "Once upon a time..."},
+            {"subject": "Middle", "verb": "Then... / Suddenly..."},
+            {"subject": "End", "verb": "Finally... / In the end..."}
+          ]
+        },
+        "uses": [
+          {"icon": "📖", "label": "Tell stories", "example": "Once upon a time, there was a princess."},
+          {"icon": "🎬", "label": "Describe sequences", "example": "She opened the door and walked in."}
+        ],
+        "timeSignals": {
+          "title": "STORY CONNECTORS",
+          "frequency": [],
+          "regular": ["Once upon a time", "One day", "Then", "Suddenly", "After that", "Finally", "In the end"]
+        },
+        "commonErrors": [],
+        "examples": [
+          {"sentence": "Once upon a time, there lived a king.", "highlights": ["Once upon a time", "lived"]},
+          {"sentence": "Suddenly, the door opened and a stranger appeared.", "highlights": ["Suddenly", "opened", "appeared"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "📖", "iconSize": "5rem", "title": "STORIES", "subtitle": "Narratives", "description": "Tell what happened", "backgroundColor": "rgba(245, 158, 11, 0.1)"},
+        {"id": 2, "type": "uses", "icon": "🎯", "iconSize": "4rem", "title": "STORY STRUCTURE", "items": [{"icon": "▶️", "text": "Beginning"}, {"icon": "⏸️", "text": "Middle events"}, {"icon": "⏹️", "text": "Ending"}], "backgroundColor": "rgba(245, 158, 11, 0.08)"},
+        {"id": 3, "type": "time-signals", "icon": "🔗", "iconSize": "4rem", "title": "CONNECTORS", "frequency": [], "regular": ["Once upon a time", "Then", "Suddenly", "Finally"], "backgroundColor": "rgba(139, 92, 246, 0.08)"}
+      ]
+    },
+    "biography": {
+      "text": {
+        "overview": {
+          "title": "Past Simple - Biography",
+          "subtitle": "Talk about someone's life",
+          "description": "Use the Past Simple to describe events in a person's life (especially people who are dead or retired)."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "Subject + past verb (life events)",
+          "affirmative": [
+            {"subject": "He/She", "verb": "was born in..."},
+            {"subject": "He/She", "verb": "studied / worked / lived"},
+            {"subject": "He/She", "verb": "died / retired in..."}
+          ]
+        },
+        "uses": [
+          {"icon": "👤", "label": "Life events", "example": "Einstein was born in 1879."},
+          {"icon": "📅", "label": "Career milestones", "example": "She won an Oscar in 2015."}
+        ],
+        "timeSignals": {
+          "title": "BIOGRAPHY MARKERS",
+          "frequency": [],
+          "regular": ["was born in", "grew up in", "studied at", "worked as", "became", "died in", "at the age of"]
+        },
+        "commonErrors": [
+          {"wrong": "Shakespeare has written many plays.", "correct": "Shakespeare wrote many plays.", "explanation": "Dead people → Past Simple (not Present Perfect)."}
+        ],
+        "examples": [
+          {"sentence": "Marie Curie was born in Poland in 1867.", "highlights": ["was born", "in 1867"]},
+          {"sentence": "She won the Nobel Prize twice.", "highlights": ["won"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "👤", "iconSize": "5rem", "title": "BIOGRAPHY", "subtitle": "Life stories", "description": "Past events in life", "backgroundColor": "rgba(139, 92, 246, 0.1)"},
+        {"id": 2, "type": "uses", "icon": "🎯", "iconSize": "4rem", "title": "LIFE STAGES", "items": [{"icon": "👶", "text": "Birth & childhood"}, {"icon": "🎓", "text": "Education & career"}, {"icon": "🏆", "text": "Achievements"}], "backgroundColor": "rgba(139, 92, 246, 0.08)"},
+        {"id": 3, "type": "common-mistake", "icon": "⚠️", "iconSize": "4rem", "title": "IMPORTANT", "wrong": "Shakespeare has written", "correct": "Shakespeare wrote", "tip": "Dead people = Past Simple!", "backgroundColor": "rgba(239, 68, 68, 0.08)"}
+      ]
+    },
+    "historical-events": {
+      "text": {
+        "overview": {
+          "title": "Past Simple - Historical Events",
+          "subtitle": "Talk about history",
+          "description": "Use the Past Simple for historical events and facts about the past."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "Subject + past verb + date/period",
+          "affirmative": [
+            {"subject": "The war", "verb": "started in 1939"},
+            {"subject": "The Romans", "verb": "built the Colosseum"},
+            {"subject": "Columbus", "verb": "discovered America"}
+          ]
+        },
+        "uses": [
+          {"icon": "🏛️", "label": "Historical facts", "example": "World War II ended in 1945."},
+          {"icon": "📜", "label": "Important events", "example": "The Berlin Wall fell in 1989."}
+        ],
+        "timeSignals": {
+          "title": "HISTORICAL MARKERS",
+          "frequency": [],
+          "regular": ["in + year (in 1492)", "during + period (during the war)", "BC / AD", "in the 20th century"]
+        },
+        "commonErrors": [],
+        "examples": [
+          {"sentence": "The Romans invaded Britain in 43 AD.", "highlights": ["invaded", "in 43 AD"]},
+          {"sentence": "Man landed on the moon in 1969.", "highlights": ["landed", "in 1969"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "🏛️", "iconSize": "5rem", "title": "HISTORY", "subtitle": "Past events", "description": "What happened in history", "backgroundColor": "rgba(239, 68, 68, 0.1)"},
+        {"id": 2, "type": "uses", "icon": "🎯", "iconSize": "4rem", "title": "TYPES", "items": [{"icon": "⚔️", "text": "Wars & conflicts"}, {"icon": "👑", "text": "Kings & empires"}, {"icon": "🚀", "text": "Discoveries"}], "backgroundColor": "rgba(239, 68, 68, 0.08)"}
+      ]
+    },
+    "sequences": {
+      "text": {
+        "overview": {
+          "title": "Past Simple - Sequences",
+          "subtitle": "Order of events (First, Then, Finally)",
+          "description": "Use the Past Simple with sequencing words to show the order events happened."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "First... Then... After that... Finally...",
+          "affirmative": [
+            {"subject": "First", "verb": "I woke up"},
+            {"subject": "Then", "verb": "I had breakfast"},
+            {"subject": "After that", "verb": "I left home"},
+            {"subject": "Finally", "verb": "I arrived at work"}
+          ]
+        },
+        "uses": [
+          {"icon": "1️⃣", "label": "Show order", "example": "First I studied, then I had lunch."},
+          {"icon": "➡️", "label": "Connect events", "example": "After the movie, we went home."}
+        ],
+        "timeSignals": {
+          "title": "SEQUENCE WORDS",
+          "frequency": [],
+          "regular": ["First / Firstly", "Then / After that / Next", "Later / Afterwards", "Finally / In the end / Eventually"]
+        },
+        "commonErrors": [],
+        "examples": [
+          {"sentence": "First, I checked my email. Then I called my boss.", "highlights": ["First", "Then"]},
+          {"sentence": "After the meeting, we had lunch.", "highlights": ["After", "had"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "🔢", "iconSize": "5rem", "title": "SEQUENCES", "subtitle": "Order of events", "description": "First → Then → Finally", "backgroundColor": "rgba(16, 185, 129, 0.1)"},
+        {"id": 2, "type": "time-signals", "icon": "➡️", "iconSize": "4rem", "title": "CONNECTORS", "frequency": [], "regular": ["First", "Then", "After that", "Next", "Finally"], "backgroundColor": "rgba(16, 185, 129, 0.08)"}
+      ]
+    },
+    "used-to": {
+      "text": {
+        "overview": {
+          "title": "Past Simple - Used To",
+          "subtitle": "Past habits (no longer true)",
+          "description": "Use 'used to' + base verb to talk about past habits or states that are not true now."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "Subject + used to + base verb",
+          "affirmative": [
+            {"subject": "I/You/We/They", "verb": "used to live"},
+            {"subject": "He/She/It", "verb": "used to work"},
+            {"subject": "Negative", "verb": "didn't use to play"},
+            {"subject": "Question", "verb": "Did you use to smoke?"}
+          ]
+        },
+        "uses": [
+          {"icon": "🕰️", "label": "Past habits (not now)", "example": "I used to smoke. (I don't smoke now)"},
+          {"icon": "🏠", "label": "Past states (changed)", "example": "I used to live in Paris. (I don't live there now)"}
+        ],
+        "timeSignals": {
+          "title": "CONTEXT MARKERS",
+          "frequency": [],
+          "regular": ["when I was young", "as a child", "before", "in the past", "years ago", "back then"]
+        },
+        "commonErrors": [
+          {"wrong": "I used to went there.", "correct": "I used to go there.", "explanation": "After 'used to' → base verb (not past)!"},
+          {"wrong": "I use to live there.", "correct": "I used to live there.", "explanation": "Don't forget the -d in 'used'!"}
+        ],
+        "examples": [
+          {"sentence": "I used to play football when I was young.", "highlights": ["used to play", "when I was young"]},
+          {"sentence": "She didn't use to like vegetables.", "highlights": ["didn't use to like"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "🕰️", "iconSize": "5rem", "title": "USED TO", "subtitle": "Past habits", "description": "Was true → NOT true now", "backgroundColor": "rgba(236, 72, 153, 0.1)"},
+        {"id": 2, "type": "form", "icon": "⚙️", "iconSize": "4rem", "title": "THE FORM", "formula": "used to + BASE VERB", "examples": [{"left": "I used to smoke", "right": "She used to live here"}, {"left": "We used to play", "right": "They used to work"}], "backgroundColor": "rgba(236, 72, 153, 0.08)"},
+        {"id": 3, "type": "uses", "icon": "🎯", "iconSize": "4rem", "title": "CONTRAST", "items": [{"icon": "✅", "text": "PAST: I used to smoke"}, {"icon": "❌", "text": "NOW: I don't smoke"}, {"icon": "🔄", "text": "Shows CHANGE"}], "backgroundColor": "rgba(236, 72, 153, 0.08)"},
+        {"id": 4, "type": "common-mistake", "icon": "⚠️", "iconSize": "4rem", "title": "WATCH OUT", "wrong": "I used to went", "correct": "I used to go", "tip": "After 'used to' → base verb!", "backgroundColor": "rgba(239, 68, 68, 0.08)"}
+      ]
+    }
+  }
+}
