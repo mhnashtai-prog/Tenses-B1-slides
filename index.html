@@ -998,13 +998,15 @@
     
     async function loadData() {
       try {
-        const response = await fetch('grammar-present-simple.json');
+        const filename = `grammar-${currentTime}-${currentAspect}.json`;
+        const response = await fetch(filename);
         GRAMMAR_DATA = await response.json();
         console.log('✓ Data loaded:', GRAMMAR_DATA);
+        updateTier3Buttons();
         renderContent();
       } catch (error) {
         console.error('Error loading data:', error);
-        document.getElementById('contentArea').innerHTML = '<p style="color: #ef4444;">Error: Could not load grammar-present-simple.json</p>';
+        document.getElementById('contentArea').innerHTML = `<p style="color: #ef4444;">Error: Could not load ${currentTime}-${currentAspect} data.<br>File: grammar-${currentTime}-${currentAspect}.json</p>`;
       }
     }
 
@@ -1041,8 +1043,9 @@
         document.querySelectorAll('.tier-1-btn').forEach(b => b.classList.remove('active'));
         this.classList.add('active');
         currentSlide = 0;
+        currentContext = 'daily-habits'; // Reset to first context
         stopAudio();
-        renderContent();
+        loadData(); // Reload data for new time
       });
     });
 
@@ -1052,8 +1055,9 @@
         document.querySelectorAll('.tier-2-btn').forEach(b => b.classList.remove('active'));
         this.classList.add('active');
         currentSlide = 0;
+        currentContext = getDefaultContext(currentTime, currentAspect); // Get appropriate first context
         stopAudio();
-        renderContent();
+        loadData(); // Reload data for new aspect
       });
     });
 
@@ -1071,6 +1075,104 @@
         renderContent();
       });
     });
+
+    // Helper function to get the default context for each tense
+    function getDefaultContext(time, aspect) {
+      if (time === 'present' && aspect === 'simple') {
+        return 'daily-habits';
+      } else if (time === 'present' && aspect === 'continuous') {
+        return 'right-now';
+      } else if (time === 'present' && aspect === 'perfect') {
+        return 'life-experiences';
+      } else if (time === 'past' && aspect === 'simple') {
+        return 'finished-actions';
+      } else if (time === 'past' && aspect === 'continuous') {
+        return 'background-action';
+      } else if (time === 'past' && aspect === 'perfect') {
+        return 'earlier-past';
+      }
+      return 'daily-habits'; // fallback
+    }
+
+    // Update tier 3 buttons based on current tense
+    function updateTier3Buttons() {
+      const tier3Container = document.querySelector('.tier-3');
+      
+      let contexts = [];
+      if (currentTime === 'present' && currentAspect === 'simple') {
+        contexts = [
+          {id: 'daily-habits', label: 'Daily Habits'},
+          {id: 'frequency', label: 'Frequency'},
+          {id: 'facts', label: 'Facts'},
+          {id: 'schedules', label: 'Schedules'}
+        ];
+      } else if (currentTime === 'present' && currentAspect === 'continuous') {
+        contexts = [
+          {id: 'right-now', label: 'Right Now'},
+          {id: 'temporary', label: 'Temporary'},
+          {id: 'future-plans', label: 'Future Plans'},
+          {id: 'trends', label: 'Trends'},
+          {id: 'complaints', label: 'Complaints'},
+          {id: 'background', label: 'Background'}
+        ];
+      } else if (currentTime === 'present' && currentAspect === 'perfect') {
+        contexts = [
+          {id: 'life-experiences', label: 'Life Experiences'},
+          {id: 'recent-past', label: 'Recent Past'},
+          {id: 'unfinished-time', label: 'Duration'},
+          {id: 'change-over-time', label: 'Change'},
+          {id: 'results', label: 'Results'},
+          {id: 'multiple-times', label: 'Repetition'},
+          {id: 'news', label: 'News'}
+        ];
+      } else if (currentTime === 'past' && currentAspect === 'simple') {
+        contexts = [
+          {id: 'finished-actions', label: 'Finished Actions'},
+          {id: 'stories', label: 'Stories'},
+          {id: 'biography', label: 'Biography'},
+          {id: 'historical-events', label: 'History'},
+          {id: 'sequences', label: 'Sequences'},
+          {id: 'used-to', label: 'Used To'}
+        ];
+      } else if (currentTime === 'past' && currentAspect === 'continuous') {
+        contexts = [
+          {id: 'background-action', label: 'Background'},
+          {id: 'interrupted-action', label: 'Interrupted'},
+          {id: 'parallel-actions', label: 'Parallel Actions'},
+          {id: 'descriptions', label: 'Descriptions'},
+          {id: 'polite-questions', label: 'Polite Requests'}
+        ];
+      } else if (currentTime === 'past' && currentAspect === 'perfect') {
+        contexts = [
+          {id: 'earlier-past', label: 'Earlier Past'},
+          {id: 'reported-speech', label: 'Reported Speech'},
+          {id: 'regrets', label: 'Regrets'},
+          {id: 'completed-before', label: 'Before/By'},
+          {id: 'reasons', label: 'Reasons'},
+          {id: 'third-conditional', label: '3rd Conditional'}
+        ];
+      }
+      
+      tier3Container.innerHTML = contexts.map((ctx, idx) => 
+        `<button class="tier-3-btn ${idx === 0 ? 'active' : ''}" data-context="${ctx.id}">${ctx.label}</button>`
+      ).join('');
+      
+      // Re-attach event listeners
+      document.querySelectorAll('.tier-3-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+          if (this.dataset.context === 'more') {
+            alert('More contexts coming soon!');
+            return;
+          }
+          currentContext = this.dataset.context;
+          document.querySelectorAll('.tier-3-btn').forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+          currentSlide = 0;
+          stopAudio();
+          renderContent();
+        });
+      });
+    }
 
     // TOGGLE MODE (Watch/Read)
     modeToggle.addEventListener('click', function() {
