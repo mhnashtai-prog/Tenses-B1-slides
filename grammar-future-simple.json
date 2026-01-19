@@ -1,1 +1,333 @@
-
+{
+  "skillArea": "grammar",
+  "level": "B1",
+  "tense": {
+    "time": "future",
+    "aspect": "simple"
+  },
+  "metadata": {
+    "title": "Future Simple (will)",
+    "icon": "📖",
+    "description": "Learn the Future Simple tense with 'will'"
+  },
+  "watch": {
+    "predictions": {
+      "text": {
+        "content": "I think it will rain tomorrow. The weather forecast says it will be cloudy all week. Scientists believe temperatures will rise in the next decade. The economy will probably improve next year. This movie will be very successful. She will win the competition. I'm sure he will pass the exam. Technology will change our lives in the future.",
+        "highlights": [
+          {"word": "will rain"},
+          {"word": "will be"},
+          {"word": "will rise"},
+          {"word": "will probably improve"},
+          {"word": "will be"},
+          {"word": "will win"},
+          {"word": "will pass"},
+          {"word": "will change"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "🌧️", "iconSize": "4rem", "text": "I think it will rain tomorrow.", "highlights": ["I think", "will rain"]},
+        {"id": 2, "icon": "☁️", "iconSize": "4rem", "text": "The forecast says it will be cloudy all week.", "highlights": ["will be cloudy"]},
+        {"id": 3, "icon": "🌡️", "iconSize": "4rem", "text": "Scientists believe temperatures will rise.", "highlights": ["will rise"]},
+        {"id": 4, "icon": "📈", "iconSize": "4rem", "text": "The economy will probably improve next year.", "highlights": ["will probably improve"]},
+        {"id": 5, "icon": "🎬", "iconSize": "4rem", "text": "This movie will be very successful.", "highlights": ["will be"]},
+        {"id": 6, "icon": "🏆", "iconSize": "4rem", "text": "She will win the competition.", "highlights": ["will win"]},
+        {"id": 7, "icon": "📚", "iconSize": "4rem", "text": "I'm sure he will pass the exam.", "highlights": ["I'm sure", "will pass"]},
+        {"id": 8, "icon": "🚀", "iconSize": "4rem", "text": "Technology will change our lives.", "highlights": ["will change"]}
+      ]
+    },
+    "spontaneous-decisions": {
+      "text": {
+        "content": "The phone is ringing. I'll answer it. It's cold in here. I'll close the window. You look tired. I'll make you some coffee. Oh no, we're out of milk. I'll go to the shop and buy some. The bag looks heavy. I'll help you carry it. You don't understand? I'll explain it again. I'm hungry. I'll make a sandwich. It's getting dark. I'll turn on the lights.",
+        "highlights": [
+          {"word": "I'll answer"},
+          {"word": "I'll close"},
+          {"word": "I'll make"},
+          {"word": "I'll go"},
+          {"word": "I'll help"},
+          {"word": "I'll explain"},
+          {"word": "I'll make"},
+          {"word": "I'll turn on"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "📞", "iconSize": "4rem", "text": "The phone is ringing. I'll answer it.", "highlights": ["I'll answer"]},
+        {"id": 2, "icon": "🪟", "iconSize": "4rem", "text": "It's cold in here. I'll close the window.", "highlights": ["I'll close"]},
+        {"id": 3, "icon": "☕", "iconSize": "4rem", "text": "You look tired. I'll make you some coffee.", "highlights": ["I'll make"]},
+        {"id": 4, "icon": "🥛", "iconSize": "4rem", "text": "We're out of milk. I'll go to the shop.", "highlights": ["I'll go"]},
+        {"id": 5, "icon": "💪", "iconSize": "4rem", "text": "The bag looks heavy. I'll help you carry it.", "highlights": ["I'll help"]},
+        {"id": 6, "icon": "💡", "iconSize": "4rem", "text": "You don't understand? I'll explain it again.", "highlights": ["I'll explain"]},
+        {"id": 7, "icon": "🥪", "iconSize": "4rem", "text": "I'm hungry. I'll make a sandwich.", "highlights": ["I'll make"]},
+        {"id": 8, "icon": "💡", "iconSize": "4rem", "text": "It's getting dark. I'll turn on the lights.", "highlights": ["I'll turn on"]}
+      ]
+    },
+    "promises": {
+      "text": {
+        "content": "I promise I will call you tomorrow. I will never forget you. I will always love you. Don't worry, I won't tell anyone your secret. I will help you with your homework. I promise I won't be late again. I will pay you back next week. I will take care of your cat while you're away. I won't let you down. I will be there for you.",
+        "highlights": [
+          {"word": "I promise I will call"},
+          {"word": "will never forget"},
+          {"word": "will always love"},
+          {"word": "won't tell"},
+          {"word": "will help"},
+          {"word": "won't be"},
+          {"word": "will pay"},
+          {"word": "will take care"},
+          {"word": "won't let"},
+          {"word": "will be"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "🤝", "iconSize": "4rem", "text": "I promise I will call you tomorrow.", "highlights": ["I promise", "will call"]},
+        {"id": 2, "icon": "💭", "iconSize": "4rem", "text": "I will never forget you.", "highlights": ["will never forget"]},
+        {"id": 3, "icon": "❤️", "iconSize": "4rem", "text": "I will always love you.", "highlights": ["will always love"]},
+        {"id": 4, "icon": "🤫", "iconSize": "4rem", "text": "Don't worry, I won't tell anyone your secret.", "highlights": ["won't tell"]},
+        {"id": 5, "icon": "📚", "iconSize": "4rem", "text": "I will help you with your homework.", "highlights": ["will help"]},
+        {"id": 6, "icon": "⏰", "iconSize": "4rem", "text": "I promise I won't be late again.", "highlights": ["won't be late"]},
+        {"id": 7, "icon": "💰", "iconSize": "4rem", "text": "I will pay you back next week.", "highlights": ["will pay"]},
+        {"id": 8, "icon": "🐱", "iconSize": "4rem", "text": "I will take care of your cat while you're away.", "highlights": ["will take care"]}
+      ]
+    },
+    "offers": {
+      "text": {
+        "content": "Shall I open the door for you? I'll carry your bags if you like. Would you like me to help you? I'll drive you to the airport. Shall I make some tea? I'll book the tickets if you want. Would you like me to call them? I'll translate it for you. Shall I wait for you here? I'll send you the documents tomorrow.",
+        "highlights": [
+          {"word": "Shall I open"},
+          {"word": "I'll carry"},
+          {"word": "Would you like me to help"},
+          {"word": "I'll drive"},
+          {"word": "Shall I make"},
+          {"word": "I'll book"},
+          {"word": "Would you like me to call"},
+          {"word": "I'll translate"},
+          {"word": "Shall I wait"},
+          {"word": "I'll send"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "🚪", "iconSize": "4rem", "text": "Shall I open the door for you?", "highlights": ["Shall I open"]},
+        {"id": 2, "icon": "🎒", "iconSize": "4rem", "text": "I'll carry your bags if you like.", "highlights": ["I'll carry"]},
+        {"id": 3, "icon": "🆘", "iconSize": "4rem", "text": "Would you like me to help you?", "highlights": ["Would you like me to help"]},
+        {"id": 4, "icon": "✈️", "iconSize": "4rem", "text": "I'll drive you to the airport.", "highlights": ["I'll drive"]},
+        {"id": 5, "icon": "☕", "iconSize": "4rem", "text": "Shall I make some tea?", "highlights": ["Shall I make"]},
+        {"id": 6, "icon": "🎫", "iconSize": "4rem", "text": "I'll book the tickets if you want.", "highlights": ["I'll book"]},
+        {"id": 7, "icon": "📞", "iconSize": "4rem", "text": "Would you like me to call them?", "highlights": ["Would you like me to call"]},
+        {"id": 8, "icon": "🌐", "iconSize": "4rem", "text": "I'll translate it for you.", "highlights": ["I'll translate"]}
+      ]
+    },
+    "threats-warnings": {
+      "text": {
+        "content": "If you don't study, you will fail the exam. Be careful or you'll hurt yourself! If you don't hurry, we'll miss the train. You'll regret this decision. If you eat too much, you'll feel sick. Don't touch that, you'll burn yourself! If you keep spending like this, you'll run out of money. Be quiet or you'll wake the baby!",
+        "highlights": [
+          {"word": "will fail"},
+          {"word": "you'll hurt"},
+          {"word": "we'll miss"},
+          {"word": "You'll regret"},
+          {"word": "you'll feel"},
+          {"word": "you'll burn"},
+          {"word": "you'll run out"},
+          {"word": "you'll wake"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "📚", "iconSize": "4rem", "text": "If you don't study, you will fail the exam.", "highlights": ["If you don't study", "will fail"]},
+        {"id": 2, "icon": "⚠️", "iconSize": "4rem", "text": "Be careful or you'll hurt yourself!", "highlights": ["you'll hurt"]},
+        {"id": 3, "icon": "🚂", "iconSize": "4rem", "text": "If you don't hurry, we'll miss the train.", "highlights": ["we'll miss"]},
+        {"id": 4, "icon": "😔", "iconSize": "4rem", "text": "You'll regret this decision.", "highlights": ["You'll regret"]},
+        {"id": 5, "icon": "🤢", "iconSize": "4rem", "text": "If you eat too much, you'll feel sick.", "highlights": ["you'll feel sick"]},
+        {"id": 6, "icon": "🔥", "iconSize": "4rem", "text": "Don't touch that, you'll burn yourself!", "highlights": ["you'll burn"]},
+        {"id": 7, "icon": "💸", "iconSize": "4rem", "text": "If you keep spending, you'll run out of money.", "highlights": ["you'll run out"]},
+        {"id": 8, "icon": "👶", "iconSize": "4rem", "text": "Be quiet or you'll wake the baby!", "highlights": ["you'll wake"]}
+      ]
+    }
+  },
+  "read": {
+    "predictions": {
+      "text": {
+        "overview": {
+          "title": "Future Simple - Predictions",
+          "subtitle": "Talk about the future (what we think will happen)",
+          "description": "Use 'will' to make predictions about the future based on what we believe or think."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "Subject + will + base verb",
+          "affirmative": [
+            {"subject": "I/You/We/They", "verb": "will go"},
+            {"subject": "He/She/It", "verb": "will go"},
+            {"subject": "Negative", "verb": "will not (won't) go"},
+            {"subject": "Question", "verb": "Will you go?"}
+          ]
+        },
+        "uses": [
+          {"icon": "🔮", "label": "Predictions", "example": "It will rain tomorrow."},
+          {"icon": "💭", "label": "What we think/believe", "example": "I think she will win."}
+        ],
+        "timeSignals": {
+          "title": "PREDICTION MARKERS",
+          "frequency": [],
+          "regular": ["I think...", "I believe...", "probably", "maybe", "definitely", "I'm sure...", "tomorrow", "next week/month/year"]
+        },
+        "commonErrors": [
+          {"wrong": "It will rains tomorrow.", "correct": "It will rain tomorrow.", "explanation": "After 'will' use base verb (no -s)."},
+          {"wrong": "I will to go.", "correct": "I will go.", "explanation": "Don't use 'to' after 'will'."}
+        ],
+        "examples": [
+          {"sentence": "I think the movie will be interesting.", "highlights": ["I think", "will be"]},
+          {"sentence": "She will probably arrive late.", "highlights": ["will probably arrive"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "🔮", "iconSize": "5rem", "title": "PREDICTIONS", "subtitle": "Future forecasts", "description": "What we think will happen", "backgroundColor": "rgba(96, 165, 250, 0.1)"},
+        {"id": 2, "type": "form", "icon": "⚙️", "iconSize": "4rem", "title": "THE FORM", "formula": "will + BASE VERB", "examples": [{"left": "I will go", "right": "She will go"}, {"left": "You will see", "right": "We will see"}, {"left": "They will come", "right": ""}], "backgroundColor": "rgba(96, 165, 250, 0.08)"},
+        {"id": 3, "type": "uses", "icon": "🎯", "iconSize": "4rem", "title": "WHEN TO USE", "items": [{"icon": "🔮", "text": "Predictions"}, {"icon": "💭", "text": "Opinions about future"}, {"icon": "📊", "text": "Forecasts"}], "backgroundColor": "rgba(16, 185, 129, 0.08)"},
+        {"id": 4, "type": "time-signals", "icon": "💭", "iconSize": "4rem", "title": "COMMON PHRASES", "frequency": [], "regular": ["I think...", "probably", "I'm sure...", "definitely"], "backgroundColor": "rgba(139, 92, 246, 0.08)"},
+        {"id": 5, "type": "common-mistake", "icon": "⚠️", "iconSize": "4rem", "title": "WATCH OUT", "wrong": "It will rains", "correct": "It will rain", "tip": "No -s after will!", "backgroundColor": "rgba(239, 68, 68, 0.08)"}
+      ]
+    },
+    "spontaneous-decisions": {
+      "text": {
+        "overview": {
+          "title": "Future Simple - Spontaneous Decisions",
+          "subtitle": "Decisions made at the moment of speaking",
+          "description": "Use 'will' (I'll) for decisions you make right now, not planned before."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "I'll + base verb (contracted form common)",
+          "affirmative": [
+            {"subject": "Common", "verb": "I'll answer it"},
+            {"subject": "Common", "verb": "I'll help you"},
+            {"subject": "Full form", "verb": "I will go"}
+          ]
+        },
+        "uses": [
+          {"icon": "💡", "label": "Instant decisions", "example": "The phone's ringing. I'll answer it."},
+          {"icon": "⚡", "label": "Not planned before", "example": "I'm hungry. I'll make a sandwich."}
+        ],
+        "timeSignals": {
+          "title": "DECISION CONTEXT",
+          "frequency": [],
+          "regular": ["Reaction to immediate situation", "Decided NOW (not before)", "Usually use I'll (contracted)"]
+        },
+        "commonErrors": [],
+        "examples": [
+          {"sentence": "It's hot in here. I'll open the window.", "highlights": ["I'll open"]},
+          {"sentence": "You look lost. I'll help you.", "highlights": ["I'll help"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "💡", "iconSize": "5rem", "title": "INSTANT DECISIONS", "subtitle": "Decide right NOW", "description": "Not planned before", "backgroundColor": "rgba(245, 158, 11, 0.1)"},
+        {"id": 2, "type": "uses", "icon": "⚡", "iconSize": "4rem", "title": "CHARACTERISTICS", "items": [{"icon": "💡", "text": "Decided at this moment"}, {"icon": "❌", "text": "NOT planned before"}, {"icon": "🗣️", "text": "Usually I'll (spoken)"}], "backgroundColor": "rgba(245, 158, 11, 0.08)"}
+      ]
+    },
+    "promises": {
+      "text": {
+        "overview": {
+          "title": "Future Simple - Promises",
+          "subtitle": "Make promises and commitments",
+          "description": "Use 'will' to make promises, guarantees, and commitments."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "I promise I will/won't + base verb",
+          "affirmative": [
+            {"subject": "Promise", "verb": "I promise I will help"},
+            {"subject": "Guarantee", "verb": "I will never forget"},
+            {"subject": "Commitment", "verb": "I will always be there"}
+          ]
+        },
+        "uses": [
+          {"icon": "🤝", "label": "Promises", "example": "I promise I will call you."},
+          {"icon": "❤️", "label": "Commitments", "example": "I will always love you."}
+        ],
+        "timeSignals": {
+          "title": "PROMISE LANGUAGE",
+          "frequency": [],
+          "regular": ["I promise...", "I will never...", "I will always...", "I won't...", "I guarantee..."]
+        },
+        "commonErrors": [],
+        "examples": [
+          {"sentence": "I promise I won't tell anyone.", "highlights": ["I promise", "won't tell"]},
+          {"sentence": "I will always remember this day.", "highlights": ["will always remember"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "🤝", "iconSize": "5rem", "title": "PROMISES", "subtitle": "Commitments", "description": "I promise I will...", "backgroundColor": "rgba(16, 185, 129, 0.1)"},
+        {"id": 2, "type": "time-signals", "icon": "💬", "iconSize": "4rem", "title": "PROMISE PHRASES", "frequency": [], "regular": ["I promise...", "I will never...", "I will always...", "I won't..."], "backgroundColor": "rgba(16, 185, 129, 0.08)"}
+      ]
+    },
+    "offers": {
+      "text": {
+        "overview": {
+          "title": "Future Simple - Offers",
+          "subtitle": "Offer to help",
+          "description": "Use 'will', 'shall I', or 'would you like me to' to offer help or services."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "I'll / Shall I / Would you like me to + base verb",
+          "affirmative": [
+            {"subject": "Offer 1", "verb": "I'll help you"},
+            {"subject": "Offer 2", "verb": "Shall I carry that?"},
+            {"subject": "Offer 3", "verb": "Would you like me to help?"}
+          ]
+        },
+        "uses": [
+          {"icon": "🆘", "label": "Offer help", "example": "I'll carry your bags."},
+          {"icon": "❓", "label": "Ask to help", "example": "Shall I open the door?"}
+        ],
+        "timeSignals": {
+          "title": "OFFER STRUCTURES",
+          "frequency": [],
+          "regular": ["I'll...", "Shall I...?", "Would you like me to...?", "if you like", "if you want"]
+        },
+        "commonErrors": [],
+        "examples": [
+          {"sentence": "Shall I make you some coffee?", "highlights": ["Shall I make"]},
+          {"sentence": "I'll give you a lift if you like.", "highlights": ["I'll give", "if you like"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "🆘", "iconSize": "5rem", "title": "OFFERS", "subtitle": "Help & services", "description": "Shall I...? / I'll...", "backgroundColor": "rgba(139, 92, 246, 0.1)"},
+        {"id": 2, "type": "form", "icon": "⚙️", "iconSize": "4rem", "title": "OFFER PATTERNS", "formula": "Shall I / I'll / Would you like me to", "examples": [{"left": "Shall I help?", "right": ""}, {"left": "I'll do it", "right": ""}, {"left": "Would you like me to?", "right": ""}], "backgroundColor": "rgba(139, 92, 246, 0.08)"}
+      ]
+    },
+    "threats-warnings": {
+      "text": {
+        "overview": {
+          "title": "Future Simple - Threats & Warnings",
+          "subtitle": "Warn about consequences",
+          "description": "Use 'will' to warn about future consequences or threaten."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "If you..., you will... / or you'll...",
+          "affirmative": [
+            {"subject": "Warning", "verb": "If you don't hurry, you'll be late"},
+            {"subject": "Threat", "verb": "If you do that, you'll regret it"},
+            {"subject": "Consequence", "verb": "Be careful or you'll fall"}
+          ]
+        },
+        "uses": [
+          {"icon": "⚠️", "label": "Warnings", "example": "Be careful or you'll hurt yourself!"},
+          {"icon": "😠", "label": "Threats", "example": "If you do that again, I'll tell your mother."}
+        ],
+        "timeSignals": {
+          "title": "WARNING STRUCTURES",
+          "frequency": [],
+          "regular": ["If you..., you'll...", "or you'll...", "Be careful or...", "Don't... or you'll..."]
+        },
+        "commonErrors": [],
+        "examples": [
+          {"sentence": "If you don't study, you'll fail the exam.", "highlights": ["If you don't study", "you'll fail"]},
+          {"sentence": "Stop or I'll call the police!", "highlights": ["or I'll call"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "⚠️", "iconSize": "5rem", "title": "WARNINGS", "subtitle": "Consequences", "description": "If you..., you'll...", "backgroundColor": "rgba(239, 68, 68, 0.1)"},
+        {"id": 2, "type": "form", "icon": "⚙️", "iconSize": "4rem", "title": "WARNING PATTERNS", "formula": "If/or + you'll", "examples": [{"left": "If you..., you'll...", "right": ""}, {"left": "... or you'll...", "right": ""}, {"left": "Be careful or...", "right": ""}], "backgroundColor": "rgba(239, 68, 68, 0.08)"}
+      ]
+    }
+  }
+}
