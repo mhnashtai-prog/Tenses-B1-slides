@@ -330,6 +330,63 @@
       font-weight: 600;
     }
 
+    /* MODE SELECTOR (Three buttons: Watch, Read, Drill) */
+    .mode-selector {
+      display: flex;
+      gap: 0.5rem;
+      background: rgba(0, 0, 0, 0.2);
+      border: 1px solid rgba(84, 84, 88, 0.3);
+      border-radius: 12px;
+      padding: 0.25rem;
+    }
+
+    .mode-btn {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      background: transparent;
+      border: none;
+      border-radius: 8px;
+      color: #8e8e93;
+      font-size: 0.875rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-family: 'DM Sans', sans-serif;
+    }
+
+    .mode-btn:hover {
+      background: rgba(255, 255, 255, 0.05);
+      color: #C9A961;
+    }
+
+    .mode-btn.active {
+      background: rgba(201, 169, 97, 0.15);
+      color: #C9A961;
+      font-weight: 600;
+      box-shadow: 0 2px 8px rgba(201, 169, 97, 0.2);
+    }
+
+    .mode-icon {
+      font-size: 1.125rem;
+      display: flex;
+      align-items: center;
+    }
+
+    .mode-label {
+      font-size: 0.875rem;
+    }
+
+    @media (max-width: 768px) {
+      .mode-label {
+        display: none;
+      }
+      .mode-btn {
+        padding: 0.5rem 0.75rem;
+      }
+    }
+
     /* FORMAT SELECTOR */
     .format-selector {
       display: flex;
@@ -771,6 +828,169 @@
       margin-bottom: 1.5rem;
       text-transform: uppercase;
       letter-spacing: 0.05em;
+    }
+
+    /* DRILL MODE STYLES */
+    .drill-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 500px;
+      padding: 3rem 2rem;
+    }
+
+    .drill-counter {
+      font-size: 0.875rem;
+      color: #8e8e93;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 3rem;
+    }
+
+    .drill-sentence {
+      background: rgba(201, 169, 97, 0.08);
+      border: 2px solid rgba(201, 169, 97, 0.2);
+      border-radius: 1.5rem;
+      padding: 3rem 4rem;
+      max-width: 800px;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 3rem;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    }
+
+    .drill-sentence-text {
+      font-size: 2.5rem;
+      font-weight: 600;
+      color: #e5e5e7;
+      line-height: 1.5;
+      font-family: 'Space Grotesk', sans-serif;
+    }
+
+    .drill-controls {
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+
+    .drill-btn {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 1rem 2rem;
+      background: rgba(201, 169, 97, 0.15);
+      border: 2px solid rgba(201, 169, 97, 0.3);
+      border-radius: 12px;
+      color: #C9A961;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-family: 'DM Sans', sans-serif;
+    }
+
+    .drill-btn:hover {
+      background: rgba(201, 169, 97, 0.25);
+      border-color: rgba(201, 169, 97, 0.5);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(201, 169, 97, 0.3);
+    }
+
+    .drill-btn:active {
+      transform: translateY(0);
+    }
+
+    .drill-btn-icon {
+      font-size: 1.25rem;
+    }
+
+    .drill-progress {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 600px;
+    }
+
+    .drill-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: rgba(142, 142, 147, 0.3);
+      transition: all 0.3s ease;
+    }
+
+    .drill-dot.active {
+      background: #C9A961;
+      box-shadow: 0 0 8px rgba(201, 169, 97, 0.6);
+    }
+
+    .drill-dot.completed {
+      background: rgba(16, 185, 129, 0.6);
+    }
+
+    .drill-transformation {
+      background: rgba(0, 0, 0, 0.2);
+      border: 1px solid rgba(84, 84, 88, 0.3);
+      border-radius: 1rem;
+      padding: 2rem;
+      max-width: 700px;
+      width: 100%;
+      margin-top: 2rem;
+    }
+
+    .drill-transformation-title {
+      font-size: 0.875rem;
+      color: #8e8e93;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+    }
+
+    .drill-transformation-item {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem;
+      margin-bottom: 0.75rem;
+      background: rgba(255, 255, 255, 0.02);
+      border-radius: 0.5rem;
+      font-size: 1.125rem;
+    }
+
+    .drill-transformation-label {
+      font-size: 0.75rem;
+      color: #8e8e93;
+      text-transform: uppercase;
+      font-weight: 600;
+      min-width: 100px;
+    }
+
+    .drill-transformation-text {
+      color: #e5e5e7;
+      font-weight: 500;
+    }
+
+    @media (max-width: 768px) {
+      .drill-sentence {
+        padding: 2rem;
+      }
+      .drill-sentence-text {
+        font-size: 1.75rem;
+      }
+      .drill-controls {
+        flex-direction: column;
+        width: 100%;
+      }
+      .drill-btn {
+        width: 100%;
+        justify-content: center;
+      }
+    }
       font-weight: 600;
     }
 
@@ -950,13 +1170,20 @@
         <!-- Toggle Bars -->
         <div class="toggle-bars">
           
-          <!-- Watch/Read Toggle -->
-          <div class="toggle-group">
-            <span class="toggle-option active" id="watchLabel">👁️ Watch</span>
-            <div class="toggle-switch" id="modeToggle">
-              <div class="toggle-slider"></div>
-            </div>
-            <span class="toggle-option" id="readLabel">📄 Read</span>
+          <!-- Watch/Read/Drill Mode Selector -->
+          <div class="mode-selector">
+            <button class="mode-btn active" id="watchBtn" data-mode="watch">
+              <span class="mode-icon">👁️</span>
+              <span class="mode-label">Watch</span>
+            </button>
+            <button class="mode-btn" id="readBtn" data-mode="read">
+              <span class="mode-icon">📖</span>
+              <span class="mode-label">Read</span>
+            </button>
+            <button class="mode-btn" id="drillBtn" data-mode="drill">
+              <span class="mode-icon">🔁</span>
+              <span class="mode-label">Drill</span>
+            </button>
           </div>
 
           <!-- Text/Slides Format -->
@@ -1112,7 +1339,7 @@
     let currentTime = 'present';
     let currentAspect = 'simple';
     let currentContext = 'daily-habits';
-    let currentMode = 'watch'; // 'watch' or 'read'
+    let currentMode = 'watch'; // 'watch', 'read', or 'drill'
     let currentFormat = 'slides'; // 'text' or 'slides'
     let currentSlide = 0;
     let totalSlides = 0;
@@ -1121,9 +1348,6 @@
     let isSpeaking = false;
 
     // ELEMENTS
-    const modeToggle = document.getElementById('modeToggle');
-    const watchLabel = document.getElementById('watchLabel');
-    const readLabel = document.getElementById('readLabel');
     const textBtn = document.getElementById('textBtn');
     const slidesBtn = document.getElementById('slidesBtn');
     const contentArea = document.getElementById('contentArea');
@@ -1298,20 +1522,21 @@
       });
     }
 
-    // TOGGLE MODE (Watch/Read)
-    modeToggle.addEventListener('click', function() {
-      currentMode = currentMode === 'watch' ? 'read' : 'watch';
-      updateModeUI();
-      currentSlide = 0;
-      renderContent();
+    // MODE SELECTOR (Watch/Read/Drill)
+    const watchBtn = document.getElementById('watchBtn');
+    const readBtn = document.getElementById('readBtn');
+    const drillBtn = document.getElementById('drillBtn');
+    
+    document.querySelectorAll('.mode-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        currentMode = this.dataset.mode;
+        document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        currentSlide = 0;
+        stopAudio();
+        renderContent();
+      });
     });
-
-    function updateModeUI() {
-      const isRead = currentMode === 'read';
-      modeToggle.classList.toggle('active', isRead);
-      watchLabel.classList.toggle('active', !isRead);
-      readLabel.classList.toggle('active', isRead);
-    }
 
     // TOGGLE FORMAT (Text/Slides)
     textBtn.addEventListener('click', function() {
@@ -1378,6 +1603,12 @@
       const contextName = contextTitles[currentContext] || 'Daily Habits';
       
       document.getElementById('contextTitle').textContent = `${tenseName} ${aspectName} • ${contextName}`;
+
+      // Handle drill mode differently
+      if (currentMode === 'drill') {
+        renderDrillView();
+        return;
+      }
 
       const content = GRAMMAR_DATA[currentMode];
       
@@ -1665,6 +1896,130 @@
     pauseBtn.addEventListener('click', () => {
       stopAudio();
     });
+
+    // RENDER DRILL VIEW
+    function renderDrillView() {
+      if (!GRAMMAR_DATA || !GRAMMAR_DATA.drill) {
+        contentArea.innerHTML = '<div class="drill-container"><p style="color: #ef4444;">Drill mode not available for this tense yet.</p></div>';
+        slideNavigation.style.display = 'none';
+        return;
+      }
+
+      const drillData = GRAMMAR_DATA.drill[currentContext];
+      if (!drillData || !drillData.sentences) {
+        contentArea.innerHTML = '<div class="drill-container"><p style="color: #ef4444;">No drill sentences available for this context.</p></div>';
+        slideNavigation.style.display = 'none';
+        return;
+      }
+
+      const sentences = drillData.sentences;
+      totalSlides = sentences.length;
+      
+      // Show slide navigation for drill
+      slideNavigation.style.display = 'flex';
+      slideCounter.textContent = `${currentSlide + 1}/${totalSlides}`;
+
+      // Build drill HTML
+      let html = '<div class="drill-container">';
+      
+      // Counter
+      html += `<div class="drill-counter">Sentence ${currentSlide + 1} of ${totalSlides}</div>`;
+      
+      // Current sentence
+      html += `
+        <div class="drill-sentence">
+          <div class="drill-sentence-text">${sentences[currentSlide]}</div>
+        </div>
+      `;
+      
+      // Controls
+      html += `
+        <div class="drill-controls">
+          <button class="drill-btn" id="drillPlayBtn">
+            <span class="drill-btn-icon">🔊</span>
+            <span>Play</span>
+          </button>
+          <button class="drill-btn" id="drillNextBtn">
+            <span>Next</span>
+            <span class="drill-btn-icon">→</span>
+          </button>
+        </div>
+      `;
+      
+      // Progress dots
+      html += '<div class="drill-progress">';
+      for (let i = 0; i < Math.min(totalSlides, 50); i++) {
+        const dotClass = i === currentSlide ? 'active' : (i < currentSlide ? 'completed' : '');
+        html += `<div class="drill-dot ${dotClass}"></div>`;
+      }
+      html += '</div>';
+      
+      // Show transformations if available (every 10th sentence)
+      if (drillData.transformations && currentSlide % 10 === 0 && currentSlide > 0) {
+        const transIndex = Math.floor(currentSlide / 10) - 1;
+        if (drillData.transformations[transIndex]) {
+          const trans = drillData.transformations[transIndex];
+          html += `
+            <div class="drill-transformation">
+              <div class="drill-transformation-title">Practice Transformations:</div>
+              <div class="drill-transformation-item">
+                <span class="drill-transformation-label">✓ Affirmative:</span>
+                <span class="drill-transformation-text">${trans.affirmative}</span>
+              </div>
+              <div class="drill-transformation-item">
+                <span class="drill-transformation-label">✗ Negative:</span>
+                <span class="drill-transformation-text">${trans.negative}</span>
+              </div>
+              <div class="drill-transformation-item">
+                <span class="drill-transformation-label">❓ Question:</span>
+                <span class="drill-transformation-text">${trans.question}</span>
+              </div>
+            </div>
+          `;
+        }
+      }
+      
+      html += '</div>';
+      
+      contentArea.innerHTML = html;
+      
+      // Attach drill button listeners
+      const drillPlayBtn = document.getElementById('drillPlayBtn');
+      const drillNextBtn = document.getElementById('drillNextBtn');
+      
+      if (drillPlayBtn) {
+        drillPlayBtn.addEventListener('click', () => {
+          speakDrillSentence(sentences[currentSlide]);
+        });
+      }
+      
+      if (drillNextBtn) {
+        drillNextBtn.addEventListener('click', () => {
+          if (currentSlide < totalSlides - 1) {
+            currentSlide++;
+            renderDrillView();
+          } else {
+            currentSlide = 0;
+            renderDrillView();
+          }
+        });
+      }
+    }
+
+    function speakDrillSentence(text) {
+      stopAudio();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.rate = 0.85;
+      utterance.pitch = 1.0;
+      utterance.lang = 'en-GB';
+      
+      // Select British English voice
+      const voices = speechSynthesis.getVoices();
+      const gbVoice = voices.find(v => v.lang.startsWith('en-GB') || v.lang.startsWith('en-'));
+      if (gbVoice) utterance.voice = gbVoice;
+      
+      speechSynthesis.speak(utterance);
+    }
 
     document.getElementById('replayBtn').addEventListener('click', () => {
       currentSlide = 0;
