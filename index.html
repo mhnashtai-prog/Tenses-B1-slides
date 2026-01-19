@@ -996,17 +996,115 @@
     // Load JSON data
     let GRAMMAR_DATA = null;
     
+    // Cache for loaded data
+    const dataCache = {};
+    
+    // Preload all JSON files in the background
+    async function preloadAllData() {
+      const tenses = [
+        ['present', 'simple'],
+        ['present', 'continuous'],
+        ['present', 'perfect'],
+        ['past', 'simple'],
+        ['past', 'continuous'],
+        ['past', 'perfect'],
+        ['future', 'simple'],
+        ['future', 'continuous'],
+        ['future', 'perfect']
+      ];
+      
+      console.log('🔄 Preloading all grammar data...');
+      
+      for (const [time, aspect] of tenses) {
+        const cacheKey = `${time}-${aspect}`;
+        if (dataCache[cacheKey]) continue; // Skip if already cached
+        
+        try {
+          const filename = `grammar-${time}-${aspect}.json`;
+          
+          // Try local first
+          let response = await fetch(filename);
+          
+          // Fallback to GitHub if local fails
+          if (!response.ok) {
+            const githubUrl = `https://raw.githubusercontent.com/mhnashtai-prog/Tenses-B1-slides/main/${filename}`;
+            response = await fetch(githubUrl);
+          }
+          
+          if (response.ok) {
+            const data = await response.json();
+            dataCache[cacheKey] = data;
+            console.log(`✓ Preloaded: ${time} ${aspect}`);
+          }
+        } catch (error) {
+          console.warn(`⚠️ Could not preload ${time}-${aspect}:`, error.message);
+        }
+      }
+      
+      console.log('✅ Preloading complete! All data cached.');
+    }
+
     async function loadData() {
       try {
+        const cacheKey = `${currentTime}-${currentAspect}`;
+        
+        // Check cache first
+        if (dataCache[cacheKey]) {
+          console.log(`✓ Loaded from cache: ${cacheKey}`);
+          GRAMMAR_DATA = dataCache[cacheKey];
+          
+          // Update page title
+          if (GRAMMAR_DATA.metadata?.title) {
+            document.title = `INTUITY - Grammar: ${GRAMMAR_DATA.metadata.title}`;
+          }
+          
+          updateTier3Buttons();
+          renderContent();
+          return;
+        }
+        
+        // If not cached, fetch now
         const filename = `grammar-${currentTime}-${currentAspect}.json`;
-        const response = await fetch(filename);
+        console.log(`🔄 Loading: ${filename}`);
+        
+        // Try loading from local directory first
+        let response = await fetch(filename);
+        
+        // If local fails, try GitHub raw URL as fallback
+        if (!response.ok) {
+          const githubUrl = `https://raw.githubusercontent.com/mhnashtai-prog/Tenses-B1-slides/main/${filename}`;
+          console.log(`⚠️ Local failed, trying GitHub: ${githubUrl}`);
+          response = await fetch(githubUrl);
+        }
+        
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+        }
+        
         GRAMMAR_DATA = await response.json();
-        console.log('✓ Data loaded:', GRAMMAR_DATA);
+        dataCache[cacheKey] = GRAMMAR_DATA; // Cache it
+        console.log('✓ Data loaded successfully:', GRAMMAR_DATA.metadata?.title);
+        
+        // Update page title
+        if (GRAMMAR_DATA.metadata?.title) {
+          document.title = `INTUITY - Grammar: ${GRAMMAR_DATA.metadata.title}`;
+        }
+        
         updateTier3Buttons();
         renderContent();
       } catch (error) {
-        console.error('Error loading data:', error);
-        document.getElementById('contentArea').innerHTML = `<p style="color: #ef4444;">Error: Could not load ${currentTime}-${currentAspect} data.<br>File: grammar-${currentTime}-${currentAspect}.json</p>`;
+        console.error('❌ Error loading data:', error);
+        const errorMsg = `
+          <div style="padding: 40px; text-align: center;">
+            <h2 style="color: #ef4444; margin-bottom: 20px;">⚠️ Error Loading Content</h2>
+            <p style="color: #a3a3a3; margin-bottom: 10px;">Could not load: <strong>grammar-${currentTime}-${currentAspect}.json</strong></p>
+            <p style="color: #71717a; font-size: 0.875rem;">Error: ${error.message}</p>
+            <p style="color: #71717a; font-size: 0.875rem; margin-top: 20px;">
+              Make sure files are in the same directory or check your GitHub repository.
+            </p>
+          </div>
+        `;
+        document.getElementById('contentArea').innerHTML = errorMsg;
       }
     }
 
@@ -1688,7 +1786,8 @@
     }
 
     // INITIALIZE
-    loadData();
+    loadData(); // Load current tense immediately
+    preloadAllData(); // Preload all other tenses in background
   </script>
 </body>
 </html>
