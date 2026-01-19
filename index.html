@@ -1181,7 +1181,7 @@
               <span class="mode-label">Read</span>
             </button>
             <button class="mode-btn" id="drillBtn" data-mode="drill">
-              <span class="mode-icon">🔁</span>
+              <span class="mode-icon">✏️</span>
               <span class="mode-label">Drill</span>
             </button>
           </div>
@@ -1897,6 +1897,135 @@
       stopAudio();
     });
 
+    // HIGHLIGHT VERBS IN DRILL SENTENCES
+    function highlightDrillVerbs(sentence) {
+      // Common verb patterns to highlight in blue
+      const verbPatterns = [
+        // Main verbs (base forms and conjugations)
+        /\b(am|is|are|was|were|be|being|been)\b/gi,
+        /\b(have|has|had|having)\b/gi,
+        /\b(do|does|did|doing|done)\b/gi,
+        /\b(will|would|shall|should|can|could|may|might|must)\b/gi,
+        
+        // Regular verbs (various forms)
+        /\b(\w+s)\s/g, // 3rd person singular (works, plays, etc.)
+        /\b(\w+ed)\b/gi, // Past tense (worked, played, visited)
+        /\b(\w+ing)\b/gi, // -ing forms (working, playing)
+        
+        // Common irregular verbs
+        /\b(go|goes|went|gone|going)\b/gi,
+        /\b(get|gets|got|gotten|getting)\b/gi,
+        /\b(make|makes|made|making)\b/gi,
+        /\b(take|takes|took|taken|taking)\b/gi,
+        /\b(come|comes|came|coming)\b/gi,
+        /\b(see|sees|saw|seen|seeing)\b/gi,
+        /\b(know|knows|knew|known|knowing)\b/gi,
+        /\b(think|thinks|thought|thinking)\b/gi,
+        /\b(give|gives|gave|given|giving)\b/gi,
+        /\b(find|finds|found|finding)\b/gi,
+        /\b(tell|tells|told|telling)\b/gi,
+        /\b(become|becomes|became|becoming)\b/gi,
+        /\b(leave|leaves|left|leaving)\b/gi,
+        /\b(feel|feels|felt|feeling)\b/gi,
+        /\b(bring|brings|brought|bringing)\b/gi,
+        /\b(begin|begins|began|begun|beginning)\b/gi,
+        /\b(keep|keeps|kept|keeping)\b/gi,
+        /\b(hold|holds|held|holding)\b/gi,
+        /\b(write|writes|wrote|written|writing)\b/gi,
+        /\b(stand|stands|stood|standing)\b/gi,
+        /\b(hear|hears|heard|hearing)\b/gi,
+        /\b(let|lets|letting)\b/gi,
+        /\b(mean|means|meant|meaning)\b/gi,
+        /\b(set|sets|setting)\b/gi,
+        /\b(meet|meets|met|meeting)\b/gi,
+        /\b(run|runs|ran|running)\b/gi,
+        /\b(pay|pays|paid|paying)\b/gi,
+        /\b(sit|sits|sat|sitting)\b/gi,
+        /\b(speak|speaks|spoke|spoken|speaking)\b/gi,
+        /\b(lie|lies|lay|lain|lying)\b/gi,
+        /\b(lead|leads|led|leading)\b/gi,
+        /\b(read|reads|reading)\b/gi,
+        /\b(grow|grows|grew|grown|growing)\b/gi,
+        /\b(lose|loses|lost|losing)\b/gi,
+        /\b(fall|falls|fell|fallen|falling)\b/gi,
+        /\b(send|sends|sent|sending)\b/gi,
+        /\b(build|builds|built|building)\b/gi,
+        /\b(understand|understands|understood|understanding)\b/gi,
+        /\b(draw|draws|drew|drawn|drawing)\b/gi,
+        /\b(break|breaks|broke|broken|breaking)\b/gi,
+        /\b(spend|spends|spent|spending)\b/gi,
+        /\b(cut|cuts|cutting)\b/gi,
+        /\b(rise|rises|rose|risen|rising)\b/gi,
+        /\b(drive|drives|drove|driven|driving)\b/gi,
+        /\b(buy|buys|bought|buying)\b/gi,
+        /\b(wear|wears|wore|worn|wearing)\b/gi,
+        /\b(choose|chooses|chose|chosen|choosing)\b/gi,
+        /\b(seek|seeks|sought|seeking)\b/gi,
+        /\b(throw|throws|threw|thrown|throwing)\b/gi,
+        /\b(catch|catches|caught|catching)\b/gi,
+        /\b(deal|deals|dealt|dealing)\b/gi,
+        /\b(win|wins|won|winning)\b/gi,
+        /\b(forget|forgets|forgot|forgotten|forgetting)\b/gi,
+        /\b(show|shows|showed|shown|showing)\b/gi,
+        /\b(drink|drinks|drank|drunk|drinking)\b/gi,
+        /\b(eat|eats|ate|eaten|eating)\b/gi,
+        /\b(teach|teaches|taught|teaching)\b/gi,
+        /\b(learn|learns|learned|learnt|learning)\b/gi,
+        /\b(study|studies|studied|studying)\b/gi,
+        /\b(watch|watches|watched|watching)\b/gi,
+        /\b(listen|listens|listened|listening)\b/gi,
+        /\b(cook|cooks|cooked|cooking)\b/gi,
+        /\b(work|works|worked|working)\b/gi,
+        /\b(play|plays|played|playing)\b/gi,
+        /\b(live|lives|lived|living)\b/gi,
+        /\b(walk|walks|walked|walking)\b/gi,
+        /\b(talk|talks|talked|talking)\b/gi,
+        /\b(call|calls|called|calling)\b/gi,
+        /\b(try|tries|tried|trying)\b/gi,
+        /\b(ask|asks|asked|asking)\b/gi,
+        /\b(need|needs|needed|needing)\b/gi,
+        /\b(seem|seems|seemed|seeming)\b/gi,
+        /\b(help|helps|helped|helping)\b/gi,
+        /\b(love|loves|loved|loving)\b/gi,
+        /\b(start|starts|started|starting)\b/gi,
+        /\b(stop|stops|stopped|stopping)\b/gi,
+        /\b(open|opens|opened|opening)\b/gi,
+        /\b(close|closes|closed|closing)\b/gi,
+        /\b(arrive|arrives|arrived|arriving)\b/gi,
+        /\b(depart|departs|departed|departing)\b/gi,
+        /\b(finish|finishes|finished|finishing)\b/gi,
+        /\b(end|ends|ended|ending)\b/gi,
+        /\b(visit|visits|visited|visiting)\b/gi,
+        /\b(travel|travels|traveled|travelled|traveling|travelling)\b/gi,
+        /\b(wake|wakes|woke|woken|waking)\b/gi,
+        /\b(sleep|sleeps|slept|sleeping)\b/gi,
+        /\b(brush|brushes|brushed|brushing)\b/gi,
+        
+        // Phrasal verbs
+        /\b(wake up|wakes up|woke up|waking up)\b/gi,
+        /\b(get up|gets up|got up|getting up)\b/gi,
+        /\b(go out|goes out|went out|going out)\b/gi,
+        /\b(come back|comes back|came back|coming back)\b/gi,
+        /\b(look at|looks at|looked at|looking at)\b/gi,
+        /\b(turn on|turns on|turned on|turning on)\b/gi,
+        /\b(turn off|turns off|turned off|turning off)\b/gi,
+        /\b(pick up|picks up|picked up|picking up)\b/gi,
+        /\b(put on|puts on|putting on)\b/gi,
+        /\b(take off|takes off|took off|taking off)\b/gi
+      ];
+      
+      let highlighted = sentence;
+      
+      // Apply highlighting to each verb pattern
+      verbPatterns.forEach(pattern => {
+        highlighted = highlighted.replace(pattern, (match) => {
+          return `<span style="color: #60a5fa; font-weight: 700;">${match}</span>`;
+        });
+      });
+      
+      return highlighted;
+    }
+
     // RENDER DRILL VIEW
     function renderDrillView() {
       if (!GRAMMAR_DATA || !GRAMMAR_DATA.drill) {
@@ -1925,10 +2054,11 @@
       // Counter
       html += `<div class="drill-counter">Sentence ${currentSlide + 1} of ${totalSlides}</div>`;
       
-      // Current sentence
+      // Current sentence with verb highlighting
+      const highlightedSentence = highlightDrillVerbs(sentences[currentSlide]);
       html += `
         <div class="drill-sentence">
-          <div class="drill-sentence-text">${sentences[currentSlide]}</div>
+          <div class="drill-sentence-text">${highlightedSentence}</div>
         </div>
       `;
       
@@ -1964,15 +2094,15 @@
               <div class="drill-transformation-title">Practice Transformations:</div>
               <div class="drill-transformation-item">
                 <span class="drill-transformation-label">✓ Affirmative:</span>
-                <span class="drill-transformation-text">${trans.affirmative}</span>
+                <span class="drill-transformation-text">${highlightDrillVerbs(trans.affirmative)}</span>
               </div>
               <div class="drill-transformation-item">
                 <span class="drill-transformation-label">✗ Negative:</span>
-                <span class="drill-transformation-text">${trans.negative}</span>
+                <span class="drill-transformation-text">${highlightDrillVerbs(trans.negative)}</span>
               </div>
               <div class="drill-transformation-item">
                 <span class="drill-transformation-label">❓ Question:</span>
-                <span class="drill-transformation-text">${trans.question}</span>
+                <span class="drill-transformation-text">${highlightDrillVerbs(trans.question)}</span>
               </div>
             </div>
           `;
