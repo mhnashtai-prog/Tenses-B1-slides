@@ -429,5 +429,67 @@
         {"id": 4, "type": "common-mistake", "icon": "⚠️", "iconSize": "4rem", "title": "WATCH OUT", "wrong": "I used to went", "correct": "I used to go", "tip": "After 'used to' → base verb!", "backgroundColor": "rgba(239, 68, 68, 0.08)"}
       ]
     }
+  },
+  "drill": {
+    "finished-actions": {
+      "title": "Finished Actions - Pattern Practice",
+      "description": "Practice past simple with completed actions",
+      "sentences": [
+        "I visited Paris last summer.",
+        "You visited London last year.",
+        "He visited Rome in 2022.",
+        "She visited Tokyo last month.",
+        "We visited New York together.",
+        "They visited many countries.",
+        "I studied English yesterday.",
+        "You studied French last week.",
+        "He studied Spanish at school.",
+        "She studied German for two years.",
+        "We studied together last night.",
+        "They studied hard for the exam.",
+        "I watched a movie yesterday.",
+        "You watched TV last night.",
+        "He watched the game on Saturday.",
+        "She watched a documentary.",
+        "We watched a series together.",
+        "They watched the news this morning.",
+        "I cooked dinner last night.",
+        "You cooked breakfast yesterday.",
+        "He cooked lunch for everyone.",
+        "She cooked a special meal.",
+        "We cooked together last weekend.",
+        "They cooked traditional food."
+      ]
+    },
+    "stories": {
+      "title": "Story Narration - Sequential Practice",
+      "description": "Practice telling stories in past simple",
+      "sentences": [
+        "Once upon a time, there lived a king.",
+        "He ruled a beautiful kingdom.",
+        "One day, a stranger arrived.",
+        "The stranger knocked on the door.",
+        "The king opened it immediately.",
+        "He invited the stranger inside.",
+        "They talked for many hours.",
+        "The stranger told amazing stories.",
+        "The king listened carefully.",
+        "He learned many things.",
+        "Finally, the stranger left.",
+        "The king never forgot that day.",
+        "Years passed quickly.",
+        "The kingdom grew larger.",
+        "The people lived happily.",
+        "Everything changed one winter.",
+        "Snow covered the land.",
+        "The river froze completely.",
+        "People stayed inside their homes.",
+        "Spring finally arrived.",
+        "Flowers bloomed everywhere.",
+        "Birds sang beautiful songs.",
+        "Life returned to normal.",
+        "Everyone celebrated together."
+      ]
+    }
   }
 }
