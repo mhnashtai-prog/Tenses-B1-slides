@@ -1090,6 +1090,12 @@
         return 'background-action';
       } else if (time === 'past' && aspect === 'perfect') {
         return 'earlier-past';
+      } else if (time === 'future' && aspect === 'simple') {
+        return 'predictions';
+      } else if (time === 'future' && aspect === 'continuous') {
+        return 'future-in-progress';
+      } else if (time === 'future' && aspect === 'perfect') {
+        return 'completed-by';
       }
       return 'daily-habits'; // fallback
     }
@@ -1142,7 +1148,7 @@
           {id: 'descriptions', label: 'Descriptions'},
           {id: 'polite-questions', label: 'Polite Requests'}
         ];
-      } else if (currentTime === 'past' && currentAspect === 'perfect') {
+      } else if (currentTime === 'past' && aspect === 'perfect') {
         contexts = [
           {id: 'earlier-past', label: 'Earlier Past'},
           {id: 'reported-speech', label: 'Reported Speech'},
@@ -1150,6 +1156,26 @@
           {id: 'completed-before', label: 'Before/By'},
           {id: 'reasons', label: 'Reasons'},
           {id: 'third-conditional', label: '3rd Conditional'}
+        ];
+      } else if (currentTime === 'future' && currentAspect === 'simple') {
+        contexts = [
+          {id: 'predictions', label: 'Predictions'},
+          {id: 'spontaneous-decisions', label: 'Decisions'},
+          {id: 'promises', label: 'Promises'},
+          {id: 'offers', label: 'Offers'},
+          {id: 'threats-warnings', label: 'Warnings'}
+        ];
+      } else if (currentTime === 'future' && currentAspect === 'continuous') {
+        contexts = [
+          {id: 'future-in-progress', label: 'In Progress'},
+          {id: 'polite-questions', label: 'Polite Questions'},
+          {id: 'duration', label: 'Duration'}
+        ];
+      } else if (currentTime === 'future' && currentAspect === 'perfect') {
+        contexts = [
+          {id: 'completed-by', label: 'Completed By'},
+          {id: 'predictions-completion', label: 'Predictions'},
+          {id: 'achievements', label: 'Achievements'}
         ];
       }
       
