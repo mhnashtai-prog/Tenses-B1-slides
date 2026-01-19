@@ -1,1 +1,221 @@
-
+{
+  "skillArea": "grammar",
+  "level": "B1",
+  "tense": {
+    "time": "future",
+    "aspect": "perfect"
+  },
+  "metadata": {
+    "title": "Future Perfect",
+    "icon": "📖",
+    "description": "Learn the Future Perfect tense"
+  },
+  "watch": {
+    "completed-by": {
+      "text": {
+        "content": "By next week, I will have finished the project. By the time you arrive, I will have cooked dinner. She will have graduated by June. By 2030, scientists will have found a cure for many diseases. By tomorrow, we will have made a decision. They will have left before you get there. By the end of the year, I will have saved enough money. By midnight, the party will have ended.",
+        "highlights": [
+          {"word": "By next week"},
+          {"word": "will have finished"},
+          {"word": "By the time you arrive"},
+          {"word": "will have cooked"},
+          {"word": "will have graduated"},
+          {"word": "By 2030"},
+          {"word": "will have found"},
+          {"word": "By tomorrow"},
+          {"word": "will have made"},
+          {"word": "will have left"},
+          {"word": "By the end of the year"},
+          {"word": "will have saved"},
+          {"word": "By midnight"},
+          {"word": "will have ended"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "📋", "iconSize": "4rem", "text": "By next week, I will have finished the project.", "highlights": ["By next week", "will have finished"]},
+        {"id": 2, "icon": "🍽️", "iconSize": "4rem", "text": "By the time you arrive, I will have cooked dinner.", "highlights": ["By the time", "will have cooked"]},
+        {"id": 3, "icon": "🎓", "iconSize": "4rem", "text": "She will have graduated by June.", "highlights": ["will have graduated", "by June"]},
+        {"id": 4, "icon": "💊", "iconSize": "4rem", "text": "By 2030, scientists will have found a cure.", "highlights": ["By 2030", "will have found"]},
+        {"id": 5, "icon": "🤔", "iconSize": "4rem", "text": "By tomorrow, we will have made a decision.", "highlights": ["By tomorrow", "will have made"]},
+        {"id": 6, "icon": "🚪", "iconSize": "4rem", "text": "They will have left before you get there.", "highlights": ["will have left", "before"]},
+        {"id": 7, "icon": "💰", "iconSize": "4rem", "text": "By year end, I will have saved enough money.", "highlights": ["By year end", "will have saved"]},
+        {"id": 8, "icon": "🎉", "iconSize": "4rem", "text": "By midnight, the party will have ended.", "highlights": ["By midnight", "will have ended"]}
+      ]
+    },
+    "predictions-completion": {
+      "text": {
+        "content": "In 20 years, technology will have changed everything. By 2050, humans will have colonized Mars. In the future, robots will have replaced many jobs. By next century, we will have solved the climate crisis. Scientists believe we will have discovered alien life by 2100. By the time I'm 50, I will have traveled to every continent. In ten years, electric cars will have become the norm. By 2040, renewable energy will have replaced fossil fuels.",
+        "highlights": [
+          {"word": "will have changed"},
+          {"word": "By 2050"},
+          {"word": "will have colonized"},
+          {"word": "will have replaced"},
+          {"word": "will have solved"},
+          {"word": "will have discovered"},
+          {"word": "By 2100"},
+          {"word": "will have traveled"},
+          {"word": "will have become"},
+          {"word": "By 2040"},
+          {"word": "will have replaced"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "🚀", "iconSize": "4rem", "text": "In 20 years, technology will have changed everything.", "highlights": ["In 20 years", "will have changed"]},
+        {"id": 2, "icon": "🔴", "iconSize": "4rem", "text": "By 2050, humans will have colonized Mars.", "highlights": ["By 2050", "will have colonized"]},
+        {"id": 3, "icon": "🤖", "iconSize": "4rem", "text": "Robots will have replaced many jobs.", "highlights": ["will have replaced"]},
+        {"id": 4, "icon": "🌍", "iconSize": "4rem", "text": "By next century, we will have solved the climate crisis.", "highlights": ["will have solved"]},
+        {"id": 5, "icon": "👽", "iconSize": "4rem", "text": "We will have discovered alien life by 2100.", "highlights": ["will have discovered", "by 2100"]},
+        {"id": 6, "icon": "✈️", "iconSize": "4rem", "text": "By the time I'm 50, I will have traveled everywhere.", "highlights": ["will have traveled"]},
+        {"id": 7, "icon": "🚗", "iconSize": "4rem", "text": "Electric cars will have become the norm.", "highlights": ["will have become"]},
+        {"id": 8, "icon": "☀️", "iconSize": "4rem", "text": "By 2040, renewable energy will have replaced fossil fuels.", "highlights": ["By 2040", "will have replaced"]}
+      ]
+    },
+    "achievements": {
+      "text": {
+        "content": "By the time I'm 30, I will have achieved all my goals. By next year, she will have run three marathons. By the end of this course, you will have learned 2000 new words. By December, he will have read 50 books this year. By graduation, they will have made lifelong friends. By retirement, I will have worked for 40 years. By the end of the month, we will have completed the renovation.",
+        "highlights": [
+          {"word": "By the time I'm 30"},
+          {"word": "will have achieved"},
+          {"word": "By next year"},
+          {"word": "will have run"},
+          {"word": "By the end of this course"},
+          {"word": "will have learned"},
+          {"word": "By December"},
+          {"word": "will have read"},
+          {"word": "By graduation"},
+          {"word": "will have made"},
+          {"word": "By retirement"},
+          {"word": "will have worked"},
+          {"word": "By the end of the month"},
+          {"word": "will have completed"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "🎯", "iconSize": "4rem", "text": "By the time I'm 30, I will have achieved all my goals.", "highlights": ["By the time I'm 30", "will have achieved"]},
+        {"id": 2, "icon": "🏃", "iconSize": "4rem", "text": "By next year, she will have run three marathons.", "highlights": ["will have run"]},
+        {"id": 3, "icon": "📚", "iconSize": "4rem", "text": "By course end, you will have learned 2000 words.", "highlights": ["will have learned"]},
+        {"id": 4, "icon": "📖", "iconSize": "4rem", "text": "By December, he will have read 50 books.", "highlights": ["will have read"]},
+        {"id": 5, "icon": "👥", "iconSize": "4rem", "text": "By graduation, they will have made lifelong friends.", "highlights": ["will have made"]},
+        {"id": 6, "icon": "💼", "iconSize": "4rem", "text": "By retirement, I will have worked for 40 years.", "highlights": ["will have worked"]},
+        {"id": 7, "icon": "🏠", "iconSize": "4rem", "text": "By month end, we will have completed the renovation.", "highlights": ["will have completed"]}
+      ]
+    }
+  },
+  "read": {
+    "completed-by": {
+      "text": {
+        "overview": {
+          "title": "Future Perfect - Completed By",
+          "subtitle": "Completed before a future time",
+          "description": "Use Future Perfect to show an action will be completed before a specific future time."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "Subject + will have + past participle",
+          "affirmative": [
+            {"subject": "I/You/We/They", "verb": "will have finished"},
+            {"subject": "He/She/It", "verb": "will have finished"},
+            {"subject": "Negative", "verb": "will not (won't) have finished"},
+            {"subject": "Question", "verb": "Will you have finished?"}
+          ]
+        },
+        "uses": [
+          {"icon": "✅", "label": "Completed by future time", "example": "By next week, I'll have finished."},
+          {"icon": "⏰", "label": "Before a deadline", "example": "I'll have completed it by Friday."}
+        ],
+        "timeSignals": {
+          "title": "TIME MARKERS",
+          "frequency": [],
+          "regular": ["by + future time (by next week, by 2030)", "by the time + clause", "before + time/event"]
+        },
+        "commonErrors": [
+          {"wrong": "By next week, I will finish.", "correct": "By next week, I will have finished.", "explanation": "Use Future Perfect for completion before future time."},
+          {"wrong": "I will have finish by then.", "correct": "I will have finished by then.", "explanation": "Use past participle after 'will have'."}
+        ],
+        "examples": [
+          {"sentence": "By the time you read this, I will have left.", "highlights": ["By the time", "will have left"]},
+          {"sentence": "She will have graduated before you start university.", "highlights": ["will have graduated", "before"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "✅", "iconSize": "5rem", "title": "COMPLETED BY", "subtitle": "Done before future time", "description": "will have done by...", "backgroundColor": "rgba(96, 165, 250, 0.1)"},
+        {"id": 2, "type": "form", "icon": "⚙️", "iconSize": "4rem", "title": "THE FORM", "formula": "will have + PAST PARTICIPLE", "examples": [{"left": "I will have finished", "right": "She will have finished"}, {"left": "You will have done", "right": "We will have done"}], "backgroundColor": "rgba(96, 165, 250, 0.08)"},
+        {"id": 3, "type": "uses", "icon": "🎯", "iconSize": "4rem", "title": "WHEN TO USE", "items": [{"icon": "✅", "text": "Completed before X"}, {"icon": "⏰", "text": "Before deadline"}, {"icon": "📅", "text": "By specific time"}], "backgroundColor": "rgba(16, 185, 129, 0.08)"},
+        {"id": 4, "type": "time-signals", "icon": "🕐", "iconSize": "4rem", "title": "KEY WORDS", "frequency": [], "regular": ["by next week", "by 2030", "by the time", "before"], "backgroundColor": "rgba(139, 92, 246, 0.08)"},
+        {"id": 5, "type": "common-mistake", "icon": "⚠️", "iconSize": "4rem", "title": "WATCH OUT", "wrong": "I will have finish", "correct": "I will have finished", "tip": "Use past participle!", "backgroundColor": "rgba(239, 68, 68, 0.08)"}
+      ]
+    },
+    "predictions-completion": {
+      "text": {
+        "overview": {
+          "title": "Future Perfect - Predictions",
+          "subtitle": "Predict future completion",
+          "description": "Use Future Perfect to predict that something will be completed at some point in the future."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "By + future time, will have + past participle",
+          "affirmative": [
+            {"subject": "Long-term", "verb": "By 2050, technology will have changed"},
+            {"subject": "Predictions", "verb": "Robots will have replaced many jobs"},
+            {"subject": "Context", "verb": "Talking about distant future"}
+          ]
+        },
+        "uses": [
+          {"icon": "🔮", "label": "Future predictions", "example": "By 2050, we'll have colonized Mars."},
+          {"icon": "📈", "label": "Expected completion", "example": "Technology will have advanced significantly."}
+        ],
+        "timeSignals": {
+          "title": "TIME MARKERS",
+          "frequency": [],
+          "regular": ["in X years", "by 2050/2100", "in the future", "by next century"]
+        },
+        "commonErrors": [],
+        "examples": [
+          {"sentence": "In 20 years, electric cars will have become the norm.", "highlights": ["In 20 years", "will have become"]},
+          {"sentence": "By 2100, we will have solved many of today's problems.", "highlights": ["By 2100", "will have solved"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "🔮", "iconSize": "5rem", "title": "PREDICTIONS", "subtitle": "Future completion", "description": "What will be done by then", "backgroundColor": "rgba(245, 158, 11, 0.1)"},
+        {"id": 2, "type": "uses", "icon": "🎯", "iconSize": "4rem", "title": "PREDICT", "items": [{"icon": "🚀", "text": "Technology changes"}, {"icon": "🌍", "text": "Social changes"}, {"icon": "📈", "text": "Future developments"}], "backgroundColor": "rgba(245, 158, 11, 0.08)"}
+      ]
+    },
+    "achievements": {
+      "text": {
+        "overview": {
+          "title": "Future Perfect - Achievements",
+          "subtitle": "Talk about future accomplishments",
+          "description": "Use Future Perfect to talk about achievements and accomplishments you will have completed by a future time."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "By + time, I will have + accomplished X",
+          "affirmative": [
+            {"subject": "Personal", "verb": "By 30, I will have achieved my goals"},
+            {"subject": "Academic", "verb": "By graduation, I'll have learned..."},
+            {"subject": "Professional", "verb": "By retirement, I'll have worked..."}
+          ]
+        },
+        "uses": [
+          {"icon": "🏆", "label": "Future achievements", "example": "By next year, I'll have run a marathon."},
+          {"icon": "🎯", "label": "Goals completion", "example": "By 40, I'll have visited 50 countries."}
+        ],
+        "timeSignals": {
+          "title": "MILESTONE MARKERS",
+          "frequency": [],
+          "regular": ["by the time I'm X", "by graduation", "by retirement", "by the end of..."]
+        },
+        "commonErrors": [],
+        "examples": [
+          {"sentence": "By the time I'm 25, I will have learned three languages.", "highlights": ["By the time I'm 25", "will have learned"]},
+          {"sentence": "By next summer, she will have completed her PhD.", "highlights": ["will have completed"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "🏆", "iconSize": "5rem", "title": "ACHIEVEMENTS", "subtitle": "Future accomplishments", "description": "What you'll have done", "backgroundColor": "rgba(16, 185, 129, 0.1)"},
+        {"id": 2, "type": "uses", "icon": "🎯", "iconSize": "4rem", "title": "CONTEXTS", "items": [{"icon": "🎓", "text": "Academic goals"}, {"icon": "💼", "text": "Career milestones"}, {"icon": "🌍", "text": "Personal achievements"}], "backgroundColor": "rgba(16, 185, 129, 0.08)"}
+      ]
+    }
+  }
+}
