@@ -1,1 +1,202 @@
-
+{
+  "skillArea": "grammar",
+  "level": "B1",
+  "tense": {
+    "time": "future",
+    "aspect": "continuous"
+  },
+  "metadata": {
+    "title": "Future Continuous",
+    "icon": "📖",
+    "description": "Learn the Future Continuous tense"
+  },
+  "watch": {
+    "future-in-progress": {
+      "text": {
+        "content": "This time tomorrow, I will be sitting on a beach. At 3 PM, I will be attending a meeting. Next week, they will be traveling around Europe. Tomorrow at this time, she will be flying to New York. This time next month, we will be living in our new house. At 9 o'clock tonight, I will be watching my favorite show. Next year, I will be studying at university. Tomorrow morning, they will be driving to the mountains.",
+        "highlights": [
+          {"word": "will be sitting"},
+          {"word": "will be attending"},
+          {"word": "will be traveling"},
+          {"word": "will be flying"},
+          {"word": "will be living"},
+          {"word": "will be watching"},
+          {"word": "will be studying"},
+          {"word": "will be driving"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "🏖️", "iconSize": "4rem", "text": "This time tomorrow, I will be sitting on a beach.", "highlights": ["This time tomorrow", "will be sitting"]},
+        {"id": 2, "icon": "👔", "iconSize": "4rem", "text": "At 3 PM, I will be attending a meeting.", "highlights": ["At 3 PM", "will be attending"]},
+        {"id": 3, "icon": "🌍", "iconSize": "4rem", "text": "Next week, they will be traveling around Europe.", "highlights": ["Next week", "will be traveling"]},
+        {"id": 4, "icon": "✈️", "iconSize": "4rem", "text": "Tomorrow at this time, she will be flying to New York.", "highlights": ["Tomorrow at this time", "will be flying"]},
+        {"id": 5, "icon": "🏠", "iconSize": "4rem", "text": "Next month, we will be living in our new house.", "highlights": ["Next month", "will be living"]},
+        {"id": 6, "icon": "📺", "iconSize": "4rem", "text": "At 9 tonight, I will be watching my favorite show.", "highlights": ["At 9 tonight", "will be watching"]},
+        {"id": 7, "icon": "🎓", "iconSize": "4rem", "text": "Next year, I will be studying at university.", "highlights": ["Next year", "will be studying"]},
+        {"id": 8, "icon": "🚗", "iconSize": "4rem", "text": "Tomorrow morning, they will be driving to the mountains.", "highlights": ["Tomorrow morning", "will be driving"]}
+      ]
+    },
+    "polite-questions": {
+      "text": {
+        "content": "Will you be using the car tonight? Will you be going to the supermarket? If so, could you buy some milk? Will you be passing the post office? Could you post this letter? Will you be seeing John later? Can you give him this message? Will you be working late tomorrow? Will you be coming to the party on Saturday? Will you be staying long? Will you be needing the computer this afternoon?",
+        "highlights": [
+          {"word": "Will you be using"},
+          {"word": "Will you be going"},
+          {"word": "Will you be passing"},
+          {"word": "Will you be seeing"},
+          {"word": "Will you be working"},
+          {"word": "Will you be coming"},
+          {"word": "Will you be staying"},
+          {"word": "Will you be needing"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "🚗", "iconSize": "4rem", "text": "Will you be using the car tonight?", "highlights": ["Will you be using"]},
+        {"id": 2, "icon": "🛒", "iconSize": "4rem", "text": "Will you be going to the supermarket?", "highlights": ["Will you be going"]},
+        {"id": 3, "icon": "📮", "iconSize": "4rem", "text": "Will you be passing the post office?", "highlights": ["Will you be passing"]},
+        {"id": 4, "icon": "👨", "iconSize": "4rem", "text": "Will you be seeing John later?", "highlights": ["Will you be seeing"]},
+        {"id": 5, "icon": "💼", "iconSize": "4rem", "text": "Will you be working late tomorrow?", "highlights": ["Will you be working"]},
+        {"id": 6, "icon": "🎉", "iconSize": "4rem", "text": "Will you be coming to the party?", "highlights": ["Will you be coming"]},
+        {"id": 7, "icon": "⏰", "iconSize": "4rem", "text": "Will you be staying long?", "highlights": ["Will you be staying"]},
+        {"id": 8, "icon": "💻", "iconSize": "4rem", "text": "Will you be needing the computer?", "highlights": ["Will you be needing"]}
+      ]
+    },
+    "duration": {
+      "text": {
+        "content": "By next week, I will have been working here for five years. This time next year, we will have been living in this city for a decade. By the time you arrive, I will have been waiting for two hours. Next month, they will have been dating for six months. By December, she will have been studying English for three years. Tomorrow at noon, I will have been traveling for 24 hours. Next week, he will have been training for the marathon for six months.",
+        "highlights": [
+          {"word": "will have been working"},
+          {"word": "will have been living"},
+          {"word": "will have been waiting"},
+          {"word": "will have been dating"},
+          {"word": "will have been studying"},
+          {"word": "will have been traveling"},
+          {"word": "will have been training"}
+        ]
+      },
+      "slides": [
+        {"id": 1, "icon": "💼", "iconSize": "4rem", "text": "By next week, I will have been working here for 5 years.", "highlights": ["will have been working", "for 5 years"]},
+        {"id": 2, "icon": "🏙️", "iconSize": "4rem", "text": "Next year, we will have been living here for a decade.", "highlights": ["will have been living"]},
+        {"id": 3, "icon": "⏰", "iconSize": "4rem", "text": "I will have been waiting for two hours.", "highlights": ["will have been waiting"]},
+        {"id": 4, "icon": "❤️", "iconSize": "4rem", "text": "Next month, they will have been dating for 6 months.", "highlights": ["will have been dating"]},
+        {"id": 5, "icon": "📚", "iconSize": "4rem", "text": "By December, she will have been studying for 3 years.", "highlights": ["will have been studying"]},
+        {"id": 6, "icon": "✈️", "iconSize": "4rem", "text": "Tomorrow, I will have been traveling for 24 hours.", "highlights": ["will have been traveling"]},
+        {"id": 7, "icon": "🏃", "iconSize": "4rem", "text": "Next week, he will have been training for 6 months.", "highlights": ["will have been training"]}
+      ]
+    }
+  },
+  "read": {
+    "future-in-progress": {
+      "text": {
+        "overview": {
+          "title": "Future Continuous - In Progress",
+          "subtitle": "Actions in progress at a future time",
+          "description": "Use Future Continuous to describe actions that will be in progress at a specific future time."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "Subject + will be + verb-ing",
+          "affirmative": [
+            {"subject": "I/You/We/They", "verb": "will be working"},
+            {"subject": "He/She/It", "verb": "will be working"},
+            {"subject": "Negative", "verb": "will not (won't) be working"},
+            {"subject": "Question", "verb": "Will you be working?"}
+          ]
+        },
+        "uses": [
+          {"icon": "⏰", "label": "Action at specific future time", "example": "At 3 PM, I will be meeting a client."},
+          {"icon": "📅", "label": "In progress in the future", "example": "This time tomorrow, I'll be flying to Paris."}
+        ],
+        "timeSignals": {
+          "title": "TIME MARKERS",
+          "frequency": [],
+          "regular": ["at this time tomorrow", "this time next week", "at 3 PM tomorrow", "tomorrow at this time", "next Monday at 9 AM"]
+        },
+        "commonErrors": [
+          {"wrong": "At 3 PM, I will work.", "correct": "At 3 PM, I will be working.", "explanation": "Use continuous for action in progress at specific time."}
+        ],
+        "examples": [
+          {"sentence": "This time next week, I'll be relaxing on a beach.", "highlights": ["This time next week", "will be relaxing"]},
+          {"sentence": "Tomorrow at 8 AM, she'll be having breakfast.", "highlights": ["Tomorrow at 8 AM", "will be having"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "⏰", "iconSize": "5rem", "title": "IN PROGRESS", "subtitle": "Future specific time", "description": "will be doing at X time", "backgroundColor": "rgba(96, 165, 250, 0.1)"},
+        {"id": 2, "type": "form", "icon": "⚙️", "iconSize": "4rem", "title": "THE FORM", "formula": "will be + VERB-ing", "examples": [{"left": "I will be working", "right": "She will be working"}, {"left": "You will be studying", "right": "We will be studying"}], "backgroundColor": "rgba(96, 165, 250, 0.08)"},
+        {"id": 3, "type": "time-signals", "icon": "🕐", "iconSize": "4rem", "title": "TIME PHRASES", "frequency": [], "regular": ["this time tomorrow", "at 3 PM", "next week at...", "tomorrow at this time"], "backgroundColor": "rgba(139, 92, 246, 0.08)"}
+      ]
+    },
+    "polite-questions": {
+      "text": {
+        "overview": {
+          "title": "Future Continuous - Polite Questions",
+          "subtitle": "Ask about future plans politely",
+          "description": "Use Future Continuous in questions to ask about people's plans more politely than 'Will you...?'"
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "Will you be + verb-ing?",
+          "affirmative": [
+            {"subject": "Polite", "verb": "Will you be using the car?"},
+            {"subject": "Less polite", "verb": "Will you use the car?"},
+            {"subject": "Context", "verb": "Asking about existing plans"}
+          ]
+        },
+        "uses": [
+          {"icon": "🙏", "label": "Polite questions", "example": "Will you be going to the shop?"},
+          {"icon": "📋", "label": "Ask about plans", "example": "Will you be staying long?"}
+        ],
+        "timeSignals": {
+          "title": "POLITENESS",
+          "frequency": [],
+          "regular": ["Assumes plan already exists", "More polite than 'Will you...?'", "Common in everyday conversation"]
+        },
+        "commonErrors": [],
+        "examples": [
+          {"sentence": "Will you be coming to the meeting tomorrow?", "highlights": ["Will you be coming"]},
+          {"sentence": "Will you be needing the car tonight?", "highlights": ["Will you be needing"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "🙏", "iconSize": "5rem", "title": "POLITE QUESTIONS", "subtitle": "Ask about plans", "description": "Will you be...?", "backgroundColor": "rgba(16, 185, 129, 0.1)"},
+        {"id": 2, "type": "form", "icon": "⚙️", "iconSize": "4rem", "title": "COMPARISON", "formula": "Continuous = more polite", "examples": [{"left": "Will you be going?", "right": "(polite)"}, {"left": "Will you go?", "right": "(direct)"}], "backgroundColor": "rgba(16, 185, 129, 0.08)"}
+      ]
+    },
+    "duration": {
+      "text": {
+        "overview": {
+          "title": "Future Perfect Continuous - Duration",
+          "subtitle": "How long by a future time",
+          "description": "Use Future Perfect Continuous (will have been + -ing) to show duration up to a future point."
+        },
+        "form": {
+          "title": "FORM",
+          "pattern": "will have been + verb-ing + for/since",
+          "affirmative": [
+            {"subject": "I/You/We/They", "verb": "will have been working"},
+            {"subject": "He/She/It", "verb": "will have been working"},
+            {"subject": "With time", "verb": "will have been working for 5 years"}
+          ]
+        },
+        "uses": [
+          {"icon": "📅", "label": "Duration to future point", "example": "By next year, I'll have been living here for 10 years."},
+          {"icon": "⏱️", "label": "Emphasis on length", "example": "She'll have been studying for 3 hours by then."}
+        ],
+        "timeSignals": {
+          "title": "TIME MARKERS",
+          "frequency": [],
+          "regular": ["by + future time", "for + period", "since + starting point"]
+        },
+        "commonErrors": [],
+        "examples": [
+          {"sentence": "By 2030, I will have been working here for 20 years.", "highlights": ["By 2030", "will have been working", "for 20 years"]},
+          {"sentence": "Next month, we'll have been dating for a year.", "highlights": ["will have been dating"]}
+        ]
+      },
+      "slides": [
+        {"id": 1, "type": "overview", "icon": "⏱️", "iconSize": "5rem", "title": "DURATION", "subtitle": "How long by then", "description": "will have been doing for...", "backgroundColor": "rgba(139, 92, 246, 0.1)"},
+        {"id": 2, "type": "form", "icon": "⚙️", "iconSize": "4rem", "title": "THE FORM", "formula": "will have been + VERB-ing", "examples": [{"left": "will have been working", "right": ""}, {"left": "will have been living", "right": ""}, {"left": "will have been studying", "right": ""}], "backgroundColor": "rgba(139, 92, 246, 0.08)"}
+      ]
+    }
+  }
+}
