@@ -1423,83 +1423,83 @@
     }
 
     // Update tier 3 buttons based on current tense
-    function updateTier3Buttons() {
-      const tier3Container = document.querySelector('.tier-3');
-      
-      let contexts = [];
-      if (currentTime === 'present' && currentAspect === 'simple') {
-        contexts = [
-          {id: 'daily-habits', label: 'Daily Habits'},
-          {id: 'frequency', label: 'Frequency'},
-          {id: 'facts', label: 'Facts'},
-          {id: 'schedules', label: 'Schedules'}
-        ];
-      } else if (currentTime === 'present' && currentAspect === 'continuous') {
-        contexts = [
-          {id: 'right-now', label: 'Right Now'},
-          {id: 'temporary', label: 'Temporary'},
-          {id: 'future-plans', label: 'Future Plans'},
-          {id: 'trends', label: 'Trends'},
-          {id: 'complaints', label: 'Complaints'},
-          {id: 'background', label: 'Background'}
-        ];
-      } else if (currentTime === 'present' && currentAspect === 'perfect') {
-        contexts = [
-          {id: 'life-experiences', label: 'Life Experiences'},
-          {id: 'recent-past', label: 'Recent Past'},
-          {id: 'unfinished-time', label: 'Duration'},
-          {id: 'change-over-time', label: 'Change'},
-          {id: 'results', label: 'Results'},
-          {id: 'multiple-times', label: 'Repetition'},
-          {id: 'news', label: 'News'}
-        ];
-      } else if (currentTime === 'past' && currentAspect === 'simple') {
-        contexts = [
-          {id: 'finished-actions', label: 'Finished Actions'},
-          {id: 'stories', label: 'Stories'},
-          {id: 'biography', label: 'Biography'},
-          {id: 'historical-events', label: 'History'},
-          {id: 'sequences', label: 'Sequences'},
-          {id: 'used-to', label: 'Used To'}
-        ];
-      } else if (currentTime === 'past' && currentAspect === 'continuous') {
-        contexts = [
-          {id: 'background-action', label: 'Background'},
-          {id: 'interrupted-action', label: 'Interrupted'},
-          {id: 'parallel-actions', label: 'Parallel Actions'},
-          {id: 'descriptions', label: 'Descriptions'},
-          {id: 'polite-questions', label: 'Polite Requests'}
-        ];
-      } else if (currentTime === 'past' && aspect === 'perfect') {
-        contexts = [
-          {id: 'earlier-past', label: 'Earlier Past'},
-          {id: 'reported-speech', label: 'Reported Speech'},
-          {id: 'regrets', label: 'Regrets'},
-          {id: 'completed-before', label: 'Before/By'},
-          {id: 'reasons', label: 'Reasons'},
-          {id: 'third-conditional', label: '3rd Conditional'}
-        ];
-      } else if (currentTime === 'future' && currentAspect === 'simple') {
-        contexts = [
-          {id: 'predictions', label: 'Predictions'},
-          {id: 'spontaneous-decisions', label: 'Decisions'},
-          {id: 'promises', label: 'Promises'},
-          {id: 'offers', label: 'Offers'},
-          {id: 'threats-warnings', label: 'Warnings'}
-        ];
-      } else if (currentTime === 'future' && currentAspect === 'continuous') {
-        contexts = [
-          {id: 'future-in-progress', label: 'In Progress'},
-          {id: 'polite-questions', label: 'Polite Questions'},
-          {id: 'duration', label: 'Duration'}
-        ];
-      } else if (currentTime === 'future' && currentAspect === 'perfect') {
-        contexts = [
-          {id: 'completed-by', label: 'Completed By'},
-          {id: 'predictions-completion', label: 'Predictions'},
-          {id: 'achievements', label: 'Achievements'}
-        ];
-      }
+  function updateTier3Buttons() {
+  const tier3Container = document.querySelector('.tier-3');
+  
+  let contexts = [];
+  if (currentTime === 'present' && currentAspect === 'simple') {
+    contexts = [
+      {id: 'daily-habits', label: 'Daily Habits'},
+      {id: 'frequency', label: 'Frequency'},
+      {id: 'facts', label: 'Facts'},
+      {id: 'schedules', label: 'Schedules'}
+    ];
+  } else if (currentTime === 'present' && currentAspect === 'continuous') {
+    contexts = [
+      {id: 'right-now', label: 'Right Now'},
+      {id: 'temporary', label: 'Temporary'},
+      {id: 'future-plans', label: 'Future Plans'},
+      {id: 'trends', label: 'Trends'},
+      {id: 'complaints', label: 'Complaints'},
+      {id: 'background', label: 'Background'}
+    ];
+  } else if (currentTime === 'present' && currentAspect === 'perfect') {
+    contexts = [
+      {id: 'life-experiences', label: 'Life Experiences'},
+      {id: 'recent-past', label: 'Recent Past'},
+      {id: 'unfinished-time', label: 'Duration'},
+      {id: 'change-over-time', label: 'Change'},
+      {id: 'results', label: 'Results'},
+      {id: 'multiple-times', label: 'Repetition'},
+      {id: 'news', label: 'News'}
+    ];
+  } else if (currentTime === 'past' && currentAspect === 'simple') {
+    contexts = [
+      {id: 'finished-actions', label: 'Finished Actions'},
+      {id: 'stories', label: 'Stories'},
+      {id: 'biography', label: 'Biography'},
+      {id: 'historical-events', label: 'History'},
+      {id: 'sequences', label: 'Sequences'},
+      {id: 'used-to', label: 'Used To'}
+    ];
+  } else if (currentTime === 'past' && currentAspect === 'continuous') {
+    contexts = [
+      {id: 'background-action', label: 'Background'},
+      {id: 'interrupted-action', label: 'Interrupted'},
+      {id: 'parallel-actions', label: 'Parallel Actions'},
+      {id: 'descriptions', label: 'Descriptions'},
+      {id: 'polite-questions', label: 'Polite Requests'}
+    ];
+  } else if (currentTime === 'past' && currentAspect === 'perfect') {  // ✅ FIXED
+    contexts = [
+      {id: 'earlier-past', label: 'Earlier Past'},
+      {id: 'reported-speech', label: 'Reported Speech'},
+      {id: 'regrets', label: 'Regrets'},
+      {id: 'completed-before', label: 'Before/By'},
+      {id: 'reasons', label: 'Reasons'},
+      {id: 'third-conditional', label: '3rd Conditional'}
+    ];
+  } else if (currentTime === 'future' && currentAspect === 'simple') {
+    contexts = [
+      {id: 'predictions', label: 'Predictions'},
+      {id: 'spontaneous-decisions', label: 'Decisions'},
+      {id: 'promises', label: 'Promises'},
+      {id: 'offers', label: 'Offers'},
+      {id: 'threats-warnings', label: 'Warnings'}
+    ];
+  } else if (currentTime === 'future' && currentAspect === 'continuous') {
+    contexts = [
+      {id: 'future-in-progress', label: 'In Progress'},
+      {id: 'polite-questions', label: 'Polite Questions'},
+      {id: 'duration', label: 'Duration'}
+    ];
+  } else if (currentTime === 'future' && currentAspect === 'perfect') {
+    contexts = [
+      {id: 'completed-by', label: 'Completed By'},
+      {id: 'predictions-completion', label: 'Predictions'},
+      {id: 'achievements', label: 'Achievements'}
+    ];
+  }
       
       tier3Container.innerHTML = contexts.map((ctx, idx) => 
         `<button class="tier-3-btn ${idx === 0 ? 'active' : ''}" data-context="${ctx.id}">${ctx.label}</button>`
