@@ -1347,7 +1347,7 @@
     let currentUtterance = null;
     let isSpeaking = false;
 
-    // ELEMENTS
+// ELEMENTS
     const textBtn = document.getElementById('textBtn');
     const slidesBtn = document.getElementById('slidesBtn');
     const contentArea = document.getElementById('contentArea');
@@ -1365,7 +1365,7 @@
         document.querySelectorAll('.tier-1-btn').forEach(b => b.classList.remove('active'));
         this.classList.add('active');
         currentSlide = 0;
-        currentContext = 'daily-habits'; // Reset to first context
+        currentContext = getDefaultContext(currentTime, currentAspect); // ✅ FIXED
         stopAudio();
         loadData(); // Reload data for new time
       });
@@ -1397,7 +1397,6 @@
         renderContent();
       });
     });
-
     // Helper function to get the default context for each tense
     function getDefaultContext(time, aspect) {
       if (time === 'present' && aspect === 'simple') {
